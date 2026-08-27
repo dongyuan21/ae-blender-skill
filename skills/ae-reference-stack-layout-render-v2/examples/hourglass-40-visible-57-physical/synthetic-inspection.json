@@ -1,0 +1,6072 @@
+{
+  "ok": true,
+  "mode": "synthetic-read-only-stack-inspection-v2",
+  "projectPath": "synthetic-hourglass.aep",
+  "comp": {
+    "id": 101,
+    "name": "BOARD",
+    "width": 1080,
+    "height": 1920,
+    "duration": 60.0,
+    "frameRate": 30.0
+  },
+  "tileLayers": [
+    {
+      "compId": 101,
+      "index": 1,
+      "name": "tile001",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 1.25,
+      "startTime": 0.0,
+      "sourceId": 1001,
+      "sourceName": "face-1",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            215,
+            330
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 2,
+      "name": "tile002",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 2.25,
+      "startTime": 0.0,
+      "sourceId": 1002,
+      "sourceName": "face-2",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            345,
+            330
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 3,
+      "name": "tile003",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 3.25,
+      "startTime": 0.0,
+      "sourceId": 1003,
+      "sourceName": "face-3",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            475,
+            330
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 4,
+      "name": "tile004",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 4.25,
+      "startTime": 0.0,
+      "sourceId": 1004,
+      "sourceName": "face-4",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            475,
+            330
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 5,
+      "name": "tile005",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 5.25,
+      "startTime": 0.0,
+      "sourceId": 1005,
+      "sourceName": "face-5",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            605,
+            330
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 6,
+      "name": "tile006",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 6.25,
+      "startTime": 0.0,
+      "sourceId": 1006,
+      "sourceName": "face-6",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            605,
+            330
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 7,
+      "name": "tile007",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 7.25,
+      "startTime": 0.0,
+      "sourceId": 1007,
+      "sourceName": "face-7",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            735,
+            330
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 8,
+      "name": "tile008",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 8.25,
+      "startTime": 0.0,
+      "sourceId": 1008,
+      "sourceName": "face-8",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            865,
+            330
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 9,
+      "name": "tile009",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 9.25,
+      "startTime": 0.0,
+      "sourceId": 1009,
+      "sourceName": "face-0",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            280,
+            465
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 10,
+      "name": "tile010",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 10.25,
+      "startTime": 0.0,
+      "sourceId": 1010,
+      "sourceName": "face-1",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            410,
+            465
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 11,
+      "name": "tile011",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 11.25,
+      "startTime": 0.0,
+      "sourceId": 1011,
+      "sourceName": "face-2",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            540,
+            465
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 12,
+      "name": "tile012",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 12.25,
+      "startTime": 0.0,
+      "sourceId": 1012,
+      "sourceName": "face-3",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            540,
+            465
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 13,
+      "name": "tile013",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 13.25,
+      "startTime": 0.0,
+      "sourceId": 1013,
+      "sourceName": "face-4",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            670,
+            465
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 14,
+      "name": "tile014",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 14.25,
+      "startTime": 0.0,
+      "sourceId": 1014,
+      "sourceName": "face-5",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            800,
+            465
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 15,
+      "name": "tile015",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 15.25,
+      "startTime": 0.0,
+      "sourceId": 1015,
+      "sourceName": "face-6",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            345,
+            600
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 16,
+      "name": "tile016",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 16.25,
+      "startTime": 0.0,
+      "sourceId": 1016,
+      "sourceName": "face-7",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            475,
+            600
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 17,
+      "name": "tile017",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 17.25,
+      "startTime": 0.0,
+      "sourceId": 1017,
+      "sourceName": "face-8",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            475,
+            600
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 18,
+      "name": "tile018",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 18.25,
+      "startTime": 0.0,
+      "sourceId": 1018,
+      "sourceName": "face-0",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            605,
+            600
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 19,
+      "name": "tile019",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 19.25,
+      "startTime": 0.0,
+      "sourceId": 1019,
+      "sourceName": "face-1",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            605,
+            600
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 20,
+      "name": "tile020",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 20.25,
+      "startTime": 0.0,
+      "sourceId": 1020,
+      "sourceName": "face-2",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            735,
+            600
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 21,
+      "name": "tile021",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 21.25,
+      "startTime": 0.0,
+      "sourceId": 1021,
+      "sourceName": "face-3",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            410,
+            735
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 22,
+      "name": "tile022",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 22.25,
+      "startTime": 0.0,
+      "sourceId": 1022,
+      "sourceName": "face-4",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            540,
+            735
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 23,
+      "name": "tile023",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 23.25,
+      "startTime": 0.0,
+      "sourceId": 1023,
+      "sourceName": "face-5",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            540,
+            735
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 24,
+      "name": "tile024",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 24.25,
+      "startTime": 0.0,
+      "sourceId": 1024,
+      "sourceName": "face-6",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            670,
+            735
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 25,
+      "name": "tile025",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 25.25,
+      "startTime": 0.0,
+      "sourceId": 1025,
+      "sourceName": "face-7",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            475,
+            870
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 26,
+      "name": "tile026",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 26.25,
+      "startTime": 0.0,
+      "sourceId": 1026,
+      "sourceName": "face-8",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            475,
+            870
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 27,
+      "name": "tile027",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 27.25,
+      "startTime": 0.0,
+      "sourceId": 1027,
+      "sourceName": "face-0",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            475,
+            870
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 28,
+      "name": "tile028",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 28.25,
+      "startTime": 0.0,
+      "sourceId": 1028,
+      "sourceName": "face-1",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            605,
+            870
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 29,
+      "name": "tile029",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 29.25,
+      "startTime": 0.0,
+      "sourceId": 1029,
+      "sourceName": "face-2",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            605,
+            870
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 30,
+      "name": "tile030",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 30.25,
+      "startTime": 0.0,
+      "sourceId": 1030,
+      "sourceName": "face-3",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            475,
+            1005
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 31,
+      "name": "tile031",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 31.25,
+      "startTime": 0.0,
+      "sourceId": 1031,
+      "sourceName": "face-4",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            475,
+            1005
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 32,
+      "name": "tile032",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 32.25,
+      "startTime": 0.0,
+      "sourceId": 1032,
+      "sourceName": "face-5",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            605,
+            1005
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 33,
+      "name": "tile033",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 33.25,
+      "startTime": 0.0,
+      "sourceId": 1033,
+      "sourceName": "face-6",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            605,
+            1005
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 34,
+      "name": "tile034",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 34.25,
+      "startTime": 0.0,
+      "sourceId": 1034,
+      "sourceName": "face-7",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            605,
+            1005
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 35,
+      "name": "tile035",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 35.25,
+      "startTime": 0.0,
+      "sourceId": 1035,
+      "sourceName": "face-8",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            410,
+            1140
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 36,
+      "name": "tile036",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 36.25,
+      "startTime": 0.0,
+      "sourceId": 1036,
+      "sourceName": "face-0",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            540,
+            1140
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 37,
+      "name": "tile037",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 37.25,
+      "startTime": 0.0,
+      "sourceId": 1037,
+      "sourceName": "face-1",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            540,
+            1140
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 38,
+      "name": "tile038",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 38.25,
+      "startTime": 0.0,
+      "sourceId": 1038,
+      "sourceName": "face-2",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            670,
+            1140
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 39,
+      "name": "tile039",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 39.25,
+      "startTime": 0.0,
+      "sourceId": 1039,
+      "sourceName": "face-3",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            345,
+            1275
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 40,
+      "name": "tile040",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 40.25,
+      "startTime": 0.0,
+      "sourceId": 1040,
+      "sourceName": "face-4",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            475,
+            1275
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 41,
+      "name": "tile041",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 41.25,
+      "startTime": 0.0,
+      "sourceId": 1041,
+      "sourceName": "face-5",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            475,
+            1275
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 42,
+      "name": "tile042",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 42.25,
+      "startTime": 0.0,
+      "sourceId": 1042,
+      "sourceName": "face-6",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            605,
+            1275
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 43,
+      "name": "tile043",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 43.25,
+      "startTime": 0.0,
+      "sourceId": 1043,
+      "sourceName": "face-7",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            605,
+            1275
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 44,
+      "name": "tile044",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 44.25,
+      "startTime": 0.0,
+      "sourceId": 1044,
+      "sourceName": "face-8",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            735,
+            1275
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 45,
+      "name": "tile045",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 45.25,
+      "startTime": 0.0,
+      "sourceId": 1045,
+      "sourceName": "face-0",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            280,
+            1410
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 46,
+      "name": "tile046",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 46.25,
+      "startTime": 0.0,
+      "sourceId": 1046,
+      "sourceName": "face-1",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            410,
+            1410
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 47,
+      "name": "tile047",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 47.25,
+      "startTime": 0.0,
+      "sourceId": 1047,
+      "sourceName": "face-2",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            540,
+            1410
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 48,
+      "name": "tile048",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 48.25,
+      "startTime": 0.0,
+      "sourceId": 1048,
+      "sourceName": "face-3",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            670,
+            1410
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 49,
+      "name": "tile049",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 49.25,
+      "startTime": 0.0,
+      "sourceId": 1049,
+      "sourceName": "face-4",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            800,
+            1410
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 50,
+      "name": "tile050",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 50.25,
+      "startTime": 0.0,
+      "sourceId": 1050,
+      "sourceName": "face-5",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            215,
+            1545
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 51,
+      "name": "tile051",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 51.25,
+      "startTime": 0.0,
+      "sourceId": 1051,
+      "sourceName": "face-6",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            345,
+            1545
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 52,
+      "name": "tile052",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 52.25,
+      "startTime": 0.0,
+      "sourceId": 1052,
+      "sourceName": "face-7",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            475,
+            1545
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 53,
+      "name": "tile053",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 53.25,
+      "startTime": 0.0,
+      "sourceId": 1053,
+      "sourceName": "face-8",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            475,
+            1545
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 54,
+      "name": "tile054",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 54.25,
+      "startTime": 0.0,
+      "sourceId": 1054,
+      "sourceName": "face-0",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            605,
+            1545
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 55,
+      "name": "tile055",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 55.25,
+      "startTime": 0.0,
+      "sourceId": 1055,
+      "sourceName": "face-1",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            605,
+            1545
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 56,
+      "name": "tile056",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 56.25,
+      "startTime": 0.0,
+      "sourceId": 1056,
+      "sourceName": "face-2",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            735,
+            1545
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 57,
+      "name": "tile057",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 57.25,
+      "startTime": 0.0,
+      "sourceId": 1057,
+      "sourceName": "face-3",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            865,
+            1545
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    }
+  ],
+  "moverLayers": [],
+  "handLayers": [],
+  "otherAnimatedLayers": [],
+  "allLayers": [
+    {
+      "compId": 101,
+      "index": 1,
+      "name": "tile001",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 1.25,
+      "startTime": 0.0,
+      "sourceId": 1001,
+      "sourceName": "face-1",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            215,
+            330
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 2,
+      "name": "tile002",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 2.25,
+      "startTime": 0.0,
+      "sourceId": 1002,
+      "sourceName": "face-2",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            345,
+            330
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 3,
+      "name": "tile003",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 3.25,
+      "startTime": 0.0,
+      "sourceId": 1003,
+      "sourceName": "face-3",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            475,
+            330
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 4,
+      "name": "tile004",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 4.25,
+      "startTime": 0.0,
+      "sourceId": 1004,
+      "sourceName": "face-4",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            475,
+            330
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 5,
+      "name": "tile005",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 5.25,
+      "startTime": 0.0,
+      "sourceId": 1005,
+      "sourceName": "face-5",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            605,
+            330
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 6,
+      "name": "tile006",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 6.25,
+      "startTime": 0.0,
+      "sourceId": 1006,
+      "sourceName": "face-6",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            605,
+            330
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 7,
+      "name": "tile007",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 7.25,
+      "startTime": 0.0,
+      "sourceId": 1007,
+      "sourceName": "face-7",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            735,
+            330
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 8,
+      "name": "tile008",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 8.25,
+      "startTime": 0.0,
+      "sourceId": 1008,
+      "sourceName": "face-8",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            865,
+            330
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 9,
+      "name": "tile009",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 9.25,
+      "startTime": 0.0,
+      "sourceId": 1009,
+      "sourceName": "face-0",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            280,
+            465
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 10,
+      "name": "tile010",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 10.25,
+      "startTime": 0.0,
+      "sourceId": 1010,
+      "sourceName": "face-1",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            410,
+            465
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 11,
+      "name": "tile011",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 11.25,
+      "startTime": 0.0,
+      "sourceId": 1011,
+      "sourceName": "face-2",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            540,
+            465
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 12,
+      "name": "tile012",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 12.25,
+      "startTime": 0.0,
+      "sourceId": 1012,
+      "sourceName": "face-3",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            540,
+            465
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 13,
+      "name": "tile013",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 13.25,
+      "startTime": 0.0,
+      "sourceId": 1013,
+      "sourceName": "face-4",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            670,
+            465
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 14,
+      "name": "tile014",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 14.25,
+      "startTime": 0.0,
+      "sourceId": 1014,
+      "sourceName": "face-5",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            800,
+            465
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 15,
+      "name": "tile015",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 15.25,
+      "startTime": 0.0,
+      "sourceId": 1015,
+      "sourceName": "face-6",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            345,
+            600
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 16,
+      "name": "tile016",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 16.25,
+      "startTime": 0.0,
+      "sourceId": 1016,
+      "sourceName": "face-7",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            475,
+            600
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 17,
+      "name": "tile017",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 17.25,
+      "startTime": 0.0,
+      "sourceId": 1017,
+      "sourceName": "face-8",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            475,
+            600
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 18,
+      "name": "tile018",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 18.25,
+      "startTime": 0.0,
+      "sourceId": 1018,
+      "sourceName": "face-0",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            605,
+            600
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 19,
+      "name": "tile019",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 19.25,
+      "startTime": 0.0,
+      "sourceId": 1019,
+      "sourceName": "face-1",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            605,
+            600
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 20,
+      "name": "tile020",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 20.25,
+      "startTime": 0.0,
+      "sourceId": 1020,
+      "sourceName": "face-2",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            735,
+            600
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 21,
+      "name": "tile021",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 21.25,
+      "startTime": 0.0,
+      "sourceId": 1021,
+      "sourceName": "face-3",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            410,
+            735
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 22,
+      "name": "tile022",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 22.25,
+      "startTime": 0.0,
+      "sourceId": 1022,
+      "sourceName": "face-4",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            540,
+            735
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 23,
+      "name": "tile023",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 23.25,
+      "startTime": 0.0,
+      "sourceId": 1023,
+      "sourceName": "face-5",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            540,
+            735
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 24,
+      "name": "tile024",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 24.25,
+      "startTime": 0.0,
+      "sourceId": 1024,
+      "sourceName": "face-6",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            670,
+            735
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 25,
+      "name": "tile025",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 25.25,
+      "startTime": 0.0,
+      "sourceId": 1025,
+      "sourceName": "face-7",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            475,
+            870
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 26,
+      "name": "tile026",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 26.25,
+      "startTime": 0.0,
+      "sourceId": 1026,
+      "sourceName": "face-8",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            475,
+            870
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 27,
+      "name": "tile027",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 27.25,
+      "startTime": 0.0,
+      "sourceId": 1027,
+      "sourceName": "face-0",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            475,
+            870
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 28,
+      "name": "tile028",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 28.25,
+      "startTime": 0.0,
+      "sourceId": 1028,
+      "sourceName": "face-1",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            605,
+            870
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 29,
+      "name": "tile029",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 29.25,
+      "startTime": 0.0,
+      "sourceId": 1029,
+      "sourceName": "face-2",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            605,
+            870
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 30,
+      "name": "tile030",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 30.25,
+      "startTime": 0.0,
+      "sourceId": 1030,
+      "sourceName": "face-3",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            475,
+            1005
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 31,
+      "name": "tile031",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 31.25,
+      "startTime": 0.0,
+      "sourceId": 1031,
+      "sourceName": "face-4",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            475,
+            1005
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 32,
+      "name": "tile032",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 32.25,
+      "startTime": 0.0,
+      "sourceId": 1032,
+      "sourceName": "face-5",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            605,
+            1005
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 33,
+      "name": "tile033",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 33.25,
+      "startTime": 0.0,
+      "sourceId": 1033,
+      "sourceName": "face-6",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            605,
+            1005
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 34,
+      "name": "tile034",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 34.25,
+      "startTime": 0.0,
+      "sourceId": 1034,
+      "sourceName": "face-7",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            605,
+            1005
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 35,
+      "name": "tile035",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 35.25,
+      "startTime": 0.0,
+      "sourceId": 1035,
+      "sourceName": "face-8",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            410,
+            1140
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 36,
+      "name": "tile036",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 36.25,
+      "startTime": 0.0,
+      "sourceId": 1036,
+      "sourceName": "face-0",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            540,
+            1140
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 37,
+      "name": "tile037",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 37.25,
+      "startTime": 0.0,
+      "sourceId": 1037,
+      "sourceName": "face-1",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            540,
+            1140
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 38,
+      "name": "tile038",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 38.25,
+      "startTime": 0.0,
+      "sourceId": 1038,
+      "sourceName": "face-2",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            670,
+            1140
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 39,
+      "name": "tile039",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 39.25,
+      "startTime": 0.0,
+      "sourceId": 1039,
+      "sourceName": "face-3",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            345,
+            1275
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 40,
+      "name": "tile040",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 40.25,
+      "startTime": 0.0,
+      "sourceId": 1040,
+      "sourceName": "face-4",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            475,
+            1275
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 41,
+      "name": "tile041",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 41.25,
+      "startTime": 0.0,
+      "sourceId": 1041,
+      "sourceName": "face-5",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            475,
+            1275
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 42,
+      "name": "tile042",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 42.25,
+      "startTime": 0.0,
+      "sourceId": 1042,
+      "sourceName": "face-6",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            605,
+            1275
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 43,
+      "name": "tile043",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 43.25,
+      "startTime": 0.0,
+      "sourceId": 1043,
+      "sourceName": "face-7",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            605,
+            1275
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 44,
+      "name": "tile044",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 44.25,
+      "startTime": 0.0,
+      "sourceId": 1044,
+      "sourceName": "face-8",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            735,
+            1275
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 45,
+      "name": "tile045",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 45.25,
+      "startTime": 0.0,
+      "sourceId": 1045,
+      "sourceName": "face-0",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            280,
+            1410
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 46,
+      "name": "tile046",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 46.25,
+      "startTime": 0.0,
+      "sourceId": 1046,
+      "sourceName": "face-1",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            410,
+            1410
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 47,
+      "name": "tile047",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 47.25,
+      "startTime": 0.0,
+      "sourceId": 1047,
+      "sourceName": "face-2",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            540,
+            1410
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 48,
+      "name": "tile048",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 48.25,
+      "startTime": 0.0,
+      "sourceId": 1048,
+      "sourceName": "face-3",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            670,
+            1410
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 49,
+      "name": "tile049",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 49.25,
+      "startTime": 0.0,
+      "sourceId": 1049,
+      "sourceName": "face-4",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            800,
+            1410
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 50,
+      "name": "tile050",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 50.25,
+      "startTime": 0.0,
+      "sourceId": 1050,
+      "sourceName": "face-5",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            215,
+            1545
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 51,
+      "name": "tile051",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 51.25,
+      "startTime": 0.0,
+      "sourceId": 1051,
+      "sourceName": "face-6",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            345,
+            1545
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 52,
+      "name": "tile052",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 52.25,
+      "startTime": 0.0,
+      "sourceId": 1052,
+      "sourceName": "face-7",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            475,
+            1545
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 53,
+      "name": "tile053",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 53.25,
+      "startTime": 0.0,
+      "sourceId": 1053,
+      "sourceName": "face-8",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            475,
+            1545
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 54,
+      "name": "tile054",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 54.25,
+      "startTime": 0.0,
+      "sourceId": 1054,
+      "sourceName": "face-0",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            605,
+            1545
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 55,
+      "name": "tile055",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 55.25,
+      "startTime": 0.0,
+      "sourceId": 1055,
+      "sourceName": "face-1",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            605,
+            1545
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 56,
+      "name": "tile056",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 56.25,
+      "startTime": 0.0,
+      "sourceId": 1056,
+      "sourceName": "face-2",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            735,
+            1545
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    },
+    {
+      "compId": 101,
+      "index": 57,
+      "name": "tile057",
+      "enabled": true,
+      "inPoint": 0.0,
+      "outPoint": 57.25,
+      "startTime": 0.0,
+      "sourceId": 1057,
+      "sourceName": "face-3",
+      "sourceType": "footage",
+      "sourceWidth": 110,
+      "sourceHeight": 90,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "transform": {
+        "anchor": {
+          "numKeys": 0,
+          "value": [
+            55,
+            45
+          ],
+          "keys": []
+        },
+        "position": {
+          "numKeys": 0,
+          "value": [
+            865,
+            1545
+          ],
+          "keys": []
+        },
+        "scale": {
+          "numKeys": 0,
+          "value": [
+            100,
+            100
+          ],
+          "keys": []
+        },
+        "rotation": {
+          "numKeys": 0,
+          "value": 0,
+          "keys": []
+        },
+        "opacity": {
+          "numKeys": 0,
+          "value": 100,
+          "keys": []
+        }
+      }
+    }
+  ],
+  "pairCandidates": [],
+  "routeCriticalMissing": [],
+  "routeExpressionErrors": [],
+  "watermarkLayers": [],
+  "baselineIssueKeys": {
+    "acceptedMissingKeys": [],
+    "acceptedMissingFootageKeys": [],
+    "acceptedExpressionErrorKeys": [],
+    "acceptedEnabledWatermarkKeys": []
+  }
+}

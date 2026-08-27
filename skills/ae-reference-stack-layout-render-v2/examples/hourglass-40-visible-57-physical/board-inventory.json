@@ -1,0 +1,2768 @@
+{
+  "schemaVersion": 2,
+  "artifactType": "board-inventory",
+  "createdAt": "2026-08-27T14:11:28+00:00",
+  "boardCompId": 101,
+  "boardComp": {
+    "id": 101,
+    "name": "BOARD",
+    "width": 1080,
+    "height": 1920,
+    "duration": 60.0,
+    "frameRate": 30.0
+  },
+  "candidateMode": "tileLayers",
+  "candidateCount": 57,
+  "includedTileCount": 57,
+  "excludedCandidateCount": 0,
+  "tiles": [
+    {
+      "tileId": "tile-001",
+      "compId": 101,
+      "layerIndex": 1,
+      "layerName": "tile001",
+      "sourceId": 1001,
+      "sourceName": "face-1",
+      "faceId": "face-1",
+      "enabled": true,
+      "renderOrder": 1,
+      "inPoint": 0.0,
+      "outPoint": 1.25,
+      "startTime": 0.0,
+      "originalPosition": [
+        215.0,
+        330.0
+      ],
+      "settledPositionKey": null,
+      "originalScale": [
+        100.0,
+        100.0
+      ],
+      "settledScaleKey": null,
+      "cardSize": [
+        110.0,
+        90.0
+      ],
+      "cardSizeProvenance": "source-dimensions-times-settled-scale",
+      "sourceBandId": null,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "layerFingerprint": {
+        "compId": 101,
+        "layerIndex": 1,
+        "layerName": "tile001",
+        "sourceId": 1001,
+        "sourceName": "face-1",
+        "positionKeyCount": 0,
+        "scaleKeyCount": 0,
+        "inPoint": 0.0,
+        "outPoint": 1.25,
+        "parentIndex": null,
+        "hasTrackMatte": false,
+        "threeDLayer": false
+      },
+      "layerFingerprintSha256": "398FEF0A999BB4A3B4109C12FBC88BD0A18D0FA144EA8EE8D89490D235CC0612"
+    },
+    {
+      "tileId": "tile-002",
+      "compId": 101,
+      "layerIndex": 2,
+      "layerName": "tile002",
+      "sourceId": 1002,
+      "sourceName": "face-2",
+      "faceId": "face-2",
+      "enabled": true,
+      "renderOrder": 2,
+      "inPoint": 0.0,
+      "outPoint": 2.25,
+      "startTime": 0.0,
+      "originalPosition": [
+        345.0,
+        330.0
+      ],
+      "settledPositionKey": null,
+      "originalScale": [
+        100.0,
+        100.0
+      ],
+      "settledScaleKey": null,
+      "cardSize": [
+        110.0,
+        90.0
+      ],
+      "cardSizeProvenance": "source-dimensions-times-settled-scale",
+      "sourceBandId": null,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "layerFingerprint": {
+        "compId": 101,
+        "layerIndex": 2,
+        "layerName": "tile002",
+        "sourceId": 1002,
+        "sourceName": "face-2",
+        "positionKeyCount": 0,
+        "scaleKeyCount": 0,
+        "inPoint": 0.0,
+        "outPoint": 2.25,
+        "parentIndex": null,
+        "hasTrackMatte": false,
+        "threeDLayer": false
+      },
+      "layerFingerprintSha256": "117417D390641CA3FE503A868CFB9D98FB0FEB80E23AF6E43E71ED8111708F82"
+    },
+    {
+      "tileId": "tile-003",
+      "compId": 101,
+      "layerIndex": 3,
+      "layerName": "tile003",
+      "sourceId": 1003,
+      "sourceName": "face-3",
+      "faceId": "face-3",
+      "enabled": true,
+      "renderOrder": 3,
+      "inPoint": 0.0,
+      "outPoint": 3.25,
+      "startTime": 0.0,
+      "originalPosition": [
+        475.0,
+        330.0
+      ],
+      "settledPositionKey": null,
+      "originalScale": [
+        100.0,
+        100.0
+      ],
+      "settledScaleKey": null,
+      "cardSize": [
+        110.0,
+        90.0
+      ],
+      "cardSizeProvenance": "source-dimensions-times-settled-scale",
+      "sourceBandId": null,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "layerFingerprint": {
+        "compId": 101,
+        "layerIndex": 3,
+        "layerName": "tile003",
+        "sourceId": 1003,
+        "sourceName": "face-3",
+        "positionKeyCount": 0,
+        "scaleKeyCount": 0,
+        "inPoint": 0.0,
+        "outPoint": 3.25,
+        "parentIndex": null,
+        "hasTrackMatte": false,
+        "threeDLayer": false
+      },
+      "layerFingerprintSha256": "EB12F2DA38F723CB52B9EB63B2E9951791F4877B5AB152F4E47B2F3195902794"
+    },
+    {
+      "tileId": "tile-004",
+      "compId": 101,
+      "layerIndex": 4,
+      "layerName": "tile004",
+      "sourceId": 1004,
+      "sourceName": "face-4",
+      "faceId": "face-4",
+      "enabled": true,
+      "renderOrder": 4,
+      "inPoint": 0.0,
+      "outPoint": 4.25,
+      "startTime": 0.0,
+      "originalPosition": [
+        475.0,
+        330.0
+      ],
+      "settledPositionKey": null,
+      "originalScale": [
+        100.0,
+        100.0
+      ],
+      "settledScaleKey": null,
+      "cardSize": [
+        110.0,
+        90.0
+      ],
+      "cardSizeProvenance": "source-dimensions-times-settled-scale",
+      "sourceBandId": null,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "layerFingerprint": {
+        "compId": 101,
+        "layerIndex": 4,
+        "layerName": "tile004",
+        "sourceId": 1004,
+        "sourceName": "face-4",
+        "positionKeyCount": 0,
+        "scaleKeyCount": 0,
+        "inPoint": 0.0,
+        "outPoint": 4.25,
+        "parentIndex": null,
+        "hasTrackMatte": false,
+        "threeDLayer": false
+      },
+      "layerFingerprintSha256": "F3A61358D8D405E90187E83AAAC12A785AC453BAF7F7B7A52FC8AA5F4252E328"
+    },
+    {
+      "tileId": "tile-005",
+      "compId": 101,
+      "layerIndex": 5,
+      "layerName": "tile005",
+      "sourceId": 1005,
+      "sourceName": "face-5",
+      "faceId": "face-5",
+      "enabled": true,
+      "renderOrder": 5,
+      "inPoint": 0.0,
+      "outPoint": 5.25,
+      "startTime": 0.0,
+      "originalPosition": [
+        605.0,
+        330.0
+      ],
+      "settledPositionKey": null,
+      "originalScale": [
+        100.0,
+        100.0
+      ],
+      "settledScaleKey": null,
+      "cardSize": [
+        110.0,
+        90.0
+      ],
+      "cardSizeProvenance": "source-dimensions-times-settled-scale",
+      "sourceBandId": null,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "layerFingerprint": {
+        "compId": 101,
+        "layerIndex": 5,
+        "layerName": "tile005",
+        "sourceId": 1005,
+        "sourceName": "face-5",
+        "positionKeyCount": 0,
+        "scaleKeyCount": 0,
+        "inPoint": 0.0,
+        "outPoint": 5.25,
+        "parentIndex": null,
+        "hasTrackMatte": false,
+        "threeDLayer": false
+      },
+      "layerFingerprintSha256": "CF3CB490DDD574D653988A283205ECE1022CE893C67D2E088260E95334974A01"
+    },
+    {
+      "tileId": "tile-006",
+      "compId": 101,
+      "layerIndex": 6,
+      "layerName": "tile006",
+      "sourceId": 1006,
+      "sourceName": "face-6",
+      "faceId": "face-6",
+      "enabled": true,
+      "renderOrder": 6,
+      "inPoint": 0.0,
+      "outPoint": 6.25,
+      "startTime": 0.0,
+      "originalPosition": [
+        605.0,
+        330.0
+      ],
+      "settledPositionKey": null,
+      "originalScale": [
+        100.0,
+        100.0
+      ],
+      "settledScaleKey": null,
+      "cardSize": [
+        110.0,
+        90.0
+      ],
+      "cardSizeProvenance": "source-dimensions-times-settled-scale",
+      "sourceBandId": null,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "layerFingerprint": {
+        "compId": 101,
+        "layerIndex": 6,
+        "layerName": "tile006",
+        "sourceId": 1006,
+        "sourceName": "face-6",
+        "positionKeyCount": 0,
+        "scaleKeyCount": 0,
+        "inPoint": 0.0,
+        "outPoint": 6.25,
+        "parentIndex": null,
+        "hasTrackMatte": false,
+        "threeDLayer": false
+      },
+      "layerFingerprintSha256": "10A1979A264066A7E27603F11ED77828528A81C023B5E490A2B3617494BFAAB8"
+    },
+    {
+      "tileId": "tile-007",
+      "compId": 101,
+      "layerIndex": 7,
+      "layerName": "tile007",
+      "sourceId": 1007,
+      "sourceName": "face-7",
+      "faceId": "face-7",
+      "enabled": true,
+      "renderOrder": 7,
+      "inPoint": 0.0,
+      "outPoint": 7.25,
+      "startTime": 0.0,
+      "originalPosition": [
+        735.0,
+        330.0
+      ],
+      "settledPositionKey": null,
+      "originalScale": [
+        100.0,
+        100.0
+      ],
+      "settledScaleKey": null,
+      "cardSize": [
+        110.0,
+        90.0
+      ],
+      "cardSizeProvenance": "source-dimensions-times-settled-scale",
+      "sourceBandId": null,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "layerFingerprint": {
+        "compId": 101,
+        "layerIndex": 7,
+        "layerName": "tile007",
+        "sourceId": 1007,
+        "sourceName": "face-7",
+        "positionKeyCount": 0,
+        "scaleKeyCount": 0,
+        "inPoint": 0.0,
+        "outPoint": 7.25,
+        "parentIndex": null,
+        "hasTrackMatte": false,
+        "threeDLayer": false
+      },
+      "layerFingerprintSha256": "1706186496EE21310F8D348633BAA5C80B71E2784EB97E883F738B1AB9C98E2B"
+    },
+    {
+      "tileId": "tile-008",
+      "compId": 101,
+      "layerIndex": 8,
+      "layerName": "tile008",
+      "sourceId": 1008,
+      "sourceName": "face-8",
+      "faceId": "face-8",
+      "enabled": true,
+      "renderOrder": 8,
+      "inPoint": 0.0,
+      "outPoint": 8.25,
+      "startTime": 0.0,
+      "originalPosition": [
+        865.0,
+        330.0
+      ],
+      "settledPositionKey": null,
+      "originalScale": [
+        100.0,
+        100.0
+      ],
+      "settledScaleKey": null,
+      "cardSize": [
+        110.0,
+        90.0
+      ],
+      "cardSizeProvenance": "source-dimensions-times-settled-scale",
+      "sourceBandId": null,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "layerFingerprint": {
+        "compId": 101,
+        "layerIndex": 8,
+        "layerName": "tile008",
+        "sourceId": 1008,
+        "sourceName": "face-8",
+        "positionKeyCount": 0,
+        "scaleKeyCount": 0,
+        "inPoint": 0.0,
+        "outPoint": 8.25,
+        "parentIndex": null,
+        "hasTrackMatte": false,
+        "threeDLayer": false
+      },
+      "layerFingerprintSha256": "D9834DB238386DA07BB2BBC96868FB3742AFE2E61A2CAE8764C265EA1882B9F7"
+    },
+    {
+      "tileId": "tile-009",
+      "compId": 101,
+      "layerIndex": 9,
+      "layerName": "tile009",
+      "sourceId": 1009,
+      "sourceName": "face-0",
+      "faceId": "face-0",
+      "enabled": true,
+      "renderOrder": 9,
+      "inPoint": 0.0,
+      "outPoint": 9.25,
+      "startTime": 0.0,
+      "originalPosition": [
+        280.0,
+        465.0
+      ],
+      "settledPositionKey": null,
+      "originalScale": [
+        100.0,
+        100.0
+      ],
+      "settledScaleKey": null,
+      "cardSize": [
+        110.0,
+        90.0
+      ],
+      "cardSizeProvenance": "source-dimensions-times-settled-scale",
+      "sourceBandId": null,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "layerFingerprint": {
+        "compId": 101,
+        "layerIndex": 9,
+        "layerName": "tile009",
+        "sourceId": 1009,
+        "sourceName": "face-0",
+        "positionKeyCount": 0,
+        "scaleKeyCount": 0,
+        "inPoint": 0.0,
+        "outPoint": 9.25,
+        "parentIndex": null,
+        "hasTrackMatte": false,
+        "threeDLayer": false
+      },
+      "layerFingerprintSha256": "9F058E83EAC6216811550FAC9D258FAB99B36C6FCB020415D906939F500060BF"
+    },
+    {
+      "tileId": "tile-010",
+      "compId": 101,
+      "layerIndex": 10,
+      "layerName": "tile010",
+      "sourceId": 1010,
+      "sourceName": "face-1",
+      "faceId": "face-1",
+      "enabled": true,
+      "renderOrder": 10,
+      "inPoint": 0.0,
+      "outPoint": 10.25,
+      "startTime": 0.0,
+      "originalPosition": [
+        410.0,
+        465.0
+      ],
+      "settledPositionKey": null,
+      "originalScale": [
+        100.0,
+        100.0
+      ],
+      "settledScaleKey": null,
+      "cardSize": [
+        110.0,
+        90.0
+      ],
+      "cardSizeProvenance": "source-dimensions-times-settled-scale",
+      "sourceBandId": null,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "layerFingerprint": {
+        "compId": 101,
+        "layerIndex": 10,
+        "layerName": "tile010",
+        "sourceId": 1010,
+        "sourceName": "face-1",
+        "positionKeyCount": 0,
+        "scaleKeyCount": 0,
+        "inPoint": 0.0,
+        "outPoint": 10.25,
+        "parentIndex": null,
+        "hasTrackMatte": false,
+        "threeDLayer": false
+      },
+      "layerFingerprintSha256": "87054CED63ED227BF259E82515C706621583A5C09812F7C2E69A11D67B87C86D"
+    },
+    {
+      "tileId": "tile-011",
+      "compId": 101,
+      "layerIndex": 11,
+      "layerName": "tile011",
+      "sourceId": 1011,
+      "sourceName": "face-2",
+      "faceId": "face-2",
+      "enabled": true,
+      "renderOrder": 11,
+      "inPoint": 0.0,
+      "outPoint": 11.25,
+      "startTime": 0.0,
+      "originalPosition": [
+        540.0,
+        465.0
+      ],
+      "settledPositionKey": null,
+      "originalScale": [
+        100.0,
+        100.0
+      ],
+      "settledScaleKey": null,
+      "cardSize": [
+        110.0,
+        90.0
+      ],
+      "cardSizeProvenance": "source-dimensions-times-settled-scale",
+      "sourceBandId": null,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "layerFingerprint": {
+        "compId": 101,
+        "layerIndex": 11,
+        "layerName": "tile011",
+        "sourceId": 1011,
+        "sourceName": "face-2",
+        "positionKeyCount": 0,
+        "scaleKeyCount": 0,
+        "inPoint": 0.0,
+        "outPoint": 11.25,
+        "parentIndex": null,
+        "hasTrackMatte": false,
+        "threeDLayer": false
+      },
+      "layerFingerprintSha256": "2FF0C6593F9DC27B359FF133203401F07798B067A2CEF91F6947483BADB0B724"
+    },
+    {
+      "tileId": "tile-012",
+      "compId": 101,
+      "layerIndex": 12,
+      "layerName": "tile012",
+      "sourceId": 1012,
+      "sourceName": "face-3",
+      "faceId": "face-3",
+      "enabled": true,
+      "renderOrder": 12,
+      "inPoint": 0.0,
+      "outPoint": 12.25,
+      "startTime": 0.0,
+      "originalPosition": [
+        540.0,
+        465.0
+      ],
+      "settledPositionKey": null,
+      "originalScale": [
+        100.0,
+        100.0
+      ],
+      "settledScaleKey": null,
+      "cardSize": [
+        110.0,
+        90.0
+      ],
+      "cardSizeProvenance": "source-dimensions-times-settled-scale",
+      "sourceBandId": null,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "layerFingerprint": {
+        "compId": 101,
+        "layerIndex": 12,
+        "layerName": "tile012",
+        "sourceId": 1012,
+        "sourceName": "face-3",
+        "positionKeyCount": 0,
+        "scaleKeyCount": 0,
+        "inPoint": 0.0,
+        "outPoint": 12.25,
+        "parentIndex": null,
+        "hasTrackMatte": false,
+        "threeDLayer": false
+      },
+      "layerFingerprintSha256": "B837382804EABA6DC7EC3E43CDEF90D6F39D4612F0AD290AEAD22C790EDB1D47"
+    },
+    {
+      "tileId": "tile-013",
+      "compId": 101,
+      "layerIndex": 13,
+      "layerName": "tile013",
+      "sourceId": 1013,
+      "sourceName": "face-4",
+      "faceId": "face-4",
+      "enabled": true,
+      "renderOrder": 13,
+      "inPoint": 0.0,
+      "outPoint": 13.25,
+      "startTime": 0.0,
+      "originalPosition": [
+        670.0,
+        465.0
+      ],
+      "settledPositionKey": null,
+      "originalScale": [
+        100.0,
+        100.0
+      ],
+      "settledScaleKey": null,
+      "cardSize": [
+        110.0,
+        90.0
+      ],
+      "cardSizeProvenance": "source-dimensions-times-settled-scale",
+      "sourceBandId": null,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "layerFingerprint": {
+        "compId": 101,
+        "layerIndex": 13,
+        "layerName": "tile013",
+        "sourceId": 1013,
+        "sourceName": "face-4",
+        "positionKeyCount": 0,
+        "scaleKeyCount": 0,
+        "inPoint": 0.0,
+        "outPoint": 13.25,
+        "parentIndex": null,
+        "hasTrackMatte": false,
+        "threeDLayer": false
+      },
+      "layerFingerprintSha256": "C621A8A459241904F2FAF6A52E4F7A8707C59DCD67069DCC64BCFBD07F32EE41"
+    },
+    {
+      "tileId": "tile-014",
+      "compId": 101,
+      "layerIndex": 14,
+      "layerName": "tile014",
+      "sourceId": 1014,
+      "sourceName": "face-5",
+      "faceId": "face-5",
+      "enabled": true,
+      "renderOrder": 14,
+      "inPoint": 0.0,
+      "outPoint": 14.25,
+      "startTime": 0.0,
+      "originalPosition": [
+        800.0,
+        465.0
+      ],
+      "settledPositionKey": null,
+      "originalScale": [
+        100.0,
+        100.0
+      ],
+      "settledScaleKey": null,
+      "cardSize": [
+        110.0,
+        90.0
+      ],
+      "cardSizeProvenance": "source-dimensions-times-settled-scale",
+      "sourceBandId": null,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "layerFingerprint": {
+        "compId": 101,
+        "layerIndex": 14,
+        "layerName": "tile014",
+        "sourceId": 1014,
+        "sourceName": "face-5",
+        "positionKeyCount": 0,
+        "scaleKeyCount": 0,
+        "inPoint": 0.0,
+        "outPoint": 14.25,
+        "parentIndex": null,
+        "hasTrackMatte": false,
+        "threeDLayer": false
+      },
+      "layerFingerprintSha256": "B038786DBEF4C288F0172AA0853CFB9DE7D37441DE872C6F35864EFCA009CF1B"
+    },
+    {
+      "tileId": "tile-015",
+      "compId": 101,
+      "layerIndex": 15,
+      "layerName": "tile015",
+      "sourceId": 1015,
+      "sourceName": "face-6",
+      "faceId": "face-6",
+      "enabled": true,
+      "renderOrder": 15,
+      "inPoint": 0.0,
+      "outPoint": 15.25,
+      "startTime": 0.0,
+      "originalPosition": [
+        345.0,
+        600.0
+      ],
+      "settledPositionKey": null,
+      "originalScale": [
+        100.0,
+        100.0
+      ],
+      "settledScaleKey": null,
+      "cardSize": [
+        110.0,
+        90.0
+      ],
+      "cardSizeProvenance": "source-dimensions-times-settled-scale",
+      "sourceBandId": null,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "layerFingerprint": {
+        "compId": 101,
+        "layerIndex": 15,
+        "layerName": "tile015",
+        "sourceId": 1015,
+        "sourceName": "face-6",
+        "positionKeyCount": 0,
+        "scaleKeyCount": 0,
+        "inPoint": 0.0,
+        "outPoint": 15.25,
+        "parentIndex": null,
+        "hasTrackMatte": false,
+        "threeDLayer": false
+      },
+      "layerFingerprintSha256": "34FB4C97C8DEB0C8325D1EA7E5A13AFCF15BEFD89C40E4D651DA469E6A2C0390"
+    },
+    {
+      "tileId": "tile-016",
+      "compId": 101,
+      "layerIndex": 16,
+      "layerName": "tile016",
+      "sourceId": 1016,
+      "sourceName": "face-7",
+      "faceId": "face-7",
+      "enabled": true,
+      "renderOrder": 16,
+      "inPoint": 0.0,
+      "outPoint": 16.25,
+      "startTime": 0.0,
+      "originalPosition": [
+        475.0,
+        600.0
+      ],
+      "settledPositionKey": null,
+      "originalScale": [
+        100.0,
+        100.0
+      ],
+      "settledScaleKey": null,
+      "cardSize": [
+        110.0,
+        90.0
+      ],
+      "cardSizeProvenance": "source-dimensions-times-settled-scale",
+      "sourceBandId": null,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "layerFingerprint": {
+        "compId": 101,
+        "layerIndex": 16,
+        "layerName": "tile016",
+        "sourceId": 1016,
+        "sourceName": "face-7",
+        "positionKeyCount": 0,
+        "scaleKeyCount": 0,
+        "inPoint": 0.0,
+        "outPoint": 16.25,
+        "parentIndex": null,
+        "hasTrackMatte": false,
+        "threeDLayer": false
+      },
+      "layerFingerprintSha256": "0931E264C20F1904780418C31C2E9F3C46C4A09C331664C2B7BE45AFC2424184"
+    },
+    {
+      "tileId": "tile-017",
+      "compId": 101,
+      "layerIndex": 17,
+      "layerName": "tile017",
+      "sourceId": 1017,
+      "sourceName": "face-8",
+      "faceId": "face-8",
+      "enabled": true,
+      "renderOrder": 17,
+      "inPoint": 0.0,
+      "outPoint": 17.25,
+      "startTime": 0.0,
+      "originalPosition": [
+        475.0,
+        600.0
+      ],
+      "settledPositionKey": null,
+      "originalScale": [
+        100.0,
+        100.0
+      ],
+      "settledScaleKey": null,
+      "cardSize": [
+        110.0,
+        90.0
+      ],
+      "cardSizeProvenance": "source-dimensions-times-settled-scale",
+      "sourceBandId": null,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "layerFingerprint": {
+        "compId": 101,
+        "layerIndex": 17,
+        "layerName": "tile017",
+        "sourceId": 1017,
+        "sourceName": "face-8",
+        "positionKeyCount": 0,
+        "scaleKeyCount": 0,
+        "inPoint": 0.0,
+        "outPoint": 17.25,
+        "parentIndex": null,
+        "hasTrackMatte": false,
+        "threeDLayer": false
+      },
+      "layerFingerprintSha256": "067F7F61C9DF056ECB449D74884659675F70DE7B7D21488B84DB2D898FA4AABF"
+    },
+    {
+      "tileId": "tile-018",
+      "compId": 101,
+      "layerIndex": 18,
+      "layerName": "tile018",
+      "sourceId": 1018,
+      "sourceName": "face-0",
+      "faceId": "face-0",
+      "enabled": true,
+      "renderOrder": 18,
+      "inPoint": 0.0,
+      "outPoint": 18.25,
+      "startTime": 0.0,
+      "originalPosition": [
+        605.0,
+        600.0
+      ],
+      "settledPositionKey": null,
+      "originalScale": [
+        100.0,
+        100.0
+      ],
+      "settledScaleKey": null,
+      "cardSize": [
+        110.0,
+        90.0
+      ],
+      "cardSizeProvenance": "source-dimensions-times-settled-scale",
+      "sourceBandId": null,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "layerFingerprint": {
+        "compId": 101,
+        "layerIndex": 18,
+        "layerName": "tile018",
+        "sourceId": 1018,
+        "sourceName": "face-0",
+        "positionKeyCount": 0,
+        "scaleKeyCount": 0,
+        "inPoint": 0.0,
+        "outPoint": 18.25,
+        "parentIndex": null,
+        "hasTrackMatte": false,
+        "threeDLayer": false
+      },
+      "layerFingerprintSha256": "848A3852C53483F2AA38587FE4D53FBB63BFE9F4EBDED2B997042C30B438954B"
+    },
+    {
+      "tileId": "tile-019",
+      "compId": 101,
+      "layerIndex": 19,
+      "layerName": "tile019",
+      "sourceId": 1019,
+      "sourceName": "face-1",
+      "faceId": "face-1",
+      "enabled": true,
+      "renderOrder": 19,
+      "inPoint": 0.0,
+      "outPoint": 19.25,
+      "startTime": 0.0,
+      "originalPosition": [
+        605.0,
+        600.0
+      ],
+      "settledPositionKey": null,
+      "originalScale": [
+        100.0,
+        100.0
+      ],
+      "settledScaleKey": null,
+      "cardSize": [
+        110.0,
+        90.0
+      ],
+      "cardSizeProvenance": "source-dimensions-times-settled-scale",
+      "sourceBandId": null,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "layerFingerprint": {
+        "compId": 101,
+        "layerIndex": 19,
+        "layerName": "tile019",
+        "sourceId": 1019,
+        "sourceName": "face-1",
+        "positionKeyCount": 0,
+        "scaleKeyCount": 0,
+        "inPoint": 0.0,
+        "outPoint": 19.25,
+        "parentIndex": null,
+        "hasTrackMatte": false,
+        "threeDLayer": false
+      },
+      "layerFingerprintSha256": "9E9D506EE78A081A2DDD471D494563B3799C0E569EEB7D90689D6AEFDF939B91"
+    },
+    {
+      "tileId": "tile-020",
+      "compId": 101,
+      "layerIndex": 20,
+      "layerName": "tile020",
+      "sourceId": 1020,
+      "sourceName": "face-2",
+      "faceId": "face-2",
+      "enabled": true,
+      "renderOrder": 20,
+      "inPoint": 0.0,
+      "outPoint": 20.25,
+      "startTime": 0.0,
+      "originalPosition": [
+        735.0,
+        600.0
+      ],
+      "settledPositionKey": null,
+      "originalScale": [
+        100.0,
+        100.0
+      ],
+      "settledScaleKey": null,
+      "cardSize": [
+        110.0,
+        90.0
+      ],
+      "cardSizeProvenance": "source-dimensions-times-settled-scale",
+      "sourceBandId": null,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "layerFingerprint": {
+        "compId": 101,
+        "layerIndex": 20,
+        "layerName": "tile020",
+        "sourceId": 1020,
+        "sourceName": "face-2",
+        "positionKeyCount": 0,
+        "scaleKeyCount": 0,
+        "inPoint": 0.0,
+        "outPoint": 20.25,
+        "parentIndex": null,
+        "hasTrackMatte": false,
+        "threeDLayer": false
+      },
+      "layerFingerprintSha256": "8F1ABCCB9F77F612660EB7C5E5C80BB1F0BCEDB6B101C59CA133058FF23B9705"
+    },
+    {
+      "tileId": "tile-021",
+      "compId": 101,
+      "layerIndex": 21,
+      "layerName": "tile021",
+      "sourceId": 1021,
+      "sourceName": "face-3",
+      "faceId": "face-3",
+      "enabled": true,
+      "renderOrder": 21,
+      "inPoint": 0.0,
+      "outPoint": 21.25,
+      "startTime": 0.0,
+      "originalPosition": [
+        410.0,
+        735.0
+      ],
+      "settledPositionKey": null,
+      "originalScale": [
+        100.0,
+        100.0
+      ],
+      "settledScaleKey": null,
+      "cardSize": [
+        110.0,
+        90.0
+      ],
+      "cardSizeProvenance": "source-dimensions-times-settled-scale",
+      "sourceBandId": null,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "layerFingerprint": {
+        "compId": 101,
+        "layerIndex": 21,
+        "layerName": "tile021",
+        "sourceId": 1021,
+        "sourceName": "face-3",
+        "positionKeyCount": 0,
+        "scaleKeyCount": 0,
+        "inPoint": 0.0,
+        "outPoint": 21.25,
+        "parentIndex": null,
+        "hasTrackMatte": false,
+        "threeDLayer": false
+      },
+      "layerFingerprintSha256": "A966C463842A0B902F106C3BA349B3DFE0FA701CFF0BCAB597FEC3AD657717BD"
+    },
+    {
+      "tileId": "tile-022",
+      "compId": 101,
+      "layerIndex": 22,
+      "layerName": "tile022",
+      "sourceId": 1022,
+      "sourceName": "face-4",
+      "faceId": "face-4",
+      "enabled": true,
+      "renderOrder": 22,
+      "inPoint": 0.0,
+      "outPoint": 22.25,
+      "startTime": 0.0,
+      "originalPosition": [
+        540.0,
+        735.0
+      ],
+      "settledPositionKey": null,
+      "originalScale": [
+        100.0,
+        100.0
+      ],
+      "settledScaleKey": null,
+      "cardSize": [
+        110.0,
+        90.0
+      ],
+      "cardSizeProvenance": "source-dimensions-times-settled-scale",
+      "sourceBandId": null,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "layerFingerprint": {
+        "compId": 101,
+        "layerIndex": 22,
+        "layerName": "tile022",
+        "sourceId": 1022,
+        "sourceName": "face-4",
+        "positionKeyCount": 0,
+        "scaleKeyCount": 0,
+        "inPoint": 0.0,
+        "outPoint": 22.25,
+        "parentIndex": null,
+        "hasTrackMatte": false,
+        "threeDLayer": false
+      },
+      "layerFingerprintSha256": "1FD616F809BBC16F5A987F8CD9BD1CD859DFAC3BF9F4E2D400221225A394A94E"
+    },
+    {
+      "tileId": "tile-023",
+      "compId": 101,
+      "layerIndex": 23,
+      "layerName": "tile023",
+      "sourceId": 1023,
+      "sourceName": "face-5",
+      "faceId": "face-5",
+      "enabled": true,
+      "renderOrder": 23,
+      "inPoint": 0.0,
+      "outPoint": 23.25,
+      "startTime": 0.0,
+      "originalPosition": [
+        540.0,
+        735.0
+      ],
+      "settledPositionKey": null,
+      "originalScale": [
+        100.0,
+        100.0
+      ],
+      "settledScaleKey": null,
+      "cardSize": [
+        110.0,
+        90.0
+      ],
+      "cardSizeProvenance": "source-dimensions-times-settled-scale",
+      "sourceBandId": null,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "layerFingerprint": {
+        "compId": 101,
+        "layerIndex": 23,
+        "layerName": "tile023",
+        "sourceId": 1023,
+        "sourceName": "face-5",
+        "positionKeyCount": 0,
+        "scaleKeyCount": 0,
+        "inPoint": 0.0,
+        "outPoint": 23.25,
+        "parentIndex": null,
+        "hasTrackMatte": false,
+        "threeDLayer": false
+      },
+      "layerFingerprintSha256": "86FB5FF7E6E82E50AEC9587A38988B5C159509EC876E103546C2B90D527B840D"
+    },
+    {
+      "tileId": "tile-024",
+      "compId": 101,
+      "layerIndex": 24,
+      "layerName": "tile024",
+      "sourceId": 1024,
+      "sourceName": "face-6",
+      "faceId": "face-6",
+      "enabled": true,
+      "renderOrder": 24,
+      "inPoint": 0.0,
+      "outPoint": 24.25,
+      "startTime": 0.0,
+      "originalPosition": [
+        670.0,
+        735.0
+      ],
+      "settledPositionKey": null,
+      "originalScale": [
+        100.0,
+        100.0
+      ],
+      "settledScaleKey": null,
+      "cardSize": [
+        110.0,
+        90.0
+      ],
+      "cardSizeProvenance": "source-dimensions-times-settled-scale",
+      "sourceBandId": null,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "layerFingerprint": {
+        "compId": 101,
+        "layerIndex": 24,
+        "layerName": "tile024",
+        "sourceId": 1024,
+        "sourceName": "face-6",
+        "positionKeyCount": 0,
+        "scaleKeyCount": 0,
+        "inPoint": 0.0,
+        "outPoint": 24.25,
+        "parentIndex": null,
+        "hasTrackMatte": false,
+        "threeDLayer": false
+      },
+      "layerFingerprintSha256": "E104A77D29383AFA55F92A6AA16365C512E20967737072B504DFDC1CB4EE6DAC"
+    },
+    {
+      "tileId": "tile-025",
+      "compId": 101,
+      "layerIndex": 25,
+      "layerName": "tile025",
+      "sourceId": 1025,
+      "sourceName": "face-7",
+      "faceId": "face-7",
+      "enabled": true,
+      "renderOrder": 25,
+      "inPoint": 0.0,
+      "outPoint": 25.25,
+      "startTime": 0.0,
+      "originalPosition": [
+        475.0,
+        870.0
+      ],
+      "settledPositionKey": null,
+      "originalScale": [
+        100.0,
+        100.0
+      ],
+      "settledScaleKey": null,
+      "cardSize": [
+        110.0,
+        90.0
+      ],
+      "cardSizeProvenance": "source-dimensions-times-settled-scale",
+      "sourceBandId": null,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "layerFingerprint": {
+        "compId": 101,
+        "layerIndex": 25,
+        "layerName": "tile025",
+        "sourceId": 1025,
+        "sourceName": "face-7",
+        "positionKeyCount": 0,
+        "scaleKeyCount": 0,
+        "inPoint": 0.0,
+        "outPoint": 25.25,
+        "parentIndex": null,
+        "hasTrackMatte": false,
+        "threeDLayer": false
+      },
+      "layerFingerprintSha256": "B43E0122137F0972A9B7EC457BA3C09ABAD7A92B82CECE6E0E04C82817BB1497"
+    },
+    {
+      "tileId": "tile-026",
+      "compId": 101,
+      "layerIndex": 26,
+      "layerName": "tile026",
+      "sourceId": 1026,
+      "sourceName": "face-8",
+      "faceId": "face-8",
+      "enabled": true,
+      "renderOrder": 26,
+      "inPoint": 0.0,
+      "outPoint": 26.25,
+      "startTime": 0.0,
+      "originalPosition": [
+        475.0,
+        870.0
+      ],
+      "settledPositionKey": null,
+      "originalScale": [
+        100.0,
+        100.0
+      ],
+      "settledScaleKey": null,
+      "cardSize": [
+        110.0,
+        90.0
+      ],
+      "cardSizeProvenance": "source-dimensions-times-settled-scale",
+      "sourceBandId": null,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "layerFingerprint": {
+        "compId": 101,
+        "layerIndex": 26,
+        "layerName": "tile026",
+        "sourceId": 1026,
+        "sourceName": "face-8",
+        "positionKeyCount": 0,
+        "scaleKeyCount": 0,
+        "inPoint": 0.0,
+        "outPoint": 26.25,
+        "parentIndex": null,
+        "hasTrackMatte": false,
+        "threeDLayer": false
+      },
+      "layerFingerprintSha256": "B6BB9E0D70EAD02EF3349E31799FF9C8405407E48D3DC67ECE2D1DE0C8D8C3A9"
+    },
+    {
+      "tileId": "tile-027",
+      "compId": 101,
+      "layerIndex": 27,
+      "layerName": "tile027",
+      "sourceId": 1027,
+      "sourceName": "face-0",
+      "faceId": "face-0",
+      "enabled": true,
+      "renderOrder": 27,
+      "inPoint": 0.0,
+      "outPoint": 27.25,
+      "startTime": 0.0,
+      "originalPosition": [
+        475.0,
+        870.0
+      ],
+      "settledPositionKey": null,
+      "originalScale": [
+        100.0,
+        100.0
+      ],
+      "settledScaleKey": null,
+      "cardSize": [
+        110.0,
+        90.0
+      ],
+      "cardSizeProvenance": "source-dimensions-times-settled-scale",
+      "sourceBandId": null,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "layerFingerprint": {
+        "compId": 101,
+        "layerIndex": 27,
+        "layerName": "tile027",
+        "sourceId": 1027,
+        "sourceName": "face-0",
+        "positionKeyCount": 0,
+        "scaleKeyCount": 0,
+        "inPoint": 0.0,
+        "outPoint": 27.25,
+        "parentIndex": null,
+        "hasTrackMatte": false,
+        "threeDLayer": false
+      },
+      "layerFingerprintSha256": "68E4AFDEB0C4B1158E82DFC8316B4754172D44B80C03C80E7D913D087A470634"
+    },
+    {
+      "tileId": "tile-028",
+      "compId": 101,
+      "layerIndex": 28,
+      "layerName": "tile028",
+      "sourceId": 1028,
+      "sourceName": "face-1",
+      "faceId": "face-1",
+      "enabled": true,
+      "renderOrder": 28,
+      "inPoint": 0.0,
+      "outPoint": 28.25,
+      "startTime": 0.0,
+      "originalPosition": [
+        605.0,
+        870.0
+      ],
+      "settledPositionKey": null,
+      "originalScale": [
+        100.0,
+        100.0
+      ],
+      "settledScaleKey": null,
+      "cardSize": [
+        110.0,
+        90.0
+      ],
+      "cardSizeProvenance": "source-dimensions-times-settled-scale",
+      "sourceBandId": null,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "layerFingerprint": {
+        "compId": 101,
+        "layerIndex": 28,
+        "layerName": "tile028",
+        "sourceId": 1028,
+        "sourceName": "face-1",
+        "positionKeyCount": 0,
+        "scaleKeyCount": 0,
+        "inPoint": 0.0,
+        "outPoint": 28.25,
+        "parentIndex": null,
+        "hasTrackMatte": false,
+        "threeDLayer": false
+      },
+      "layerFingerprintSha256": "758D0BC9F85A9C48C355910EEEEB2454D545A01E97C02A47485339D2AAADFA45"
+    },
+    {
+      "tileId": "tile-029",
+      "compId": 101,
+      "layerIndex": 29,
+      "layerName": "tile029",
+      "sourceId": 1029,
+      "sourceName": "face-2",
+      "faceId": "face-2",
+      "enabled": true,
+      "renderOrder": 29,
+      "inPoint": 0.0,
+      "outPoint": 29.25,
+      "startTime": 0.0,
+      "originalPosition": [
+        605.0,
+        870.0
+      ],
+      "settledPositionKey": null,
+      "originalScale": [
+        100.0,
+        100.0
+      ],
+      "settledScaleKey": null,
+      "cardSize": [
+        110.0,
+        90.0
+      ],
+      "cardSizeProvenance": "source-dimensions-times-settled-scale",
+      "sourceBandId": null,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "layerFingerprint": {
+        "compId": 101,
+        "layerIndex": 29,
+        "layerName": "tile029",
+        "sourceId": 1029,
+        "sourceName": "face-2",
+        "positionKeyCount": 0,
+        "scaleKeyCount": 0,
+        "inPoint": 0.0,
+        "outPoint": 29.25,
+        "parentIndex": null,
+        "hasTrackMatte": false,
+        "threeDLayer": false
+      },
+      "layerFingerprintSha256": "EE7C50CD41056851CC2B176B66CD7EC01DE913A035E77FB54DFC1FF68BB01BFB"
+    },
+    {
+      "tileId": "tile-030",
+      "compId": 101,
+      "layerIndex": 30,
+      "layerName": "tile030",
+      "sourceId": 1030,
+      "sourceName": "face-3",
+      "faceId": "face-3",
+      "enabled": true,
+      "renderOrder": 30,
+      "inPoint": 0.0,
+      "outPoint": 30.25,
+      "startTime": 0.0,
+      "originalPosition": [
+        475.0,
+        1005.0
+      ],
+      "settledPositionKey": null,
+      "originalScale": [
+        100.0,
+        100.0
+      ],
+      "settledScaleKey": null,
+      "cardSize": [
+        110.0,
+        90.0
+      ],
+      "cardSizeProvenance": "source-dimensions-times-settled-scale",
+      "sourceBandId": null,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "layerFingerprint": {
+        "compId": 101,
+        "layerIndex": 30,
+        "layerName": "tile030",
+        "sourceId": 1030,
+        "sourceName": "face-3",
+        "positionKeyCount": 0,
+        "scaleKeyCount": 0,
+        "inPoint": 0.0,
+        "outPoint": 30.25,
+        "parentIndex": null,
+        "hasTrackMatte": false,
+        "threeDLayer": false
+      },
+      "layerFingerprintSha256": "0721D57D0ADCABDED8FA9B9F2E68BE1C347C2758049E000C4BC222A6DA8B1525"
+    },
+    {
+      "tileId": "tile-031",
+      "compId": 101,
+      "layerIndex": 31,
+      "layerName": "tile031",
+      "sourceId": 1031,
+      "sourceName": "face-4",
+      "faceId": "face-4",
+      "enabled": true,
+      "renderOrder": 31,
+      "inPoint": 0.0,
+      "outPoint": 31.25,
+      "startTime": 0.0,
+      "originalPosition": [
+        475.0,
+        1005.0
+      ],
+      "settledPositionKey": null,
+      "originalScale": [
+        100.0,
+        100.0
+      ],
+      "settledScaleKey": null,
+      "cardSize": [
+        110.0,
+        90.0
+      ],
+      "cardSizeProvenance": "source-dimensions-times-settled-scale",
+      "sourceBandId": null,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "layerFingerprint": {
+        "compId": 101,
+        "layerIndex": 31,
+        "layerName": "tile031",
+        "sourceId": 1031,
+        "sourceName": "face-4",
+        "positionKeyCount": 0,
+        "scaleKeyCount": 0,
+        "inPoint": 0.0,
+        "outPoint": 31.25,
+        "parentIndex": null,
+        "hasTrackMatte": false,
+        "threeDLayer": false
+      },
+      "layerFingerprintSha256": "F9DDD58EFA6FD595639FF6F8092B6BCD7F4500E41A299BA81D86C30843EFB347"
+    },
+    {
+      "tileId": "tile-032",
+      "compId": 101,
+      "layerIndex": 32,
+      "layerName": "tile032",
+      "sourceId": 1032,
+      "sourceName": "face-5",
+      "faceId": "face-5",
+      "enabled": true,
+      "renderOrder": 32,
+      "inPoint": 0.0,
+      "outPoint": 32.25,
+      "startTime": 0.0,
+      "originalPosition": [
+        605.0,
+        1005.0
+      ],
+      "settledPositionKey": null,
+      "originalScale": [
+        100.0,
+        100.0
+      ],
+      "settledScaleKey": null,
+      "cardSize": [
+        110.0,
+        90.0
+      ],
+      "cardSizeProvenance": "source-dimensions-times-settled-scale",
+      "sourceBandId": null,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "layerFingerprint": {
+        "compId": 101,
+        "layerIndex": 32,
+        "layerName": "tile032",
+        "sourceId": 1032,
+        "sourceName": "face-5",
+        "positionKeyCount": 0,
+        "scaleKeyCount": 0,
+        "inPoint": 0.0,
+        "outPoint": 32.25,
+        "parentIndex": null,
+        "hasTrackMatte": false,
+        "threeDLayer": false
+      },
+      "layerFingerprintSha256": "FD7C8E5BDA4A8DC31BAEBE0C000422B5C9036BFCAD88653913608DF6320718EB"
+    },
+    {
+      "tileId": "tile-033",
+      "compId": 101,
+      "layerIndex": 33,
+      "layerName": "tile033",
+      "sourceId": 1033,
+      "sourceName": "face-6",
+      "faceId": "face-6",
+      "enabled": true,
+      "renderOrder": 33,
+      "inPoint": 0.0,
+      "outPoint": 33.25,
+      "startTime": 0.0,
+      "originalPosition": [
+        605.0,
+        1005.0
+      ],
+      "settledPositionKey": null,
+      "originalScale": [
+        100.0,
+        100.0
+      ],
+      "settledScaleKey": null,
+      "cardSize": [
+        110.0,
+        90.0
+      ],
+      "cardSizeProvenance": "source-dimensions-times-settled-scale",
+      "sourceBandId": null,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "layerFingerprint": {
+        "compId": 101,
+        "layerIndex": 33,
+        "layerName": "tile033",
+        "sourceId": 1033,
+        "sourceName": "face-6",
+        "positionKeyCount": 0,
+        "scaleKeyCount": 0,
+        "inPoint": 0.0,
+        "outPoint": 33.25,
+        "parentIndex": null,
+        "hasTrackMatte": false,
+        "threeDLayer": false
+      },
+      "layerFingerprintSha256": "B72F58BFD142E8D2E5AC476F39CC9057E7794ED4D78D56C490D0E1340D48FECD"
+    },
+    {
+      "tileId": "tile-034",
+      "compId": 101,
+      "layerIndex": 34,
+      "layerName": "tile034",
+      "sourceId": 1034,
+      "sourceName": "face-7",
+      "faceId": "face-7",
+      "enabled": true,
+      "renderOrder": 34,
+      "inPoint": 0.0,
+      "outPoint": 34.25,
+      "startTime": 0.0,
+      "originalPosition": [
+        605.0,
+        1005.0
+      ],
+      "settledPositionKey": null,
+      "originalScale": [
+        100.0,
+        100.0
+      ],
+      "settledScaleKey": null,
+      "cardSize": [
+        110.0,
+        90.0
+      ],
+      "cardSizeProvenance": "source-dimensions-times-settled-scale",
+      "sourceBandId": null,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "layerFingerprint": {
+        "compId": 101,
+        "layerIndex": 34,
+        "layerName": "tile034",
+        "sourceId": 1034,
+        "sourceName": "face-7",
+        "positionKeyCount": 0,
+        "scaleKeyCount": 0,
+        "inPoint": 0.0,
+        "outPoint": 34.25,
+        "parentIndex": null,
+        "hasTrackMatte": false,
+        "threeDLayer": false
+      },
+      "layerFingerprintSha256": "2D0D84A9C8A57248C5537D5631E441C9BBBE75B6104CCF46C12DB13B4987382E"
+    },
+    {
+      "tileId": "tile-035",
+      "compId": 101,
+      "layerIndex": 35,
+      "layerName": "tile035",
+      "sourceId": 1035,
+      "sourceName": "face-8",
+      "faceId": "face-8",
+      "enabled": true,
+      "renderOrder": 35,
+      "inPoint": 0.0,
+      "outPoint": 35.25,
+      "startTime": 0.0,
+      "originalPosition": [
+        410.0,
+        1140.0
+      ],
+      "settledPositionKey": null,
+      "originalScale": [
+        100.0,
+        100.0
+      ],
+      "settledScaleKey": null,
+      "cardSize": [
+        110.0,
+        90.0
+      ],
+      "cardSizeProvenance": "source-dimensions-times-settled-scale",
+      "sourceBandId": null,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "layerFingerprint": {
+        "compId": 101,
+        "layerIndex": 35,
+        "layerName": "tile035",
+        "sourceId": 1035,
+        "sourceName": "face-8",
+        "positionKeyCount": 0,
+        "scaleKeyCount": 0,
+        "inPoint": 0.0,
+        "outPoint": 35.25,
+        "parentIndex": null,
+        "hasTrackMatte": false,
+        "threeDLayer": false
+      },
+      "layerFingerprintSha256": "30D23C79B6A5A878D3B442246C7F34F438D4469C74609D2B2C06F193C9044261"
+    },
+    {
+      "tileId": "tile-036",
+      "compId": 101,
+      "layerIndex": 36,
+      "layerName": "tile036",
+      "sourceId": 1036,
+      "sourceName": "face-0",
+      "faceId": "face-0",
+      "enabled": true,
+      "renderOrder": 36,
+      "inPoint": 0.0,
+      "outPoint": 36.25,
+      "startTime": 0.0,
+      "originalPosition": [
+        540.0,
+        1140.0
+      ],
+      "settledPositionKey": null,
+      "originalScale": [
+        100.0,
+        100.0
+      ],
+      "settledScaleKey": null,
+      "cardSize": [
+        110.0,
+        90.0
+      ],
+      "cardSizeProvenance": "source-dimensions-times-settled-scale",
+      "sourceBandId": null,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "layerFingerprint": {
+        "compId": 101,
+        "layerIndex": 36,
+        "layerName": "tile036",
+        "sourceId": 1036,
+        "sourceName": "face-0",
+        "positionKeyCount": 0,
+        "scaleKeyCount": 0,
+        "inPoint": 0.0,
+        "outPoint": 36.25,
+        "parentIndex": null,
+        "hasTrackMatte": false,
+        "threeDLayer": false
+      },
+      "layerFingerprintSha256": "364D5C746BB06F46314AEA55962A31977543065D14D2A02D20805859B9419F08"
+    },
+    {
+      "tileId": "tile-037",
+      "compId": 101,
+      "layerIndex": 37,
+      "layerName": "tile037",
+      "sourceId": 1037,
+      "sourceName": "face-1",
+      "faceId": "face-1",
+      "enabled": true,
+      "renderOrder": 37,
+      "inPoint": 0.0,
+      "outPoint": 37.25,
+      "startTime": 0.0,
+      "originalPosition": [
+        540.0,
+        1140.0
+      ],
+      "settledPositionKey": null,
+      "originalScale": [
+        100.0,
+        100.0
+      ],
+      "settledScaleKey": null,
+      "cardSize": [
+        110.0,
+        90.0
+      ],
+      "cardSizeProvenance": "source-dimensions-times-settled-scale",
+      "sourceBandId": null,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "layerFingerprint": {
+        "compId": 101,
+        "layerIndex": 37,
+        "layerName": "tile037",
+        "sourceId": 1037,
+        "sourceName": "face-1",
+        "positionKeyCount": 0,
+        "scaleKeyCount": 0,
+        "inPoint": 0.0,
+        "outPoint": 37.25,
+        "parentIndex": null,
+        "hasTrackMatte": false,
+        "threeDLayer": false
+      },
+      "layerFingerprintSha256": "A85B0985FC1CD25A7BDCEB039988D4A8404EF3A0BB2E1A876515A63506E2E49B"
+    },
+    {
+      "tileId": "tile-038",
+      "compId": 101,
+      "layerIndex": 38,
+      "layerName": "tile038",
+      "sourceId": 1038,
+      "sourceName": "face-2",
+      "faceId": "face-2",
+      "enabled": true,
+      "renderOrder": 38,
+      "inPoint": 0.0,
+      "outPoint": 38.25,
+      "startTime": 0.0,
+      "originalPosition": [
+        670.0,
+        1140.0
+      ],
+      "settledPositionKey": null,
+      "originalScale": [
+        100.0,
+        100.0
+      ],
+      "settledScaleKey": null,
+      "cardSize": [
+        110.0,
+        90.0
+      ],
+      "cardSizeProvenance": "source-dimensions-times-settled-scale",
+      "sourceBandId": null,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "layerFingerprint": {
+        "compId": 101,
+        "layerIndex": 38,
+        "layerName": "tile038",
+        "sourceId": 1038,
+        "sourceName": "face-2",
+        "positionKeyCount": 0,
+        "scaleKeyCount": 0,
+        "inPoint": 0.0,
+        "outPoint": 38.25,
+        "parentIndex": null,
+        "hasTrackMatte": false,
+        "threeDLayer": false
+      },
+      "layerFingerprintSha256": "DCFB7E381C72CAD935434B8A0175D7E4F8F4931DBCEA186F23E48FFCA23B09DF"
+    },
+    {
+      "tileId": "tile-039",
+      "compId": 101,
+      "layerIndex": 39,
+      "layerName": "tile039",
+      "sourceId": 1039,
+      "sourceName": "face-3",
+      "faceId": "face-3",
+      "enabled": true,
+      "renderOrder": 39,
+      "inPoint": 0.0,
+      "outPoint": 39.25,
+      "startTime": 0.0,
+      "originalPosition": [
+        345.0,
+        1275.0
+      ],
+      "settledPositionKey": null,
+      "originalScale": [
+        100.0,
+        100.0
+      ],
+      "settledScaleKey": null,
+      "cardSize": [
+        110.0,
+        90.0
+      ],
+      "cardSizeProvenance": "source-dimensions-times-settled-scale",
+      "sourceBandId": null,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "layerFingerprint": {
+        "compId": 101,
+        "layerIndex": 39,
+        "layerName": "tile039",
+        "sourceId": 1039,
+        "sourceName": "face-3",
+        "positionKeyCount": 0,
+        "scaleKeyCount": 0,
+        "inPoint": 0.0,
+        "outPoint": 39.25,
+        "parentIndex": null,
+        "hasTrackMatte": false,
+        "threeDLayer": false
+      },
+      "layerFingerprintSha256": "8379FD58BCDBD8D619DFB571D082687CFA9B5352D5D4109EEE856DFFB8D5A1C6"
+    },
+    {
+      "tileId": "tile-040",
+      "compId": 101,
+      "layerIndex": 40,
+      "layerName": "tile040",
+      "sourceId": 1040,
+      "sourceName": "face-4",
+      "faceId": "face-4",
+      "enabled": true,
+      "renderOrder": 40,
+      "inPoint": 0.0,
+      "outPoint": 40.25,
+      "startTime": 0.0,
+      "originalPosition": [
+        475.0,
+        1275.0
+      ],
+      "settledPositionKey": null,
+      "originalScale": [
+        100.0,
+        100.0
+      ],
+      "settledScaleKey": null,
+      "cardSize": [
+        110.0,
+        90.0
+      ],
+      "cardSizeProvenance": "source-dimensions-times-settled-scale",
+      "sourceBandId": null,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "layerFingerprint": {
+        "compId": 101,
+        "layerIndex": 40,
+        "layerName": "tile040",
+        "sourceId": 1040,
+        "sourceName": "face-4",
+        "positionKeyCount": 0,
+        "scaleKeyCount": 0,
+        "inPoint": 0.0,
+        "outPoint": 40.25,
+        "parentIndex": null,
+        "hasTrackMatte": false,
+        "threeDLayer": false
+      },
+      "layerFingerprintSha256": "BCEC3E041B91E9AE9F134A0AF1EECE32EAE44C066D2EBFD965AD7473D06F3BF6"
+    },
+    {
+      "tileId": "tile-041",
+      "compId": 101,
+      "layerIndex": 41,
+      "layerName": "tile041",
+      "sourceId": 1041,
+      "sourceName": "face-5",
+      "faceId": "face-5",
+      "enabled": true,
+      "renderOrder": 41,
+      "inPoint": 0.0,
+      "outPoint": 41.25,
+      "startTime": 0.0,
+      "originalPosition": [
+        475.0,
+        1275.0
+      ],
+      "settledPositionKey": null,
+      "originalScale": [
+        100.0,
+        100.0
+      ],
+      "settledScaleKey": null,
+      "cardSize": [
+        110.0,
+        90.0
+      ],
+      "cardSizeProvenance": "source-dimensions-times-settled-scale",
+      "sourceBandId": null,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "layerFingerprint": {
+        "compId": 101,
+        "layerIndex": 41,
+        "layerName": "tile041",
+        "sourceId": 1041,
+        "sourceName": "face-5",
+        "positionKeyCount": 0,
+        "scaleKeyCount": 0,
+        "inPoint": 0.0,
+        "outPoint": 41.25,
+        "parentIndex": null,
+        "hasTrackMatte": false,
+        "threeDLayer": false
+      },
+      "layerFingerprintSha256": "C0F00FDBA0912E0CACEAE74C2C8C4D0133710BB7A60D0CF28CE3E126A9027279"
+    },
+    {
+      "tileId": "tile-042",
+      "compId": 101,
+      "layerIndex": 42,
+      "layerName": "tile042",
+      "sourceId": 1042,
+      "sourceName": "face-6",
+      "faceId": "face-6",
+      "enabled": true,
+      "renderOrder": 42,
+      "inPoint": 0.0,
+      "outPoint": 42.25,
+      "startTime": 0.0,
+      "originalPosition": [
+        605.0,
+        1275.0
+      ],
+      "settledPositionKey": null,
+      "originalScale": [
+        100.0,
+        100.0
+      ],
+      "settledScaleKey": null,
+      "cardSize": [
+        110.0,
+        90.0
+      ],
+      "cardSizeProvenance": "source-dimensions-times-settled-scale",
+      "sourceBandId": null,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "layerFingerprint": {
+        "compId": 101,
+        "layerIndex": 42,
+        "layerName": "tile042",
+        "sourceId": 1042,
+        "sourceName": "face-6",
+        "positionKeyCount": 0,
+        "scaleKeyCount": 0,
+        "inPoint": 0.0,
+        "outPoint": 42.25,
+        "parentIndex": null,
+        "hasTrackMatte": false,
+        "threeDLayer": false
+      },
+      "layerFingerprintSha256": "8BAEEEA0FFC374602821AB1DD2D24DED3BE1C05F3D1926000102088E2A6F94DC"
+    },
+    {
+      "tileId": "tile-043",
+      "compId": 101,
+      "layerIndex": 43,
+      "layerName": "tile043",
+      "sourceId": 1043,
+      "sourceName": "face-7",
+      "faceId": "face-7",
+      "enabled": true,
+      "renderOrder": 43,
+      "inPoint": 0.0,
+      "outPoint": 43.25,
+      "startTime": 0.0,
+      "originalPosition": [
+        605.0,
+        1275.0
+      ],
+      "settledPositionKey": null,
+      "originalScale": [
+        100.0,
+        100.0
+      ],
+      "settledScaleKey": null,
+      "cardSize": [
+        110.0,
+        90.0
+      ],
+      "cardSizeProvenance": "source-dimensions-times-settled-scale",
+      "sourceBandId": null,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "layerFingerprint": {
+        "compId": 101,
+        "layerIndex": 43,
+        "layerName": "tile043",
+        "sourceId": 1043,
+        "sourceName": "face-7",
+        "positionKeyCount": 0,
+        "scaleKeyCount": 0,
+        "inPoint": 0.0,
+        "outPoint": 43.25,
+        "parentIndex": null,
+        "hasTrackMatte": false,
+        "threeDLayer": false
+      },
+      "layerFingerprintSha256": "6CE506F5ED419457E0DFC62C91D994725E4B31BA74FC0CF61216CD84B8834816"
+    },
+    {
+      "tileId": "tile-044",
+      "compId": 101,
+      "layerIndex": 44,
+      "layerName": "tile044",
+      "sourceId": 1044,
+      "sourceName": "face-8",
+      "faceId": "face-8",
+      "enabled": true,
+      "renderOrder": 44,
+      "inPoint": 0.0,
+      "outPoint": 44.25,
+      "startTime": 0.0,
+      "originalPosition": [
+        735.0,
+        1275.0
+      ],
+      "settledPositionKey": null,
+      "originalScale": [
+        100.0,
+        100.0
+      ],
+      "settledScaleKey": null,
+      "cardSize": [
+        110.0,
+        90.0
+      ],
+      "cardSizeProvenance": "source-dimensions-times-settled-scale",
+      "sourceBandId": null,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "layerFingerprint": {
+        "compId": 101,
+        "layerIndex": 44,
+        "layerName": "tile044",
+        "sourceId": 1044,
+        "sourceName": "face-8",
+        "positionKeyCount": 0,
+        "scaleKeyCount": 0,
+        "inPoint": 0.0,
+        "outPoint": 44.25,
+        "parentIndex": null,
+        "hasTrackMatte": false,
+        "threeDLayer": false
+      },
+      "layerFingerprintSha256": "AF80087BFBA006A1D699A161C32D1CB1CD63BB820A9AEFA6DFEE497361A4005F"
+    },
+    {
+      "tileId": "tile-045",
+      "compId": 101,
+      "layerIndex": 45,
+      "layerName": "tile045",
+      "sourceId": 1045,
+      "sourceName": "face-0",
+      "faceId": "face-0",
+      "enabled": true,
+      "renderOrder": 45,
+      "inPoint": 0.0,
+      "outPoint": 45.25,
+      "startTime": 0.0,
+      "originalPosition": [
+        280.0,
+        1410.0
+      ],
+      "settledPositionKey": null,
+      "originalScale": [
+        100.0,
+        100.0
+      ],
+      "settledScaleKey": null,
+      "cardSize": [
+        110.0,
+        90.0
+      ],
+      "cardSizeProvenance": "source-dimensions-times-settled-scale",
+      "sourceBandId": null,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "layerFingerprint": {
+        "compId": 101,
+        "layerIndex": 45,
+        "layerName": "tile045",
+        "sourceId": 1045,
+        "sourceName": "face-0",
+        "positionKeyCount": 0,
+        "scaleKeyCount": 0,
+        "inPoint": 0.0,
+        "outPoint": 45.25,
+        "parentIndex": null,
+        "hasTrackMatte": false,
+        "threeDLayer": false
+      },
+      "layerFingerprintSha256": "A319A4AA852F73E26033E5FB41DACA1962B6E588B4F7733442609534417BA6EB"
+    },
+    {
+      "tileId": "tile-046",
+      "compId": 101,
+      "layerIndex": 46,
+      "layerName": "tile046",
+      "sourceId": 1046,
+      "sourceName": "face-1",
+      "faceId": "face-1",
+      "enabled": true,
+      "renderOrder": 46,
+      "inPoint": 0.0,
+      "outPoint": 46.25,
+      "startTime": 0.0,
+      "originalPosition": [
+        410.0,
+        1410.0
+      ],
+      "settledPositionKey": null,
+      "originalScale": [
+        100.0,
+        100.0
+      ],
+      "settledScaleKey": null,
+      "cardSize": [
+        110.0,
+        90.0
+      ],
+      "cardSizeProvenance": "source-dimensions-times-settled-scale",
+      "sourceBandId": null,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "layerFingerprint": {
+        "compId": 101,
+        "layerIndex": 46,
+        "layerName": "tile046",
+        "sourceId": 1046,
+        "sourceName": "face-1",
+        "positionKeyCount": 0,
+        "scaleKeyCount": 0,
+        "inPoint": 0.0,
+        "outPoint": 46.25,
+        "parentIndex": null,
+        "hasTrackMatte": false,
+        "threeDLayer": false
+      },
+      "layerFingerprintSha256": "2B7B3E2592818FBA203EAFAF3BF66D73ECD90D69D3E0FE2D1AE1C78D06B4E496"
+    },
+    {
+      "tileId": "tile-047",
+      "compId": 101,
+      "layerIndex": 47,
+      "layerName": "tile047",
+      "sourceId": 1047,
+      "sourceName": "face-2",
+      "faceId": "face-2",
+      "enabled": true,
+      "renderOrder": 47,
+      "inPoint": 0.0,
+      "outPoint": 47.25,
+      "startTime": 0.0,
+      "originalPosition": [
+        540.0,
+        1410.0
+      ],
+      "settledPositionKey": null,
+      "originalScale": [
+        100.0,
+        100.0
+      ],
+      "settledScaleKey": null,
+      "cardSize": [
+        110.0,
+        90.0
+      ],
+      "cardSizeProvenance": "source-dimensions-times-settled-scale",
+      "sourceBandId": null,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "layerFingerprint": {
+        "compId": 101,
+        "layerIndex": 47,
+        "layerName": "tile047",
+        "sourceId": 1047,
+        "sourceName": "face-2",
+        "positionKeyCount": 0,
+        "scaleKeyCount": 0,
+        "inPoint": 0.0,
+        "outPoint": 47.25,
+        "parentIndex": null,
+        "hasTrackMatte": false,
+        "threeDLayer": false
+      },
+      "layerFingerprintSha256": "E41A05CF625C08FFF7A7001375B44F7A81D2F4D1AD2A706F558CBEF45286CB97"
+    },
+    {
+      "tileId": "tile-048",
+      "compId": 101,
+      "layerIndex": 48,
+      "layerName": "tile048",
+      "sourceId": 1048,
+      "sourceName": "face-3",
+      "faceId": "face-3",
+      "enabled": true,
+      "renderOrder": 48,
+      "inPoint": 0.0,
+      "outPoint": 48.25,
+      "startTime": 0.0,
+      "originalPosition": [
+        670.0,
+        1410.0
+      ],
+      "settledPositionKey": null,
+      "originalScale": [
+        100.0,
+        100.0
+      ],
+      "settledScaleKey": null,
+      "cardSize": [
+        110.0,
+        90.0
+      ],
+      "cardSizeProvenance": "source-dimensions-times-settled-scale",
+      "sourceBandId": null,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "layerFingerprint": {
+        "compId": 101,
+        "layerIndex": 48,
+        "layerName": "tile048",
+        "sourceId": 1048,
+        "sourceName": "face-3",
+        "positionKeyCount": 0,
+        "scaleKeyCount": 0,
+        "inPoint": 0.0,
+        "outPoint": 48.25,
+        "parentIndex": null,
+        "hasTrackMatte": false,
+        "threeDLayer": false
+      },
+      "layerFingerprintSha256": "FBCC2DBE70C64FB4FEC0210AFBAE28757BF5A7145A72F34EE7C4B4BCF2AB68CC"
+    },
+    {
+      "tileId": "tile-049",
+      "compId": 101,
+      "layerIndex": 49,
+      "layerName": "tile049",
+      "sourceId": 1049,
+      "sourceName": "face-4",
+      "faceId": "face-4",
+      "enabled": true,
+      "renderOrder": 49,
+      "inPoint": 0.0,
+      "outPoint": 49.25,
+      "startTime": 0.0,
+      "originalPosition": [
+        800.0,
+        1410.0
+      ],
+      "settledPositionKey": null,
+      "originalScale": [
+        100.0,
+        100.0
+      ],
+      "settledScaleKey": null,
+      "cardSize": [
+        110.0,
+        90.0
+      ],
+      "cardSizeProvenance": "source-dimensions-times-settled-scale",
+      "sourceBandId": null,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "layerFingerprint": {
+        "compId": 101,
+        "layerIndex": 49,
+        "layerName": "tile049",
+        "sourceId": 1049,
+        "sourceName": "face-4",
+        "positionKeyCount": 0,
+        "scaleKeyCount": 0,
+        "inPoint": 0.0,
+        "outPoint": 49.25,
+        "parentIndex": null,
+        "hasTrackMatte": false,
+        "threeDLayer": false
+      },
+      "layerFingerprintSha256": "020BE1EB5B119CEB99C36E97CC466F4D28D9D937BE4099F4FA26FFFBE272FD7A"
+    },
+    {
+      "tileId": "tile-050",
+      "compId": 101,
+      "layerIndex": 50,
+      "layerName": "tile050",
+      "sourceId": 1050,
+      "sourceName": "face-5",
+      "faceId": "face-5",
+      "enabled": true,
+      "renderOrder": 50,
+      "inPoint": 0.0,
+      "outPoint": 50.25,
+      "startTime": 0.0,
+      "originalPosition": [
+        215.0,
+        1545.0
+      ],
+      "settledPositionKey": null,
+      "originalScale": [
+        100.0,
+        100.0
+      ],
+      "settledScaleKey": null,
+      "cardSize": [
+        110.0,
+        90.0
+      ],
+      "cardSizeProvenance": "source-dimensions-times-settled-scale",
+      "sourceBandId": null,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "layerFingerprint": {
+        "compId": 101,
+        "layerIndex": 50,
+        "layerName": "tile050",
+        "sourceId": 1050,
+        "sourceName": "face-5",
+        "positionKeyCount": 0,
+        "scaleKeyCount": 0,
+        "inPoint": 0.0,
+        "outPoint": 50.25,
+        "parentIndex": null,
+        "hasTrackMatte": false,
+        "threeDLayer": false
+      },
+      "layerFingerprintSha256": "76290C4070564A345C71A995DB5E103C8F1DF46DC881DE0EB03152A0DDF1DEBA"
+    },
+    {
+      "tileId": "tile-051",
+      "compId": 101,
+      "layerIndex": 51,
+      "layerName": "tile051",
+      "sourceId": 1051,
+      "sourceName": "face-6",
+      "faceId": "face-6",
+      "enabled": true,
+      "renderOrder": 51,
+      "inPoint": 0.0,
+      "outPoint": 51.25,
+      "startTime": 0.0,
+      "originalPosition": [
+        345.0,
+        1545.0
+      ],
+      "settledPositionKey": null,
+      "originalScale": [
+        100.0,
+        100.0
+      ],
+      "settledScaleKey": null,
+      "cardSize": [
+        110.0,
+        90.0
+      ],
+      "cardSizeProvenance": "source-dimensions-times-settled-scale",
+      "sourceBandId": null,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "layerFingerprint": {
+        "compId": 101,
+        "layerIndex": 51,
+        "layerName": "tile051",
+        "sourceId": 1051,
+        "sourceName": "face-6",
+        "positionKeyCount": 0,
+        "scaleKeyCount": 0,
+        "inPoint": 0.0,
+        "outPoint": 51.25,
+        "parentIndex": null,
+        "hasTrackMatte": false,
+        "threeDLayer": false
+      },
+      "layerFingerprintSha256": "418B89FB259ABBA26A6423A0C127E5399BD10DD98852C86CB8C54AD50EC355CE"
+    },
+    {
+      "tileId": "tile-052",
+      "compId": 101,
+      "layerIndex": 52,
+      "layerName": "tile052",
+      "sourceId": 1052,
+      "sourceName": "face-7",
+      "faceId": "face-7",
+      "enabled": true,
+      "renderOrder": 52,
+      "inPoint": 0.0,
+      "outPoint": 52.25,
+      "startTime": 0.0,
+      "originalPosition": [
+        475.0,
+        1545.0
+      ],
+      "settledPositionKey": null,
+      "originalScale": [
+        100.0,
+        100.0
+      ],
+      "settledScaleKey": null,
+      "cardSize": [
+        110.0,
+        90.0
+      ],
+      "cardSizeProvenance": "source-dimensions-times-settled-scale",
+      "sourceBandId": null,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "layerFingerprint": {
+        "compId": 101,
+        "layerIndex": 52,
+        "layerName": "tile052",
+        "sourceId": 1052,
+        "sourceName": "face-7",
+        "positionKeyCount": 0,
+        "scaleKeyCount": 0,
+        "inPoint": 0.0,
+        "outPoint": 52.25,
+        "parentIndex": null,
+        "hasTrackMatte": false,
+        "threeDLayer": false
+      },
+      "layerFingerprintSha256": "07ECAF2A2D48C348203786793CA2F6A4C2786C98F921788E13CAF3562C9B56F1"
+    },
+    {
+      "tileId": "tile-053",
+      "compId": 101,
+      "layerIndex": 53,
+      "layerName": "tile053",
+      "sourceId": 1053,
+      "sourceName": "face-8",
+      "faceId": "face-8",
+      "enabled": true,
+      "renderOrder": 53,
+      "inPoint": 0.0,
+      "outPoint": 53.25,
+      "startTime": 0.0,
+      "originalPosition": [
+        475.0,
+        1545.0
+      ],
+      "settledPositionKey": null,
+      "originalScale": [
+        100.0,
+        100.0
+      ],
+      "settledScaleKey": null,
+      "cardSize": [
+        110.0,
+        90.0
+      ],
+      "cardSizeProvenance": "source-dimensions-times-settled-scale",
+      "sourceBandId": null,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "layerFingerprint": {
+        "compId": 101,
+        "layerIndex": 53,
+        "layerName": "tile053",
+        "sourceId": 1053,
+        "sourceName": "face-8",
+        "positionKeyCount": 0,
+        "scaleKeyCount": 0,
+        "inPoint": 0.0,
+        "outPoint": 53.25,
+        "parentIndex": null,
+        "hasTrackMatte": false,
+        "threeDLayer": false
+      },
+      "layerFingerprintSha256": "A9E902DE51B6F490F0F7127B2A76A540968EE5B006802E3FA220528D8A8803A7"
+    },
+    {
+      "tileId": "tile-054",
+      "compId": 101,
+      "layerIndex": 54,
+      "layerName": "tile054",
+      "sourceId": 1054,
+      "sourceName": "face-0",
+      "faceId": "face-0",
+      "enabled": true,
+      "renderOrder": 54,
+      "inPoint": 0.0,
+      "outPoint": 54.25,
+      "startTime": 0.0,
+      "originalPosition": [
+        605.0,
+        1545.0
+      ],
+      "settledPositionKey": null,
+      "originalScale": [
+        100.0,
+        100.0
+      ],
+      "settledScaleKey": null,
+      "cardSize": [
+        110.0,
+        90.0
+      ],
+      "cardSizeProvenance": "source-dimensions-times-settled-scale",
+      "sourceBandId": null,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "layerFingerprint": {
+        "compId": 101,
+        "layerIndex": 54,
+        "layerName": "tile054",
+        "sourceId": 1054,
+        "sourceName": "face-0",
+        "positionKeyCount": 0,
+        "scaleKeyCount": 0,
+        "inPoint": 0.0,
+        "outPoint": 54.25,
+        "parentIndex": null,
+        "hasTrackMatte": false,
+        "threeDLayer": false
+      },
+      "layerFingerprintSha256": "B04792CC23FBBC3FE3B51FAE0E6F458012976AF7EFDEED6D549A71858BE03C96"
+    },
+    {
+      "tileId": "tile-055",
+      "compId": 101,
+      "layerIndex": 55,
+      "layerName": "tile055",
+      "sourceId": 1055,
+      "sourceName": "face-1",
+      "faceId": "face-1",
+      "enabled": true,
+      "renderOrder": 55,
+      "inPoint": 0.0,
+      "outPoint": 55.25,
+      "startTime": 0.0,
+      "originalPosition": [
+        605.0,
+        1545.0
+      ],
+      "settledPositionKey": null,
+      "originalScale": [
+        100.0,
+        100.0
+      ],
+      "settledScaleKey": null,
+      "cardSize": [
+        110.0,
+        90.0
+      ],
+      "cardSizeProvenance": "source-dimensions-times-settled-scale",
+      "sourceBandId": null,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "layerFingerprint": {
+        "compId": 101,
+        "layerIndex": 55,
+        "layerName": "tile055",
+        "sourceId": 1055,
+        "sourceName": "face-1",
+        "positionKeyCount": 0,
+        "scaleKeyCount": 0,
+        "inPoint": 0.0,
+        "outPoint": 55.25,
+        "parentIndex": null,
+        "hasTrackMatte": false,
+        "threeDLayer": false
+      },
+      "layerFingerprintSha256": "AF7BCCD95EEFC0A8E3A4B708E822F9F1C65417CCEFD0F9AB531713908C189525"
+    },
+    {
+      "tileId": "tile-056",
+      "compId": 101,
+      "layerIndex": 56,
+      "layerName": "tile056",
+      "sourceId": 1056,
+      "sourceName": "face-2",
+      "faceId": "face-2",
+      "enabled": true,
+      "renderOrder": 56,
+      "inPoint": 0.0,
+      "outPoint": 56.25,
+      "startTime": 0.0,
+      "originalPosition": [
+        735.0,
+        1545.0
+      ],
+      "settledPositionKey": null,
+      "originalScale": [
+        100.0,
+        100.0
+      ],
+      "settledScaleKey": null,
+      "cardSize": [
+        110.0,
+        90.0
+      ],
+      "cardSizeProvenance": "source-dimensions-times-settled-scale",
+      "sourceBandId": null,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "layerFingerprint": {
+        "compId": 101,
+        "layerIndex": 56,
+        "layerName": "tile056",
+        "sourceId": 1056,
+        "sourceName": "face-2",
+        "positionKeyCount": 0,
+        "scaleKeyCount": 0,
+        "inPoint": 0.0,
+        "outPoint": 56.25,
+        "parentIndex": null,
+        "hasTrackMatte": false,
+        "threeDLayer": false
+      },
+      "layerFingerprintSha256": "DAE18594366C385539C8BAE631D88261C6BAEEDB10A46C7A53830D83F49CC4E8"
+    },
+    {
+      "tileId": "tile-057",
+      "compId": 101,
+      "layerIndex": 57,
+      "layerName": "tile057",
+      "sourceId": 1057,
+      "sourceName": "face-3",
+      "faceId": "face-3",
+      "enabled": true,
+      "renderOrder": 57,
+      "inPoint": 0.0,
+      "outPoint": 57.25,
+      "startTime": 0.0,
+      "originalPosition": [
+        865.0,
+        1545.0
+      ],
+      "settledPositionKey": null,
+      "originalScale": [
+        100.0,
+        100.0
+      ],
+      "settledScaleKey": null,
+      "cardSize": [
+        110.0,
+        90.0
+      ],
+      "cardSizeProvenance": "source-dimensions-times-settled-scale",
+      "sourceBandId": null,
+      "parentIndex": null,
+      "hasTrackMatte": false,
+      "threeDLayer": false,
+      "layerFingerprint": {
+        "compId": 101,
+        "layerIndex": 57,
+        "layerName": "tile057",
+        "sourceId": 1057,
+        "sourceName": "face-3",
+        "positionKeyCount": 0,
+        "scaleKeyCount": 0,
+        "inPoint": 0.0,
+        "outPoint": 57.25,
+        "parentIndex": null,
+        "hasTrackMatte": false,
+        "threeDLayer": false
+      },
+      "layerFingerprintSha256": "FD61BD37EC08700FB4AAD9F90958788957DB33DBE1B538B1FB509A11FCDEBB04"
+    }
+  ],
+  "excludedCandidates": [],
+  "unclassifiedCandidates": [],
+  "inspection": {
+    "path": "examples/hourglass-40-visible-57-physical/synthetic-inspection.json",
+    "sha256": "E00D7C173B41937BCD3CBDD96CC6C657F7CFFD7D633A86858B4F4232160C68EE",
+    "bytes": 120483
+  },
+  "review": {
+    "status": "approved",
+    "issues": [],
+    "rationale": "All 57 enabled synthetic board tiles are classified exactly once."
+  }
+}

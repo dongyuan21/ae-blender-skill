@@ -1,0 +1,11 @@
+{
+  "seed": 0,
+  "maxRepairIterations": 500,
+  "candidateSwapLimit": 100,
+  "randomSwapSamples": 300,
+  "maxNoImprovementRounds": 3,
+  "movementWeight": 20.0,
+  "depthWeight": 40.0,
+  "riskWeight": 0.0,
+  "synthesizedSlotWeight": 0.0
+}

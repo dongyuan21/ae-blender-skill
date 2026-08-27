@@ -1,0 +1,524 @@
+{
+  "boardCompId": 101,
+  "candidateMode": "tileLayers",
+  "decisions": [
+    {
+      "compId": 101,
+      "layerIndex": 1,
+      "expectedLayerName": "tile001",
+      "expectedSourceId": 1001,
+      "include": true,
+      "tileId": "tile-001",
+      "faceId": "face-1"
+    },
+    {
+      "compId": 101,
+      "layerIndex": 2,
+      "expectedLayerName": "tile002",
+      "expectedSourceId": 1002,
+      "include": true,
+      "tileId": "tile-002",
+      "faceId": "face-2"
+    },
+    {
+      "compId": 101,
+      "layerIndex": 3,
+      "expectedLayerName": "tile003",
+      "expectedSourceId": 1003,
+      "include": true,
+      "tileId": "tile-003",
+      "faceId": "face-3"
+    },
+    {
+      "compId": 101,
+      "layerIndex": 4,
+      "expectedLayerName": "tile004",
+      "expectedSourceId": 1004,
+      "include": true,
+      "tileId": "tile-004",
+      "faceId": "face-4"
+    },
+    {
+      "compId": 101,
+      "layerIndex": 5,
+      "expectedLayerName": "tile005",
+      "expectedSourceId": 1005,
+      "include": true,
+      "tileId": "tile-005",
+      "faceId": "face-5"
+    },
+    {
+      "compId": 101,
+      "layerIndex": 6,
+      "expectedLayerName": "tile006",
+      "expectedSourceId": 1006,
+      "include": true,
+      "tileId": "tile-006",
+      "faceId": "face-6"
+    },
+    {
+      "compId": 101,
+      "layerIndex": 7,
+      "expectedLayerName": "tile007",
+      "expectedSourceId": 1007,
+      "include": true,
+      "tileId": "tile-007",
+      "faceId": "face-7"
+    },
+    {
+      "compId": 101,
+      "layerIndex": 8,
+      "expectedLayerName": "tile008",
+      "expectedSourceId": 1008,
+      "include": true,
+      "tileId": "tile-008",
+      "faceId": "face-8"
+    },
+    {
+      "compId": 101,
+      "layerIndex": 9,
+      "expectedLayerName": "tile009",
+      "expectedSourceId": 1009,
+      "include": true,
+      "tileId": "tile-009",
+      "faceId": "face-0"
+    },
+    {
+      "compId": 101,
+      "layerIndex": 10,
+      "expectedLayerName": "tile010",
+      "expectedSourceId": 1010,
+      "include": true,
+      "tileId": "tile-010",
+      "faceId": "face-1"
+    },
+    {
+      "compId": 101,
+      "layerIndex": 11,
+      "expectedLayerName": "tile011",
+      "expectedSourceId": 1011,
+      "include": true,
+      "tileId": "tile-011",
+      "faceId": "face-2"
+    },
+    {
+      "compId": 101,
+      "layerIndex": 12,
+      "expectedLayerName": "tile012",
+      "expectedSourceId": 1012,
+      "include": true,
+      "tileId": "tile-012",
+      "faceId": "face-3"
+    },
+    {
+      "compId": 101,
+      "layerIndex": 13,
+      "expectedLayerName": "tile013",
+      "expectedSourceId": 1013,
+      "include": true,
+      "tileId": "tile-013",
+      "faceId": "face-4"
+    },
+    {
+      "compId": 101,
+      "layerIndex": 14,
+      "expectedLayerName": "tile014",
+      "expectedSourceId": 1014,
+      "include": true,
+      "tileId": "tile-014",
+      "faceId": "face-5"
+    },
+    {
+      "compId": 101,
+      "layerIndex": 15,
+      "expectedLayerName": "tile015",
+      "expectedSourceId": 1015,
+      "include": true,
+      "tileId": "tile-015",
+      "faceId": "face-6"
+    },
+    {
+      "compId": 101,
+      "layerIndex": 16,
+      "expectedLayerName": "tile016",
+      "expectedSourceId": 1016,
+      "include": true,
+      "tileId": "tile-016",
+      "faceId": "face-7"
+    },
+    {
+      "compId": 101,
+      "layerIndex": 17,
+      "expectedLayerName": "tile017",
+      "expectedSourceId": 1017,
+      "include": true,
+      "tileId": "tile-017",
+      "faceId": "face-8"
+    },
+    {
+      "compId": 101,
+      "layerIndex": 18,
+      "expectedLayerName": "tile018",
+      "expectedSourceId": 1018,
+      "include": true,
+      "tileId": "tile-018",
+      "faceId": "face-0"
+    },
+    {
+      "compId": 101,
+      "layerIndex": 19,
+      "expectedLayerName": "tile019",
+      "expectedSourceId": 1019,
+      "include": true,
+      "tileId": "tile-019",
+      "faceId": "face-1"
+    },
+    {
+      "compId": 101,
+      "layerIndex": 20,
+      "expectedLayerName": "tile020",
+      "expectedSourceId": 1020,
+      "include": true,
+      "tileId": "tile-020",
+      "faceId": "face-2"
+    },
+    {
+      "compId": 101,
+      "layerIndex": 21,
+      "expectedLayerName": "tile021",
+      "expectedSourceId": 1021,
+      "include": true,
+      "tileId": "tile-021",
+      "faceId": "face-3"
+    },
+    {
+      "compId": 101,
+      "layerIndex": 22,
+      "expectedLayerName": "tile022",
+      "expectedSourceId": 1022,
+      "include": true,
+      "tileId": "tile-022",
+      "faceId": "face-4"
+    },
+    {
+      "compId": 101,
+      "layerIndex": 23,
+      "expectedLayerName": "tile023",
+      "expectedSourceId": 1023,
+      "include": true,
+      "tileId": "tile-023",
+      "faceId": "face-5"
+    },
+    {
+      "compId": 101,
+      "layerIndex": 24,
+      "expectedLayerName": "tile024",
+      "expectedSourceId": 1024,
+      "include": true,
+      "tileId": "tile-024",
+      "faceId": "face-6"
+    },
+    {
+      "compId": 101,
+      "layerIndex": 25,
+      "expectedLayerName": "tile025",
+      "expectedSourceId": 1025,
+      "include": true,
+      "tileId": "tile-025",
+      "faceId": "face-7"
+    },
+    {
+      "compId": 101,
+      "layerIndex": 26,
+      "expectedLayerName": "tile026",
+      "expectedSourceId": 1026,
+      "include": true,
+      "tileId": "tile-026",
+      "faceId": "face-8"
+    },
+    {
+      "compId": 101,
+      "layerIndex": 27,
+      "expectedLayerName": "tile027",
+      "expectedSourceId": 1027,
+      "include": true,
+      "tileId": "tile-027",
+      "faceId": "face-0"
+    },
+    {
+      "compId": 101,
+      "layerIndex": 28,
+      "expectedLayerName": "tile028",
+      "expectedSourceId": 1028,
+      "include": true,
+      "tileId": "tile-028",
+      "faceId": "face-1"
+    },
+    {
+      "compId": 101,
+      "layerIndex": 29,
+      "expectedLayerName": "tile029",
+      "expectedSourceId": 1029,
+      "include": true,
+      "tileId": "tile-029",
+      "faceId": "face-2"
+    },
+    {
+      "compId": 101,
+      "layerIndex": 30,
+      "expectedLayerName": "tile030",
+      "expectedSourceId": 1030,
+      "include": true,
+      "tileId": "tile-030",
+      "faceId": "face-3"
+    },
+    {
+      "compId": 101,
+      "layerIndex": 31,
+      "expectedLayerName": "tile031",
+      "expectedSourceId": 1031,
+      "include": true,
+      "tileId": "tile-031",
+      "faceId": "face-4"
+    },
+    {
+      "compId": 101,
+      "layerIndex": 32,
+      "expectedLayerName": "tile032",
+      "expectedSourceId": 1032,
+      "include": true,
+      "tileId": "tile-032",
+      "faceId": "face-5"
+    },
+    {
+      "compId": 101,
+      "layerIndex": 33,
+      "expectedLayerName": "tile033",
+      "expectedSourceId": 1033,
+      "include": true,
+      "tileId": "tile-033",
+      "faceId": "face-6"
+    },
+    {
+      "compId": 101,
+      "layerIndex": 34,
+      "expectedLayerName": "tile034",
+      "expectedSourceId": 1034,
+      "include": true,
+      "tileId": "tile-034",
+      "faceId": "face-7"
+    },
+    {
+      "compId": 101,
+      "layerIndex": 35,
+      "expectedLayerName": "tile035",
+      "expectedSourceId": 1035,
+      "include": true,
+      "tileId": "tile-035",
+      "faceId": "face-8"
+    },
+    {
+      "compId": 101,
+      "layerIndex": 36,
+      "expectedLayerName": "tile036",
+      "expectedSourceId": 1036,
+      "include": true,
+      "tileId": "tile-036",
+      "faceId": "face-0"
+    },
+    {
+      "compId": 101,
+      "layerIndex": 37,
+      "expectedLayerName": "tile037",
+      "expectedSourceId": 1037,
+      "include": true,
+      "tileId": "tile-037",
+      "faceId": "face-1"
+    },
+    {
+      "compId": 101,
+      "layerIndex": 38,
+      "expectedLayerName": "tile038",
+      "expectedSourceId": 1038,
+      "include": true,
+      "tileId": "tile-038",
+      "faceId": "face-2"
+    },
+    {
+      "compId": 101,
+      "layerIndex": 39,
+      "expectedLayerName": "tile039",
+      "expectedSourceId": 1039,
+      "include": true,
+      "tileId": "tile-039",
+      "faceId": "face-3"
+    },
+    {
+      "compId": 101,
+      "layerIndex": 40,
+      "expectedLayerName": "tile040",
+      "expectedSourceId": 1040,
+      "include": true,
+      "tileId": "tile-040",
+      "faceId": "face-4"
+    },
+    {
+      "compId": 101,
+      "layerIndex": 41,
+      "expectedLayerName": "tile041",
+      "expectedSourceId": 1041,
+      "include": true,
+      "tileId": "tile-041",
+      "faceId": "face-5"
+    },
+    {
+      "compId": 101,
+      "layerIndex": 42,
+      "expectedLayerName": "tile042",
+      "expectedSourceId": 1042,
+      "include": true,
+      "tileId": "tile-042",
+      "faceId": "face-6"
+    },
+    {
+      "compId": 101,
+      "layerIndex": 43,
+      "expectedLayerName": "tile043",
+      "expectedSourceId": 1043,
+      "include": true,
+      "tileId": "tile-043",
+      "faceId": "face-7"
+    },
+    {
+      "compId": 101,
+      "layerIndex": 44,
+      "expectedLayerName": "tile044",
+      "expectedSourceId": 1044,
+      "include": true,
+      "tileId": "tile-044",
+      "faceId": "face-8"
+    },
+    {
+      "compId": 101,
+      "layerIndex": 45,
+      "expectedLayerName": "tile045",
+      "expectedSourceId": 1045,
+      "include": true,
+      "tileId": "tile-045",
+      "faceId": "face-0"
+    },
+    {
+      "compId": 101,
+      "layerIndex": 46,
+      "expectedLayerName": "tile046",
+      "expectedSourceId": 1046,
+      "include": true,
+      "tileId": "tile-046",
+      "faceId": "face-1"
+    },
+    {
+      "compId": 101,
+      "layerIndex": 47,
+      "expectedLayerName": "tile047",
+      "expectedSourceId": 1047,
+      "include": true,
+      "tileId": "tile-047",
+      "faceId": "face-2"
+    },
+    {
+      "compId": 101,
+      "layerIndex": 48,
+      "expectedLayerName": "tile048",
+      "expectedSourceId": 1048,
+      "include": true,
+      "tileId": "tile-048",
+      "faceId": "face-3"
+    },
+    {
+      "compId": 101,
+      "layerIndex": 49,
+      "expectedLayerName": "tile049",
+      "expectedSourceId": 1049,
+      "include": true,
+      "tileId": "tile-049",
+      "faceId": "face-4"
+    },
+    {
+      "compId": 101,
+      "layerIndex": 50,
+      "expectedLayerName": "tile050",
+      "expectedSourceId": 1050,
+      "include": true,
+      "tileId": "tile-050",
+      "faceId": "face-5"
+    },
+    {
+      "compId": 101,
+      "layerIndex": 51,
+      "expectedLayerName": "tile051",
+      "expectedSourceId": 1051,
+      "include": true,
+      "tileId": "tile-051",
+      "faceId": "face-6"
+    },
+    {
+      "compId": 101,
+      "layerIndex": 52,
+      "expectedLayerName": "tile052",
+      "expectedSourceId": 1052,
+      "include": true,
+      "tileId": "tile-052",
+      "faceId": "face-7"
+    },
+    {
+      "compId": 101,
+      "layerIndex": 53,
+      "expectedLayerName": "tile053",
+      "expectedSourceId": 1053,
+      "include": true,
+      "tileId": "tile-053",
+      "faceId": "face-8"
+    },
+    {
+      "compId": 101,
+      "layerIndex": 54,
+      "expectedLayerName": "tile054",
+      "expectedSourceId": 1054,
+      "include": true,
+      "tileId": "tile-054",
+      "faceId": "face-0"
+    },
+    {
+      "compId": 101,
+      "layerIndex": 55,
+      "expectedLayerName": "tile055",
+      "expectedSourceId": 1055,
+      "include": true,
+      "tileId": "tile-055",
+      "faceId": "face-1"
+    },
+    {
+      "compId": 101,
+      "layerIndex": 56,
+      "expectedLayerName": "tile056",
+      "expectedSourceId": 1056,
+      "include": true,
+      "tileId": "tile-056",
+      "faceId": "face-2"
+    },
+    {
+      "compId": 101,
+      "layerIndex": 57,
+      "expectedLayerName": "tile057",
+      "expectedSourceId": 1057,
+      "include": true,
+      "tileId": "tile-057",
+      "faceId": "face-3"
+    }
+  ],
+  "review": {
+    "status": "approved",
+    "issues": [],
+    "rationale": "All 57 enabled synthetic board tiles are classified exactly once."
+  }
+}

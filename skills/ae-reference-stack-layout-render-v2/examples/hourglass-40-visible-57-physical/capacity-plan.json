@@ -1,0 +1,1700 @@
+{
+  "schemaVersion": 2,
+  "artifactType": "capacity-plan",
+  "createdAt": "2026-08-27T14:11:28+00:00",
+  "mode": "explicit-total-depth",
+  "coordinateSystem": {
+    "space": "board-comp",
+    "width": 1080.0,
+    "height": 1920.0
+  },
+  "safeRegion": {
+    "left": 80,
+    "top": 165,
+    "right": 1000,
+    "bottom": 1750
+  },
+  "overlapThreshold": 0.001,
+  "sourceTileCount": 57,
+  "visibleAnchorCount": 40,
+  "physicalSlotCount": 57,
+  "hiddenSlotCount": 17,
+  "sourceFactsSha256": "0A583DF567C08999FAE3015E2109E0A37B9B1B8F128390E43909A4CBDAAE05DC",
+  "visibleLayoutSha256": "80BD4D743E6CA61309E5637D578E83FABC03544099DEDAB5BA8DC7E60D248098",
+  "depthEvidenceSha256": "B056AD1CFC01DBB4F4A6DE4624C7A2E9714329B86F8DA07861F62168F0BF0E63",
+  "eventModel": {
+    "path": "examples/hourglass-40-visible-57-physical/source-event-model.json",
+    "sha256": "C09807C4F617FC9E9C4DE8232EF963957558CBFD26D173E95E9CAD050A4FDBA0",
+    "bytes": 56610
+  },
+  "visibleLayout": {
+    "path": "examples/hourglass-40-visible-57-physical/visible-layout.json",
+    "sha256": "80BD4D743E6CA61309E5637D578E83FABC03544099DEDAB5BA8DC7E60D248098",
+    "bytes": 16679
+  },
+  "depthEvidence": {
+    "path": "examples/hourglass-40-visible-57-physical/observed-depth.json",
+    "sha256": "B056AD1CFC01DBB4F4A6DE4624C7A2E9714329B86F8DA07861F62168F0BF0E63",
+    "bytes": 9319
+  },
+  "perAnchorCapacity": [
+    {
+      "anchorId": "r01-c01",
+      "totalDepth": 1,
+      "evidenceMinDepth": 1,
+      "evidenceMaxDepth": 1,
+      "surplusDepth": 0
+    },
+    {
+      "anchorId": "r01-c02",
+      "totalDepth": 1,
+      "evidenceMinDepth": 1,
+      "evidenceMaxDepth": 1,
+      "surplusDepth": 0
+    },
+    {
+      "anchorId": "r01-c03",
+      "totalDepth": 2,
+      "evidenceMinDepth": 1,
+      "evidenceMaxDepth": 2,
+      "surplusDepth": 1
+    },
+    {
+      "anchorId": "r01-c04",
+      "totalDepth": 2,
+      "evidenceMinDepth": 1,
+      "evidenceMaxDepth": 2,
+      "surplusDepth": 1
+    },
+    {
+      "anchorId": "r01-c05",
+      "totalDepth": 1,
+      "evidenceMinDepth": 1,
+      "evidenceMaxDepth": 1,
+      "surplusDepth": 0
+    },
+    {
+      "anchorId": "r01-c06",
+      "totalDepth": 1,
+      "evidenceMinDepth": 1,
+      "evidenceMaxDepth": 1,
+      "surplusDepth": 0
+    },
+    {
+      "anchorId": "r02-c01",
+      "totalDepth": 1,
+      "evidenceMinDepth": 1,
+      "evidenceMaxDepth": 1,
+      "surplusDepth": 0
+    },
+    {
+      "anchorId": "r02-c02",
+      "totalDepth": 1,
+      "evidenceMinDepth": 1,
+      "evidenceMaxDepth": 1,
+      "surplusDepth": 0
+    },
+    {
+      "anchorId": "r02-c03",
+      "totalDepth": 2,
+      "evidenceMinDepth": 1,
+      "evidenceMaxDepth": 2,
+      "surplusDepth": 1
+    },
+    {
+      "anchorId": "r02-c04",
+      "totalDepth": 1,
+      "evidenceMinDepth": 1,
+      "evidenceMaxDepth": 1,
+      "surplusDepth": 0
+    },
+    {
+      "anchorId": "r02-c05",
+      "totalDepth": 1,
+      "evidenceMinDepth": 1,
+      "evidenceMaxDepth": 1,
+      "surplusDepth": 0
+    },
+    {
+      "anchorId": "r03-c01",
+      "totalDepth": 1,
+      "evidenceMinDepth": 1,
+      "evidenceMaxDepth": 1,
+      "surplusDepth": 0
+    },
+    {
+      "anchorId": "r03-c02",
+      "totalDepth": 2,
+      "evidenceMinDepth": 1,
+      "evidenceMaxDepth": 2,
+      "surplusDepth": 1
+    },
+    {
+      "anchorId": "r03-c03",
+      "totalDepth": 2,
+      "evidenceMinDepth": 1,
+      "evidenceMaxDepth": 2,
+      "surplusDepth": 1
+    },
+    {
+      "anchorId": "r03-c04",
+      "totalDepth": 1,
+      "evidenceMinDepth": 1,
+      "evidenceMaxDepth": 1,
+      "surplusDepth": 0
+    },
+    {
+      "anchorId": "r04-c01",
+      "totalDepth": 1,
+      "evidenceMinDepth": 1,
+      "evidenceMaxDepth": 1,
+      "surplusDepth": 0
+    },
+    {
+      "anchorId": "r04-c02",
+      "totalDepth": 2,
+      "evidenceMinDepth": 1,
+      "evidenceMaxDepth": 2,
+      "surplusDepth": 1
+    },
+    {
+      "anchorId": "r04-c03",
+      "totalDepth": 1,
+      "evidenceMinDepth": 1,
+      "evidenceMaxDepth": 1,
+      "surplusDepth": 0
+    },
+    {
+      "anchorId": "r05-c01",
+      "totalDepth": 3,
+      "evidenceMinDepth": 1,
+      "evidenceMaxDepth": 3,
+      "surplusDepth": 2
+    },
+    {
+      "anchorId": "r05-c02",
+      "totalDepth": 2,
+      "evidenceMinDepth": 1,
+      "evidenceMaxDepth": 2,
+      "surplusDepth": 1
+    },
+    {
+      "anchorId": "r06-c01",
+      "totalDepth": 2,
+      "evidenceMinDepth": 1,
+      "evidenceMaxDepth": 2,
+      "surplusDepth": 1
+    },
+    {
+      "anchorId": "r06-c02",
+      "totalDepth": 3,
+      "evidenceMinDepth": 1,
+      "evidenceMaxDepth": 3,
+      "surplusDepth": 2
+    },
+    {
+      "anchorId": "r07-c01",
+      "totalDepth": 1,
+      "evidenceMinDepth": 1,
+      "evidenceMaxDepth": 1,
+      "surplusDepth": 0
+    },
+    {
+      "anchorId": "r07-c02",
+      "totalDepth": 2,
+      "evidenceMinDepth": 1,
+      "evidenceMaxDepth": 2,
+      "surplusDepth": 1
+    },
+    {
+      "anchorId": "r07-c03",
+      "totalDepth": 1,
+      "evidenceMinDepth": 1,
+      "evidenceMaxDepth": 1,
+      "surplusDepth": 0
+    },
+    {
+      "anchorId": "r08-c01",
+      "totalDepth": 1,
+      "evidenceMinDepth": 1,
+      "evidenceMaxDepth": 1,
+      "surplusDepth": 0
+    },
+    {
+      "anchorId": "r08-c02",
+      "totalDepth": 2,
+      "evidenceMinDepth": 1,
+      "evidenceMaxDepth": 2,
+      "surplusDepth": 1
+    },
+    {
+      "anchorId": "r08-c03",
+      "totalDepth": 2,
+      "evidenceMinDepth": 1,
+      "evidenceMaxDepth": 2,
+      "surplusDepth": 1
+    },
+    {
+      "anchorId": "r08-c04",
+      "totalDepth": 1,
+      "evidenceMinDepth": 1,
+      "evidenceMaxDepth": 1,
+      "surplusDepth": 0
+    },
+    {
+      "anchorId": "r09-c01",
+      "totalDepth": 1,
+      "evidenceMinDepth": 1,
+      "evidenceMaxDepth": 1,
+      "surplusDepth": 0
+    },
+    {
+      "anchorId": "r09-c02",
+      "totalDepth": 1,
+      "evidenceMinDepth": 1,
+      "evidenceMaxDepth": 1,
+      "surplusDepth": 0
+    },
+    {
+      "anchorId": "r09-c03",
+      "totalDepth": 1,
+      "evidenceMinDepth": 1,
+      "evidenceMaxDepth": 1,
+      "surplusDepth": 0
+    },
+    {
+      "anchorId": "r09-c04",
+      "totalDepth": 1,
+      "evidenceMinDepth": 1,
+      "evidenceMaxDepth": 1,
+      "surplusDepth": 0
+    },
+    {
+      "anchorId": "r09-c05",
+      "totalDepth": 1,
+      "evidenceMinDepth": 1,
+      "evidenceMaxDepth": 1,
+      "surplusDepth": 0
+    },
+    {
+      "anchorId": "r10-c01",
+      "totalDepth": 1,
+      "evidenceMinDepth": 1,
+      "evidenceMaxDepth": 1,
+      "surplusDepth": 0
+    },
+    {
+      "anchorId": "r10-c02",
+      "totalDepth": 1,
+      "evidenceMinDepth": 1,
+      "evidenceMaxDepth": 1,
+      "surplusDepth": 0
+    },
+    {
+      "anchorId": "r10-c03",
+      "totalDepth": 2,
+      "evidenceMinDepth": 1,
+      "evidenceMaxDepth": 2,
+      "surplusDepth": 1
+    },
+    {
+      "anchorId": "r10-c04",
+      "totalDepth": 2,
+      "evidenceMinDepth": 1,
+      "evidenceMaxDepth": 2,
+      "surplusDepth": 1
+    },
+    {
+      "anchorId": "r10-c05",
+      "totalDepth": 1,
+      "evidenceMinDepth": 1,
+      "evidenceMaxDepth": 1,
+      "surplusDepth": 0
+    },
+    {
+      "anchorId": "r10-c06",
+      "totalDepth": 1,
+      "evidenceMinDepth": 1,
+      "evidenceMaxDepth": 1,
+      "surplusDepth": 0
+    }
+  ],
+  "provenanceCounts": {
+    "observed-top-surface": 40,
+    "synthesized-for-surplus": 17
+  },
+  "hiddenOffsetPerDepth": [
+    0.0,
+    0.0
+  ],
+  "slots": [
+    {
+      "slotId": "r01-c01::d0",
+      "surfaceAnchorId": "r01-c01",
+      "depthIndex": 0,
+      "center": [
+        215.0,
+        330.0
+      ],
+      "size": [
+        110.0,
+        90.0
+      ],
+      "row": 1,
+      "column": 1,
+      "depthBandId": "depth-0",
+      "visibility": "visible",
+      "provenance": "observed-top-surface",
+      "source": {
+        "anchorEvidence": "observed",
+        "depthEvidenceClass": "unknown"
+      }
+    },
+    {
+      "slotId": "r01-c02::d0",
+      "surfaceAnchorId": "r01-c02",
+      "depthIndex": 0,
+      "center": [
+        345.0,
+        330.0
+      ],
+      "size": [
+        110.0,
+        90.0
+      ],
+      "row": 1,
+      "column": 2,
+      "depthBandId": "depth-0",
+      "visibility": "visible",
+      "provenance": "observed-top-surface",
+      "source": {
+        "anchorEvidence": "observed",
+        "depthEvidenceClass": "unknown"
+      }
+    },
+    {
+      "slotId": "r01-c03::d0",
+      "surfaceAnchorId": "r01-c03",
+      "depthIndex": 0,
+      "center": [
+        475.0,
+        330.0
+      ],
+      "size": [
+        110.0,
+        90.0
+      ],
+      "row": 1,
+      "column": 3,
+      "depthBandId": "depth-0",
+      "visibility": "visible",
+      "provenance": "observed-top-surface",
+      "source": {
+        "anchorEvidence": "observed",
+        "depthEvidenceClass": "unknown"
+      }
+    },
+    {
+      "slotId": "r01-c03::d1",
+      "surfaceAnchorId": "r01-c03",
+      "depthIndex": 1,
+      "center": [
+        475.0,
+        330.0
+      ],
+      "size": [
+        110.0,
+        90.0
+      ],
+      "row": 1,
+      "column": 3,
+      "depthBandId": "depth-1",
+      "visibility": "fully-hidden",
+      "provenance": "synthesized-for-surplus",
+      "source": {
+        "anchorEvidence": "observed",
+        "depthEvidenceClass": "unknown"
+      }
+    },
+    {
+      "slotId": "r01-c04::d0",
+      "surfaceAnchorId": "r01-c04",
+      "depthIndex": 0,
+      "center": [
+        605.0,
+        330.0
+      ],
+      "size": [
+        110.0,
+        90.0
+      ],
+      "row": 1,
+      "column": 4,
+      "depthBandId": "depth-0",
+      "visibility": "visible",
+      "provenance": "observed-top-surface",
+      "source": {
+        "anchorEvidence": "observed",
+        "depthEvidenceClass": "unknown"
+      }
+    },
+    {
+      "slotId": "r01-c04::d1",
+      "surfaceAnchorId": "r01-c04",
+      "depthIndex": 1,
+      "center": [
+        605.0,
+        330.0
+      ],
+      "size": [
+        110.0,
+        90.0
+      ],
+      "row": 1,
+      "column": 4,
+      "depthBandId": "depth-1",
+      "visibility": "fully-hidden",
+      "provenance": "synthesized-for-surplus",
+      "source": {
+        "anchorEvidence": "observed",
+        "depthEvidenceClass": "unknown"
+      }
+    },
+    {
+      "slotId": "r01-c05::d0",
+      "surfaceAnchorId": "r01-c05",
+      "depthIndex": 0,
+      "center": [
+        735.0,
+        330.0
+      ],
+      "size": [
+        110.0,
+        90.0
+      ],
+      "row": 1,
+      "column": 5,
+      "depthBandId": "depth-0",
+      "visibility": "visible",
+      "provenance": "observed-top-surface",
+      "source": {
+        "anchorEvidence": "observed",
+        "depthEvidenceClass": "unknown"
+      }
+    },
+    {
+      "slotId": "r01-c06::d0",
+      "surfaceAnchorId": "r01-c06",
+      "depthIndex": 0,
+      "center": [
+        865.0,
+        330.0
+      ],
+      "size": [
+        110.0,
+        90.0
+      ],
+      "row": 1,
+      "column": 6,
+      "depthBandId": "depth-0",
+      "visibility": "visible",
+      "provenance": "observed-top-surface",
+      "source": {
+        "anchorEvidence": "observed",
+        "depthEvidenceClass": "unknown"
+      }
+    },
+    {
+      "slotId": "r02-c01::d0",
+      "surfaceAnchorId": "r02-c01",
+      "depthIndex": 0,
+      "center": [
+        280.0,
+        465.0
+      ],
+      "size": [
+        110.0,
+        90.0
+      ],
+      "row": 2,
+      "column": 1,
+      "depthBandId": "depth-0",
+      "visibility": "visible",
+      "provenance": "observed-top-surface",
+      "source": {
+        "anchorEvidence": "observed",
+        "depthEvidenceClass": "unknown"
+      }
+    },
+    {
+      "slotId": "r02-c02::d0",
+      "surfaceAnchorId": "r02-c02",
+      "depthIndex": 0,
+      "center": [
+        410.0,
+        465.0
+      ],
+      "size": [
+        110.0,
+        90.0
+      ],
+      "row": 2,
+      "column": 2,
+      "depthBandId": "depth-0",
+      "visibility": "visible",
+      "provenance": "observed-top-surface",
+      "source": {
+        "anchorEvidence": "observed",
+        "depthEvidenceClass": "unknown"
+      }
+    },
+    {
+      "slotId": "r02-c03::d0",
+      "surfaceAnchorId": "r02-c03",
+      "depthIndex": 0,
+      "center": [
+        540.0,
+        465.0
+      ],
+      "size": [
+        110.0,
+        90.0
+      ],
+      "row": 2,
+      "column": 3,
+      "depthBandId": "depth-0",
+      "visibility": "visible",
+      "provenance": "observed-top-surface",
+      "source": {
+        "anchorEvidence": "observed",
+        "depthEvidenceClass": "unknown"
+      }
+    },
+    {
+      "slotId": "r02-c03::d1",
+      "surfaceAnchorId": "r02-c03",
+      "depthIndex": 1,
+      "center": [
+        540.0,
+        465.0
+      ],
+      "size": [
+        110.0,
+        90.0
+      ],
+      "row": 2,
+      "column": 3,
+      "depthBandId": "depth-1",
+      "visibility": "fully-hidden",
+      "provenance": "synthesized-for-surplus",
+      "source": {
+        "anchorEvidence": "observed",
+        "depthEvidenceClass": "unknown"
+      }
+    },
+    {
+      "slotId": "r02-c04::d0",
+      "surfaceAnchorId": "r02-c04",
+      "depthIndex": 0,
+      "center": [
+        670.0,
+        465.0
+      ],
+      "size": [
+        110.0,
+        90.0
+      ],
+      "row": 2,
+      "column": 4,
+      "depthBandId": "depth-0",
+      "visibility": "visible",
+      "provenance": "observed-top-surface",
+      "source": {
+        "anchorEvidence": "observed",
+        "depthEvidenceClass": "unknown"
+      }
+    },
+    {
+      "slotId": "r02-c05::d0",
+      "surfaceAnchorId": "r02-c05",
+      "depthIndex": 0,
+      "center": [
+        800.0,
+        465.0
+      ],
+      "size": [
+        110.0,
+        90.0
+      ],
+      "row": 2,
+      "column": 5,
+      "depthBandId": "depth-0",
+      "visibility": "visible",
+      "provenance": "observed-top-surface",
+      "source": {
+        "anchorEvidence": "observed",
+        "depthEvidenceClass": "unknown"
+      }
+    },
+    {
+      "slotId": "r03-c01::d0",
+      "surfaceAnchorId": "r03-c01",
+      "depthIndex": 0,
+      "center": [
+        345.0,
+        600.0
+      ],
+      "size": [
+        110.0,
+        90.0
+      ],
+      "row": 3,
+      "column": 1,
+      "depthBandId": "depth-0",
+      "visibility": "visible",
+      "provenance": "observed-top-surface",
+      "source": {
+        "anchorEvidence": "observed",
+        "depthEvidenceClass": "unknown"
+      }
+    },
+    {
+      "slotId": "r03-c02::d0",
+      "surfaceAnchorId": "r03-c02",
+      "depthIndex": 0,
+      "center": [
+        475.0,
+        600.0
+      ],
+      "size": [
+        110.0,
+        90.0
+      ],
+      "row": 3,
+      "column": 2,
+      "depthBandId": "depth-0",
+      "visibility": "visible",
+      "provenance": "observed-top-surface",
+      "source": {
+        "anchorEvidence": "observed",
+        "depthEvidenceClass": "unknown"
+      }
+    },
+    {
+      "slotId": "r03-c02::d1",
+      "surfaceAnchorId": "r03-c02",
+      "depthIndex": 1,
+      "center": [
+        475.0,
+        600.0
+      ],
+      "size": [
+        110.0,
+        90.0
+      ],
+      "row": 3,
+      "column": 2,
+      "depthBandId": "depth-1",
+      "visibility": "fully-hidden",
+      "provenance": "synthesized-for-surplus",
+      "source": {
+        "anchorEvidence": "observed",
+        "depthEvidenceClass": "unknown"
+      }
+    },
+    {
+      "slotId": "r03-c03::d0",
+      "surfaceAnchorId": "r03-c03",
+      "depthIndex": 0,
+      "center": [
+        605.0,
+        600.0
+      ],
+      "size": [
+        110.0,
+        90.0
+      ],
+      "row": 3,
+      "column": 3,
+      "depthBandId": "depth-0",
+      "visibility": "visible",
+      "provenance": "observed-top-surface",
+      "source": {
+        "anchorEvidence": "observed",
+        "depthEvidenceClass": "unknown"
+      }
+    },
+    {
+      "slotId": "r03-c03::d1",
+      "surfaceAnchorId": "r03-c03",
+      "depthIndex": 1,
+      "center": [
+        605.0,
+        600.0
+      ],
+      "size": [
+        110.0,
+        90.0
+      ],
+      "row": 3,
+      "column": 3,
+      "depthBandId": "depth-1",
+      "visibility": "fully-hidden",
+      "provenance": "synthesized-for-surplus",
+      "source": {
+        "anchorEvidence": "observed",
+        "depthEvidenceClass": "unknown"
+      }
+    },
+    {
+      "slotId": "r03-c04::d0",
+      "surfaceAnchorId": "r03-c04",
+      "depthIndex": 0,
+      "center": [
+        735.0,
+        600.0
+      ],
+      "size": [
+        110.0,
+        90.0
+      ],
+      "row": 3,
+      "column": 4,
+      "depthBandId": "depth-0",
+      "visibility": "visible",
+      "provenance": "observed-top-surface",
+      "source": {
+        "anchorEvidence": "observed",
+        "depthEvidenceClass": "unknown"
+      }
+    },
+    {
+      "slotId": "r04-c01::d0",
+      "surfaceAnchorId": "r04-c01",
+      "depthIndex": 0,
+      "center": [
+        410.0,
+        735.0
+      ],
+      "size": [
+        110.0,
+        90.0
+      ],
+      "row": 4,
+      "column": 1,
+      "depthBandId": "depth-0",
+      "visibility": "visible",
+      "provenance": "observed-top-surface",
+      "source": {
+        "anchorEvidence": "observed",
+        "depthEvidenceClass": "unknown"
+      }
+    },
+    {
+      "slotId": "r04-c02::d0",
+      "surfaceAnchorId": "r04-c02",
+      "depthIndex": 0,
+      "center": [
+        540.0,
+        735.0
+      ],
+      "size": [
+        110.0,
+        90.0
+      ],
+      "row": 4,
+      "column": 2,
+      "depthBandId": "depth-0",
+      "visibility": "visible",
+      "provenance": "observed-top-surface",
+      "source": {
+        "anchorEvidence": "observed",
+        "depthEvidenceClass": "unknown"
+      }
+    },
+    {
+      "slotId": "r04-c02::d1",
+      "surfaceAnchorId": "r04-c02",
+      "depthIndex": 1,
+      "center": [
+        540.0,
+        735.0
+      ],
+      "size": [
+        110.0,
+        90.0
+      ],
+      "row": 4,
+      "column": 2,
+      "depthBandId": "depth-1",
+      "visibility": "fully-hidden",
+      "provenance": "synthesized-for-surplus",
+      "source": {
+        "anchorEvidence": "observed",
+        "depthEvidenceClass": "unknown"
+      }
+    },
+    {
+      "slotId": "r04-c03::d0",
+      "surfaceAnchorId": "r04-c03",
+      "depthIndex": 0,
+      "center": [
+        670.0,
+        735.0
+      ],
+      "size": [
+        110.0,
+        90.0
+      ],
+      "row": 4,
+      "column": 3,
+      "depthBandId": "depth-0",
+      "visibility": "visible",
+      "provenance": "observed-top-surface",
+      "source": {
+        "anchorEvidence": "observed",
+        "depthEvidenceClass": "unknown"
+      }
+    },
+    {
+      "slotId": "r05-c01::d0",
+      "surfaceAnchorId": "r05-c01",
+      "depthIndex": 0,
+      "center": [
+        475.0,
+        870.0
+      ],
+      "size": [
+        110.0,
+        90.0
+      ],
+      "row": 5,
+      "column": 1,
+      "depthBandId": "depth-0",
+      "visibility": "visible",
+      "provenance": "observed-top-surface",
+      "source": {
+        "anchorEvidence": "observed",
+        "depthEvidenceClass": "unknown"
+      }
+    },
+    {
+      "slotId": "r05-c01::d1",
+      "surfaceAnchorId": "r05-c01",
+      "depthIndex": 1,
+      "center": [
+        475.0,
+        870.0
+      ],
+      "size": [
+        110.0,
+        90.0
+      ],
+      "row": 5,
+      "column": 1,
+      "depthBandId": "depth-1",
+      "visibility": "fully-hidden",
+      "provenance": "synthesized-for-surplus",
+      "source": {
+        "anchorEvidence": "observed",
+        "depthEvidenceClass": "unknown"
+      }
+    },
+    {
+      "slotId": "r05-c01::d2",
+      "surfaceAnchorId": "r05-c01",
+      "depthIndex": 2,
+      "center": [
+        475.0,
+        870.0
+      ],
+      "size": [
+        110.0,
+        90.0
+      ],
+      "row": 5,
+      "column": 1,
+      "depthBandId": "depth-2",
+      "visibility": "fully-hidden",
+      "provenance": "synthesized-for-surplus",
+      "source": {
+        "anchorEvidence": "observed",
+        "depthEvidenceClass": "unknown"
+      }
+    },
+    {
+      "slotId": "r05-c02::d0",
+      "surfaceAnchorId": "r05-c02",
+      "depthIndex": 0,
+      "center": [
+        605.0,
+        870.0
+      ],
+      "size": [
+        110.0,
+        90.0
+      ],
+      "row": 5,
+      "column": 2,
+      "depthBandId": "depth-0",
+      "visibility": "visible",
+      "provenance": "observed-top-surface",
+      "source": {
+        "anchorEvidence": "observed",
+        "depthEvidenceClass": "unknown"
+      }
+    },
+    {
+      "slotId": "r05-c02::d1",
+      "surfaceAnchorId": "r05-c02",
+      "depthIndex": 1,
+      "center": [
+        605.0,
+        870.0
+      ],
+      "size": [
+        110.0,
+        90.0
+      ],
+      "row": 5,
+      "column": 2,
+      "depthBandId": "depth-1",
+      "visibility": "fully-hidden",
+      "provenance": "synthesized-for-surplus",
+      "source": {
+        "anchorEvidence": "observed",
+        "depthEvidenceClass": "unknown"
+      }
+    },
+    {
+      "slotId": "r06-c01::d0",
+      "surfaceAnchorId": "r06-c01",
+      "depthIndex": 0,
+      "center": [
+        475.0,
+        1005.0
+      ],
+      "size": [
+        110.0,
+        90.0
+      ],
+      "row": 6,
+      "column": 1,
+      "depthBandId": "depth-0",
+      "visibility": "visible",
+      "provenance": "observed-top-surface",
+      "source": {
+        "anchorEvidence": "observed",
+        "depthEvidenceClass": "unknown"
+      }
+    },
+    {
+      "slotId": "r06-c01::d1",
+      "surfaceAnchorId": "r06-c01",
+      "depthIndex": 1,
+      "center": [
+        475.0,
+        1005.0
+      ],
+      "size": [
+        110.0,
+        90.0
+      ],
+      "row": 6,
+      "column": 1,
+      "depthBandId": "depth-1",
+      "visibility": "fully-hidden",
+      "provenance": "synthesized-for-surplus",
+      "source": {
+        "anchorEvidence": "observed",
+        "depthEvidenceClass": "unknown"
+      }
+    },
+    {
+      "slotId": "r06-c02::d0",
+      "surfaceAnchorId": "r06-c02",
+      "depthIndex": 0,
+      "center": [
+        605.0,
+        1005.0
+      ],
+      "size": [
+        110.0,
+        90.0
+      ],
+      "row": 6,
+      "column": 2,
+      "depthBandId": "depth-0",
+      "visibility": "visible",
+      "provenance": "observed-top-surface",
+      "source": {
+        "anchorEvidence": "observed",
+        "depthEvidenceClass": "unknown"
+      }
+    },
+    {
+      "slotId": "r06-c02::d1",
+      "surfaceAnchorId": "r06-c02",
+      "depthIndex": 1,
+      "center": [
+        605.0,
+        1005.0
+      ],
+      "size": [
+        110.0,
+        90.0
+      ],
+      "row": 6,
+      "column": 2,
+      "depthBandId": "depth-1",
+      "visibility": "fully-hidden",
+      "provenance": "synthesized-for-surplus",
+      "source": {
+        "anchorEvidence": "observed",
+        "depthEvidenceClass": "unknown"
+      }
+    },
+    {
+      "slotId": "r06-c02::d2",
+      "surfaceAnchorId": "r06-c02",
+      "depthIndex": 2,
+      "center": [
+        605.0,
+        1005.0
+      ],
+      "size": [
+        110.0,
+        90.0
+      ],
+      "row": 6,
+      "column": 2,
+      "depthBandId": "depth-2",
+      "visibility": "fully-hidden",
+      "provenance": "synthesized-for-surplus",
+      "source": {
+        "anchorEvidence": "observed",
+        "depthEvidenceClass": "unknown"
+      }
+    },
+    {
+      "slotId": "r07-c01::d0",
+      "surfaceAnchorId": "r07-c01",
+      "depthIndex": 0,
+      "center": [
+        410.0,
+        1140.0
+      ],
+      "size": [
+        110.0,
+        90.0
+      ],
+      "row": 7,
+      "column": 1,
+      "depthBandId": "depth-0",
+      "visibility": "visible",
+      "provenance": "observed-top-surface",
+      "source": {
+        "anchorEvidence": "observed",
+        "depthEvidenceClass": "unknown"
+      }
+    },
+    {
+      "slotId": "r07-c02::d0",
+      "surfaceAnchorId": "r07-c02",
+      "depthIndex": 0,
+      "center": [
+        540.0,
+        1140.0
+      ],
+      "size": [
+        110.0,
+        90.0
+      ],
+      "row": 7,
+      "column": 2,
+      "depthBandId": "depth-0",
+      "visibility": "visible",
+      "provenance": "observed-top-surface",
+      "source": {
+        "anchorEvidence": "observed",
+        "depthEvidenceClass": "unknown"
+      }
+    },
+    {
+      "slotId": "r07-c02::d1",
+      "surfaceAnchorId": "r07-c02",
+      "depthIndex": 1,
+      "center": [
+        540.0,
+        1140.0
+      ],
+      "size": [
+        110.0,
+        90.0
+      ],
+      "row": 7,
+      "column": 2,
+      "depthBandId": "depth-1",
+      "visibility": "fully-hidden",
+      "provenance": "synthesized-for-surplus",
+      "source": {
+        "anchorEvidence": "observed",
+        "depthEvidenceClass": "unknown"
+      }
+    },
+    {
+      "slotId": "r07-c03::d0",
+      "surfaceAnchorId": "r07-c03",
+      "depthIndex": 0,
+      "center": [
+        670.0,
+        1140.0
+      ],
+      "size": [
+        110.0,
+        90.0
+      ],
+      "row": 7,
+      "column": 3,
+      "depthBandId": "depth-0",
+      "visibility": "visible",
+      "provenance": "observed-top-surface",
+      "source": {
+        "anchorEvidence": "observed",
+        "depthEvidenceClass": "unknown"
+      }
+    },
+    {
+      "slotId": "r08-c01::d0",
+      "surfaceAnchorId": "r08-c01",
+      "depthIndex": 0,
+      "center": [
+        345.0,
+        1275.0
+      ],
+      "size": [
+        110.0,
+        90.0
+      ],
+      "row": 8,
+      "column": 1,
+      "depthBandId": "depth-0",
+      "visibility": "visible",
+      "provenance": "observed-top-surface",
+      "source": {
+        "anchorEvidence": "observed",
+        "depthEvidenceClass": "unknown"
+      }
+    },
+    {
+      "slotId": "r08-c02::d0",
+      "surfaceAnchorId": "r08-c02",
+      "depthIndex": 0,
+      "center": [
+        475.0,
+        1275.0
+      ],
+      "size": [
+        110.0,
+        90.0
+      ],
+      "row": 8,
+      "column": 2,
+      "depthBandId": "depth-0",
+      "visibility": "visible",
+      "provenance": "observed-top-surface",
+      "source": {
+        "anchorEvidence": "observed",
+        "depthEvidenceClass": "unknown"
+      }
+    },
+    {
+      "slotId": "r08-c02::d1",
+      "surfaceAnchorId": "r08-c02",
+      "depthIndex": 1,
+      "center": [
+        475.0,
+        1275.0
+      ],
+      "size": [
+        110.0,
+        90.0
+      ],
+      "row": 8,
+      "column": 2,
+      "depthBandId": "depth-1",
+      "visibility": "fully-hidden",
+      "provenance": "synthesized-for-surplus",
+      "source": {
+        "anchorEvidence": "observed",
+        "depthEvidenceClass": "unknown"
+      }
+    },
+    {
+      "slotId": "r08-c03::d0",
+      "surfaceAnchorId": "r08-c03",
+      "depthIndex": 0,
+      "center": [
+        605.0,
+        1275.0
+      ],
+      "size": [
+        110.0,
+        90.0
+      ],
+      "row": 8,
+      "column": 3,
+      "depthBandId": "depth-0",
+      "visibility": "visible",
+      "provenance": "observed-top-surface",
+      "source": {
+        "anchorEvidence": "observed",
+        "depthEvidenceClass": "unknown"
+      }
+    },
+    {
+      "slotId": "r08-c03::d1",
+      "surfaceAnchorId": "r08-c03",
+      "depthIndex": 1,
+      "center": [
+        605.0,
+        1275.0
+      ],
+      "size": [
+        110.0,
+        90.0
+      ],
+      "row": 8,
+      "column": 3,
+      "depthBandId": "depth-1",
+      "visibility": "fully-hidden",
+      "provenance": "synthesized-for-surplus",
+      "source": {
+        "anchorEvidence": "observed",
+        "depthEvidenceClass": "unknown"
+      }
+    },
+    {
+      "slotId": "r08-c04::d0",
+      "surfaceAnchorId": "r08-c04",
+      "depthIndex": 0,
+      "center": [
+        735.0,
+        1275.0
+      ],
+      "size": [
+        110.0,
+        90.0
+      ],
+      "row": 8,
+      "column": 4,
+      "depthBandId": "depth-0",
+      "visibility": "visible",
+      "provenance": "observed-top-surface",
+      "source": {
+        "anchorEvidence": "observed",
+        "depthEvidenceClass": "unknown"
+      }
+    },
+    {
+      "slotId": "r09-c01::d0",
+      "surfaceAnchorId": "r09-c01",
+      "depthIndex": 0,
+      "center": [
+        280.0,
+        1410.0
+      ],
+      "size": [
+        110.0,
+        90.0
+      ],
+      "row": 9,
+      "column": 1,
+      "depthBandId": "depth-0",
+      "visibility": "visible",
+      "provenance": "observed-top-surface",
+      "source": {
+        "anchorEvidence": "observed",
+        "depthEvidenceClass": "unknown"
+      }
+    },
+    {
+      "slotId": "r09-c02::d0",
+      "surfaceAnchorId": "r09-c02",
+      "depthIndex": 0,
+      "center": [
+        410.0,
+        1410.0
+      ],
+      "size": [
+        110.0,
+        90.0
+      ],
+      "row": 9,
+      "column": 2,
+      "depthBandId": "depth-0",
+      "visibility": "visible",
+      "provenance": "observed-top-surface",
+      "source": {
+        "anchorEvidence": "observed",
+        "depthEvidenceClass": "unknown"
+      }
+    },
+    {
+      "slotId": "r09-c03::d0",
+      "surfaceAnchorId": "r09-c03",
+      "depthIndex": 0,
+      "center": [
+        540.0,
+        1410.0
+      ],
+      "size": [
+        110.0,
+        90.0
+      ],
+      "row": 9,
+      "column": 3,
+      "depthBandId": "depth-0",
+      "visibility": "visible",
+      "provenance": "observed-top-surface",
+      "source": {
+        "anchorEvidence": "observed",
+        "depthEvidenceClass": "unknown"
+      }
+    },
+    {
+      "slotId": "r09-c04::d0",
+      "surfaceAnchorId": "r09-c04",
+      "depthIndex": 0,
+      "center": [
+        670.0,
+        1410.0
+      ],
+      "size": [
+        110.0,
+        90.0
+      ],
+      "row": 9,
+      "column": 4,
+      "depthBandId": "depth-0",
+      "visibility": "visible",
+      "provenance": "observed-top-surface",
+      "source": {
+        "anchorEvidence": "observed",
+        "depthEvidenceClass": "unknown"
+      }
+    },
+    {
+      "slotId": "r09-c05::d0",
+      "surfaceAnchorId": "r09-c05",
+      "depthIndex": 0,
+      "center": [
+        800.0,
+        1410.0
+      ],
+      "size": [
+        110.0,
+        90.0
+      ],
+      "row": 9,
+      "column": 5,
+      "depthBandId": "depth-0",
+      "visibility": "visible",
+      "provenance": "observed-top-surface",
+      "source": {
+        "anchorEvidence": "observed",
+        "depthEvidenceClass": "unknown"
+      }
+    },
+    {
+      "slotId": "r10-c01::d0",
+      "surfaceAnchorId": "r10-c01",
+      "depthIndex": 0,
+      "center": [
+        215.0,
+        1545.0
+      ],
+      "size": [
+        110.0,
+        90.0
+      ],
+      "row": 10,
+      "column": 1,
+      "depthBandId": "depth-0",
+      "visibility": "visible",
+      "provenance": "observed-top-surface",
+      "source": {
+        "anchorEvidence": "observed",
+        "depthEvidenceClass": "unknown"
+      }
+    },
+    {
+      "slotId": "r10-c02::d0",
+      "surfaceAnchorId": "r10-c02",
+      "depthIndex": 0,
+      "center": [
+        345.0,
+        1545.0
+      ],
+      "size": [
+        110.0,
+        90.0
+      ],
+      "row": 10,
+      "column": 2,
+      "depthBandId": "depth-0",
+      "visibility": "visible",
+      "provenance": "observed-top-surface",
+      "source": {
+        "anchorEvidence": "observed",
+        "depthEvidenceClass": "unknown"
+      }
+    },
+    {
+      "slotId": "r10-c03::d0",
+      "surfaceAnchorId": "r10-c03",
+      "depthIndex": 0,
+      "center": [
+        475.0,
+        1545.0
+      ],
+      "size": [
+        110.0,
+        90.0
+      ],
+      "row": 10,
+      "column": 3,
+      "depthBandId": "depth-0",
+      "visibility": "visible",
+      "provenance": "observed-top-surface",
+      "source": {
+        "anchorEvidence": "observed",
+        "depthEvidenceClass": "unknown"
+      }
+    },
+    {
+      "slotId": "r10-c03::d1",
+      "surfaceAnchorId": "r10-c03",
+      "depthIndex": 1,
+      "center": [
+        475.0,
+        1545.0
+      ],
+      "size": [
+        110.0,
+        90.0
+      ],
+      "row": 10,
+      "column": 3,
+      "depthBandId": "depth-1",
+      "visibility": "fully-hidden",
+      "provenance": "synthesized-for-surplus",
+      "source": {
+        "anchorEvidence": "observed",
+        "depthEvidenceClass": "unknown"
+      }
+    },
+    {
+      "slotId": "r10-c04::d0",
+      "surfaceAnchorId": "r10-c04",
+      "depthIndex": 0,
+      "center": [
+        605.0,
+        1545.0
+      ],
+      "size": [
+        110.0,
+        90.0
+      ],
+      "row": 10,
+      "column": 4,
+      "depthBandId": "depth-0",
+      "visibility": "visible",
+      "provenance": "observed-top-surface",
+      "source": {
+        "anchorEvidence": "observed",
+        "depthEvidenceClass": "unknown"
+      }
+    },
+    {
+      "slotId": "r10-c04::d1",
+      "surfaceAnchorId": "r10-c04",
+      "depthIndex": 1,
+      "center": [
+        605.0,
+        1545.0
+      ],
+      "size": [
+        110.0,
+        90.0
+      ],
+      "row": 10,
+      "column": 4,
+      "depthBandId": "depth-1",
+      "visibility": "fully-hidden",
+      "provenance": "synthesized-for-surplus",
+      "source": {
+        "anchorEvidence": "observed",
+        "depthEvidenceClass": "unknown"
+      }
+    },
+    {
+      "slotId": "r10-c05::d0",
+      "surfaceAnchorId": "r10-c05",
+      "depthIndex": 0,
+      "center": [
+        735.0,
+        1545.0
+      ],
+      "size": [
+        110.0,
+        90.0
+      ],
+      "row": 10,
+      "column": 5,
+      "depthBandId": "depth-0",
+      "visibility": "visible",
+      "provenance": "observed-top-surface",
+      "source": {
+        "anchorEvidence": "observed",
+        "depthEvidenceClass": "unknown"
+      }
+    },
+    {
+      "slotId": "r10-c06::d0",
+      "surfaceAnchorId": "r10-c06",
+      "depthIndex": 0,
+      "center": [
+        865.0,
+        1545.0
+      ],
+      "size": [
+        110.0,
+        90.0
+      ],
+      "row": 10,
+      "column": 6,
+      "depthBandId": "depth-0",
+      "visibility": "visible",
+      "provenance": "observed-top-surface",
+      "source": {
+        "anchorEvidence": "observed",
+        "depthEvidenceClass": "unknown"
+      }
+    }
+  ],
+  "frontBackEdges": [
+    {
+      "frontSlotId": "r01-c03::d0",
+      "backSlotId": "r01-c03::d1",
+      "kind": "same-anchor-depth-chain",
+      "evidenceClass": "inferred"
+    },
+    {
+      "frontSlotId": "r01-c04::d0",
+      "backSlotId": "r01-c04::d1",
+      "kind": "same-anchor-depth-chain",
+      "evidenceClass": "inferred"
+    },
+    {
+      "frontSlotId": "r02-c03::d0",
+      "backSlotId": "r02-c03::d1",
+      "kind": "same-anchor-depth-chain",
+      "evidenceClass": "inferred"
+    },
+    {
+      "frontSlotId": "r03-c02::d0",
+      "backSlotId": "r03-c02::d1",
+      "kind": "same-anchor-depth-chain",
+      "evidenceClass": "inferred"
+    },
+    {
+      "frontSlotId": "r03-c03::d0",
+      "backSlotId": "r03-c03::d1",
+      "kind": "same-anchor-depth-chain",
+      "evidenceClass": "inferred"
+    },
+    {
+      "frontSlotId": "r04-c02::d0",
+      "backSlotId": "r04-c02::d1",
+      "kind": "same-anchor-depth-chain",
+      "evidenceClass": "inferred"
+    },
+    {
+      "frontSlotId": "r05-c01::d0",
+      "backSlotId": "r05-c01::d1",
+      "kind": "same-anchor-depth-chain",
+      "evidenceClass": "inferred"
+    },
+    {
+      "frontSlotId": "r05-c01::d1",
+      "backSlotId": "r05-c01::d2",
+      "kind": "same-anchor-depth-chain",
+      "evidenceClass": "inferred"
+    },
+    {
+      "frontSlotId": "r05-c02::d0",
+      "backSlotId": "r05-c02::d1",
+      "kind": "same-anchor-depth-chain",
+      "evidenceClass": "inferred"
+    },
+    {
+      "frontSlotId": "r06-c01::d0",
+      "backSlotId": "r06-c01::d1",
+      "kind": "same-anchor-depth-chain",
+      "evidenceClass": "inferred"
+    },
+    {
+      "frontSlotId": "r06-c02::d0",
+      "backSlotId": "r06-c02::d1",
+      "kind": "same-anchor-depth-chain",
+      "evidenceClass": "inferred"
+    },
+    {
+      "frontSlotId": "r06-c02::d1",
+      "backSlotId": "r06-c02::d2",
+      "kind": "same-anchor-depth-chain",
+      "evidenceClass": "inferred"
+    },
+    {
+      "frontSlotId": "r07-c02::d0",
+      "backSlotId": "r07-c02::d1",
+      "kind": "same-anchor-depth-chain",
+      "evidenceClass": "inferred"
+    },
+    {
+      "frontSlotId": "r08-c02::d0",
+      "backSlotId": "r08-c02::d1",
+      "kind": "same-anchor-depth-chain",
+      "evidenceClass": "inferred"
+    },
+    {
+      "frontSlotId": "r08-c03::d0",
+      "backSlotId": "r08-c03::d1",
+      "kind": "same-anchor-depth-chain",
+      "evidenceClass": "inferred"
+    },
+    {
+      "frontSlotId": "r10-c03::d0",
+      "backSlotId": "r10-c03::d1",
+      "kind": "same-anchor-depth-chain",
+      "evidenceClass": "inferred"
+    },
+    {
+      "frontSlotId": "r10-c04::d0",
+      "backSlotId": "r10-c04::d1",
+      "kind": "same-anchor-depth-chain",
+      "evidenceClass": "inferred"
+    }
+  ],
+  "review": {
+    "status": "approved",
+    "issues": [],
+    "rationale": "40 visible anchors plus 17 synthesized hidden slots reconcile exactly to 57 source tiles."
+  },
+  "safety": {
+    "visibleAnchorGeometryChanged": false,
+    "hiddenCapacityMayExpandSilhouette": false,
+    "sourceFactsWritable": false
+  }
+}

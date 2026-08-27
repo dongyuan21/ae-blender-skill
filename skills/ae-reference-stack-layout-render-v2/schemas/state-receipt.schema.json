@@ -1,0 +1,185 @@
+{
+  "title": "Immutable state-node receipt",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "runId",
+    "sequence",
+    "node",
+    "attempt",
+    "gateStatus",
+    "maturity",
+    "createdAt",
+    "parentReceiptSha256",
+    "prerequisiteReceipts",
+    "mainArtifact",
+    "evidenceArtifacts",
+    "metrics",
+    "issues",
+    "retryFrom",
+    "invalidatedNodes",
+    "nextAllowed",
+    "producer"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 2
+    },
+    "runId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sequence": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "node": {
+      "enum": [
+        "INITIALIZED",
+        "CAPABILITY_PREFLIGHT_PASSED",
+        "SOURCE_ROUTE_LOCKED",
+        "BOARD_INVENTORY_LOCKED",
+        "EVENT_MODEL_LOCKED",
+        "REFERENCE_ROI_LOCKED",
+        "VISIBLE_LAYOUT_LOCKED",
+        "DEPTH_EVIDENCE_LOCKED",
+        "CAPACITY_RECONCILED",
+        "ASSIGNMENT_SOLVED",
+        "SIMULATION_PASSED",
+        "PROPERTY_PLAN_FROZEN",
+        "APPLY_READBACK_PASSED",
+        "PREVIEW_ACCEPTED",
+        "FULL_RENDER_PASSED"
+      ]
+    },
+    "attempt": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "gateStatus": {
+      "enum": [
+        "PASS",
+        "REVISE",
+        "BLOCKED"
+      ]
+    },
+    "maturity": {
+      "enum": [
+        "DRAFT",
+        "CANDIDATE",
+        "FINAL"
+      ]
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "parentReceiptSha256": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^[0-9A-Fa-f]{64}$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "prerequisiteReceipts": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "pattern": "^[0-9A-Fa-f]{64}$"
+      }
+    },
+    "mainArtifact": {
+      "type": "object",
+      "required": [
+        "name",
+        "path",
+        "sha256",
+        "bytes"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "path": {
+          "type": "string"
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[0-9A-Fa-f]{64}$"
+        },
+        "bytes": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": true
+    },
+    "evidenceArtifacts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "path",
+          "sha256",
+          "bytes"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "path": {
+            "type": "string"
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[0-9A-Fa-f]{64}$"
+          },
+          "bytes": {
+            "type": "integer",
+            "minimum": 0
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "metrics": {
+      "type": "object"
+    },
+    "issues": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "retryFrom": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "invalidatedNodes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "nextAllowed": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "producer": {
+      "type": "object",
+      "minProperties": 1
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openai.local/ae-stack-v2/state-receipt.schema.json"
+}

@@ -1,0 +1,290 @@
+{
+  "anchorDepthHints": [
+    {
+      "anchorId": "r01-c01",
+      "minDepth": 1,
+      "maxDepth": 1,
+      "evidenceClass": "unknown",
+      "rationale": "A single settled raster proves the visible surface, not fully hidden capacity."
+    },
+    {
+      "anchorId": "r01-c02",
+      "minDepth": 1,
+      "maxDepth": 1,
+      "evidenceClass": "unknown",
+      "rationale": "A single settled raster proves the visible surface, not fully hidden capacity."
+    },
+    {
+      "anchorId": "r01-c03",
+      "minDepth": 1,
+      "maxDepth": 2,
+      "evidenceClass": "unknown",
+      "rationale": "A single settled raster proves the visible surface, not fully hidden capacity."
+    },
+    {
+      "anchorId": "r01-c04",
+      "minDepth": 1,
+      "maxDepth": 2,
+      "evidenceClass": "unknown",
+      "rationale": "A single settled raster proves the visible surface, not fully hidden capacity."
+    },
+    {
+      "anchorId": "r01-c05",
+      "minDepth": 1,
+      "maxDepth": 1,
+      "evidenceClass": "unknown",
+      "rationale": "A single settled raster proves the visible surface, not fully hidden capacity."
+    },
+    {
+      "anchorId": "r01-c06",
+      "minDepth": 1,
+      "maxDepth": 1,
+      "evidenceClass": "unknown",
+      "rationale": "A single settled raster proves the visible surface, not fully hidden capacity."
+    },
+    {
+      "anchorId": "r02-c01",
+      "minDepth": 1,
+      "maxDepth": 1,
+      "evidenceClass": "unknown",
+      "rationale": "A single settled raster proves the visible surface, not fully hidden capacity."
+    },
+    {
+      "anchorId": "r02-c02",
+      "minDepth": 1,
+      "maxDepth": 1,
+      "evidenceClass": "unknown",
+      "rationale": "A single settled raster proves the visible surface, not fully hidden capacity."
+    },
+    {
+      "anchorId": "r02-c03",
+      "minDepth": 1,
+      "maxDepth": 2,
+      "evidenceClass": "unknown",
+      "rationale": "A single settled raster proves the visible surface, not fully hidden capacity."
+    },
+    {
+      "anchorId": "r02-c04",
+      "minDepth": 1,
+      "maxDepth": 1,
+      "evidenceClass": "unknown",
+      "rationale": "A single settled raster proves the visible surface, not fully hidden capacity."
+    },
+    {
+      "anchorId": "r02-c05",
+      "minDepth": 1,
+      "maxDepth": 1,
+      "evidenceClass": "unknown",
+      "rationale": "A single settled raster proves the visible surface, not fully hidden capacity."
+    },
+    {
+      "anchorId": "r03-c01",
+      "minDepth": 1,
+      "maxDepth": 1,
+      "evidenceClass": "unknown",
+      "rationale": "A single settled raster proves the visible surface, not fully hidden capacity."
+    },
+    {
+      "anchorId": "r03-c02",
+      "minDepth": 1,
+      "maxDepth": 2,
+      "evidenceClass": "unknown",
+      "rationale": "A single settled raster proves the visible surface, not fully hidden capacity."
+    },
+    {
+      "anchorId": "r03-c03",
+      "minDepth": 1,
+      "maxDepth": 2,
+      "evidenceClass": "unknown",
+      "rationale": "A single settled raster proves the visible surface, not fully hidden capacity."
+    },
+    {
+      "anchorId": "r03-c04",
+      "minDepth": 1,
+      "maxDepth": 1,
+      "evidenceClass": "unknown",
+      "rationale": "A single settled raster proves the visible surface, not fully hidden capacity."
+    },
+    {
+      "anchorId": "r04-c01",
+      "minDepth": 1,
+      "maxDepth": 1,
+      "evidenceClass": "unknown",
+      "rationale": "A single settled raster proves the visible surface, not fully hidden capacity."
+    },
+    {
+      "anchorId": "r04-c02",
+      "minDepth": 1,
+      "maxDepth": 2,
+      "evidenceClass": "unknown",
+      "rationale": "A single settled raster proves the visible surface, not fully hidden capacity."
+    },
+    {
+      "anchorId": "r04-c03",
+      "minDepth": 1,
+      "maxDepth": 1,
+      "evidenceClass": "unknown",
+      "rationale": "A single settled raster proves the visible surface, not fully hidden capacity."
+    },
+    {
+      "anchorId": "r05-c01",
+      "minDepth": 1,
+      "maxDepth": 3,
+      "evidenceClass": "unknown",
+      "rationale": "A single settled raster proves the visible surface, not fully hidden capacity."
+    },
+    {
+      "anchorId": "r05-c02",
+      "minDepth": 1,
+      "maxDepth": 2,
+      "evidenceClass": "unknown",
+      "rationale": "A single settled raster proves the visible surface, not fully hidden capacity."
+    },
+    {
+      "anchorId": "r06-c01",
+      "minDepth": 1,
+      "maxDepth": 2,
+      "evidenceClass": "unknown",
+      "rationale": "A single settled raster proves the visible surface, not fully hidden capacity."
+    },
+    {
+      "anchorId": "r06-c02",
+      "minDepth": 1,
+      "maxDepth": 3,
+      "evidenceClass": "unknown",
+      "rationale": "A single settled raster proves the visible surface, not fully hidden capacity."
+    },
+    {
+      "anchorId": "r07-c01",
+      "minDepth": 1,
+      "maxDepth": 1,
+      "evidenceClass": "unknown",
+      "rationale": "A single settled raster proves the visible surface, not fully hidden capacity."
+    },
+    {
+      "anchorId": "r07-c02",
+      "minDepth": 1,
+      "maxDepth": 2,
+      "evidenceClass": "unknown",
+      "rationale": "A single settled raster proves the visible surface, not fully hidden capacity."
+    },
+    {
+      "anchorId": "r07-c03",
+      "minDepth": 1,
+      "maxDepth": 1,
+      "evidenceClass": "unknown",
+      "rationale": "A single settled raster proves the visible surface, not fully hidden capacity."
+    },
+    {
+      "anchorId": "r08-c01",
+      "minDepth": 1,
+      "maxDepth": 1,
+      "evidenceClass": "unknown",
+      "rationale": "A single settled raster proves the visible surface, not fully hidden capacity."
+    },
+    {
+      "anchorId": "r08-c02",
+      "minDepth": 1,
+      "maxDepth": 2,
+      "evidenceClass": "unknown",
+      "rationale": "A single settled raster proves the visible surface, not fully hidden capacity."
+    },
+    {
+      "anchorId": "r08-c03",
+      "minDepth": 1,
+      "maxDepth": 2,
+      "evidenceClass": "unknown",
+      "rationale": "A single settled raster proves the visible surface, not fully hidden capacity."
+    },
+    {
+      "anchorId": "r08-c04",
+      "minDepth": 1,
+      "maxDepth": 1,
+      "evidenceClass": "unknown",
+      "rationale": "A single settled raster proves the visible surface, not fully hidden capacity."
+    },
+    {
+      "anchorId": "r09-c01",
+      "minDepth": 1,
+      "maxDepth": 1,
+      "evidenceClass": "unknown",
+      "rationale": "A single settled raster proves the visible surface, not fully hidden capacity."
+    },
+    {
+      "anchorId": "r09-c02",
+      "minDepth": 1,
+      "maxDepth": 1,
+      "evidenceClass": "unknown",
+      "rationale": "A single settled raster proves the visible surface, not fully hidden capacity."
+    },
+    {
+      "anchorId": "r09-c03",
+      "minDepth": 1,
+      "maxDepth": 1,
+      "evidenceClass": "unknown",
+      "rationale": "A single settled raster proves the visible surface, not fully hidden capacity."
+    },
+    {
+      "anchorId": "r09-c04",
+      "minDepth": 1,
+      "maxDepth": 1,
+      "evidenceClass": "unknown",
+      "rationale": "A single settled raster proves the visible surface, not fully hidden capacity."
+    },
+    {
+      "anchorId": "r09-c05",
+      "minDepth": 1,
+      "maxDepth": 1,
+      "evidenceClass": "unknown",
+      "rationale": "A single settled raster proves the visible surface, not fully hidden capacity."
+    },
+    {
+      "anchorId": "r10-c01",
+      "minDepth": 1,
+      "maxDepth": 1,
+      "evidenceClass": "unknown",
+      "rationale": "A single settled raster proves the visible surface, not fully hidden capacity."
+    },
+    {
+      "anchorId": "r10-c02",
+      "minDepth": 1,
+      "maxDepth": 1,
+      "evidenceClass": "unknown",
+      "rationale": "A single settled raster proves the visible surface, not fully hidden capacity."
+    },
+    {
+      "anchorId": "r10-c03",
+      "minDepth": 1,
+      "maxDepth": 2,
+      "evidenceClass": "unknown",
+      "rationale": "A single settled raster proves the visible surface, not fully hidden capacity."
+    },
+    {
+      "anchorId": "r10-c04",
+      "minDepth": 1,
+      "maxDepth": 2,
+      "evidenceClass": "unknown",
+      "rationale": "A single settled raster proves the visible surface, not fully hidden capacity."
+    },
+    {
+      "anchorId": "r10-c05",
+      "minDepth": 1,
+      "maxDepth": 1,
+      "evidenceClass": "unknown",
+      "rationale": "A single settled raster proves the visible surface, not fully hidden capacity."
+    },
+    {
+      "anchorId": "r10-c06",
+      "minDepth": 1,
+      "maxDepth": 1,
+      "evidenceClass": "unknown",
+      "rationale": "A single settled raster proves the visible surface, not fully hidden capacity."
+    }
+  ],
+  "occlusionEdges": [],
+  "review": {
+    "status": "approved",
+    "issues": [],
+    "rationale": "Hidden depth is explicitly deferred to capacity reconciliation."
+  }
+}

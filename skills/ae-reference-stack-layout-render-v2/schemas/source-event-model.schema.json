@@ -1,0 +1,383 @@
+{
+  "title": "Locked source AEP event model",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "artifactType",
+    "createdAt",
+    "boardCompId",
+    "boardComp",
+    "factsLocked",
+    "sourceFactsSha256",
+    "tileCount",
+    "eventTileCount",
+    "persistentTileCount",
+    "matchGroupSize",
+    "tiles",
+    "clickEvents",
+    "inspection",
+    "boardInventory",
+    "review"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 2
+    },
+    "artifactType": {
+      "const": "source-event-model"
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "boardCompId": {
+      "type": "integer"
+    },
+    "boardComp": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "width",
+        "height",
+        "duration",
+        "frameRate"
+      ],
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "name": {
+          "type": "string"
+        },
+        "width": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "height": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "duration": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "frameRate": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        }
+      },
+      "additionalProperties": false
+    },
+    "factsLocked": {
+      "const": true
+    },
+    "sourceFactsSha256": {
+      "type": "string",
+      "pattern": "^[0-9A-Fa-f]{64}$"
+    },
+    "tileCount": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "eventTileCount": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "persistentTileCount": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "matchGroupSize": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1
+    },
+    "tiles": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "tileId",
+          "compId",
+          "layerIndex",
+          "layerName",
+          "sourceId",
+          "sourceName",
+          "faceId",
+          "renderOrder",
+          "activeStart",
+          "activeEnd",
+          "removalTime",
+          "originalPosition",
+          "settledPositionKey",
+          "originalScale",
+          "settledScaleKey",
+          "cardSize",
+          "sourceBandId",
+          "layerFingerprintSha256",
+          "clickOrdinal",
+          "clickTime",
+          "matchGroupId",
+          "moverBinding",
+          "handBindings"
+        ],
+        "properties": {
+          "tileId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "compId": {
+            "type": "integer"
+          },
+          "layerIndex": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "layerName": {
+            "type": "string"
+          },
+          "sourceId": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "sourceName": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "faceId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "renderOrder": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "activeStart": {
+            "type": "number"
+          },
+          "activeEnd": {
+            "type": "number"
+          },
+          "removalTime": {
+            "type": "number"
+          },
+          "originalPosition": {
+            "type": "array",
+            "minItems": 2,
+            "items": {
+              "type": "number"
+            }
+          },
+          "settledPositionKey": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 1
+          },
+          "originalScale": {
+            "anyOf": [
+              {
+                "type": "array",
+                "minItems": 2,
+                "items": {
+                  "type": "number"
+                }
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "settledScaleKey": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 1
+          },
+          "cardSize": {
+            "type": "array",
+            "minItems": 2,
+            "maxItems": 2,
+            "items": {
+              "type": "number"
+            }
+          },
+          "sourceBandId": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "layerFingerprintSha256": {
+            "type": "string",
+            "pattern": "^[0-9A-Fa-f]{64}$"
+          },
+          "clickOrdinal": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 1
+          },
+          "clickTime": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "matchGroupId": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "moverBinding": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "additionalProperties": true
+          },
+          "handBindings": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": true
+            }
+          }
+        }
+      }
+    },
+    "clickEvents": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "ordinal",
+          "tileId",
+          "time",
+          "removalTime",
+          "faceId",
+          "matchGroupId"
+        ],
+        "properties": {
+          "ordinal": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "tileId": {
+            "type": "string"
+          },
+          "time": {
+            "type": "number"
+          },
+          "removalTime": {
+            "type": "number"
+          },
+          "faceId": {
+            "type": "string"
+          },
+          "matchGroupId": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "inspection": {
+      "type": "object",
+      "required": [
+        "path",
+        "sha256",
+        "bytes"
+      ],
+      "properties": {
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[0-9A-Fa-f]{64}$"
+        },
+        "bytes": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": true
+    },
+    "boardInventory": {
+      "type": "object",
+      "required": [
+        "path",
+        "sha256",
+        "bytes"
+      ],
+      "properties": {
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[0-9A-Fa-f]{64}$"
+        },
+        "bytes": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": true
+    },
+    "review": {
+      "type": "object",
+      "required": [
+        "status",
+        "issues",
+        "rationale"
+      ],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "approved",
+            "revise",
+            "blocked",
+            "pending"
+          ]
+        },
+        "issues": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        },
+        "rationale": {
+          "type": "string"
+        },
+        "independentContext": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": true
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openai.local/ae-stack-v2/source-event-model.schema.json"
+}

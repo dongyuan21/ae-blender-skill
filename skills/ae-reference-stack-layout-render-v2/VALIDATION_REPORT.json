@@ -1,0 +1,60 @@
+{
+  "status": "passed",
+  "package": "ae-reference-stack-layout-render-v2",
+  "checks": [
+    {
+      "name": "all-json-parses",
+      "passed": true,
+      "fileCount": 29
+    },
+    {
+      "name": "golden-fixture-runtime-contracts",
+      "passed": true,
+      "artifactCount": 10
+    },
+    {
+      "name": "json-schema-validation",
+      "passed": true,
+      "artifactCount": 7
+    },
+    {
+      "name": "python-compileall",
+      "passed": true
+    },
+    {
+      "name": "jsx-static-and-syntax-check",
+      "passed": true,
+      "fileCount": 3,
+      "syntaxSkipped": false
+    },
+    {
+      "name": "regression-suite",
+      "passed": true,
+      "testCount": 15
+    }
+  ],
+  "goldenFixture": {
+    "visibleAnchorCount": 40,
+    "physicalSlotCount": 57,
+    "hiddenSlotCount": 17,
+    "rowCounts": [
+      6,
+      5,
+      4,
+      3,
+      2,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "expected": {
+      "assignmentStatus": "solved",
+      "simulationStatus": "passed",
+      "blockedClickCount": 0,
+      "occlusionOrderViolationCount": 0
+    }
+  },
+  "hostIntegrationBoundary": "Actual After Effects open/apply/save/fresh-reopen/render was not executed by this offline validator."
+}

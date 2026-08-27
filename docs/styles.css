@@ -1,0 +1,225 @@
+:root {
+  --bg: #0b1220;
+  --bg-card: #121a2b;
+  --line: #243049;
+  --text: #e8eefc;
+  --muted: #9aa8c3;
+  --accent: #7aa2ff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.55;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+figure {
+  margin: 0;
+}
+
+code {
+  font-size: 0.95em;
+}
+
+.wrap {
+  width: min(1080px, calc(100% - 40px));
+  margin: 0 auto;
+  padding: 40px 0 72px;
+}
+
+.kicker {
+  color: var(--muted);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin: 0 0 8px;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 0 0 12px;
+}
+
+h2 {
+  font-size: 22px;
+  margin: 40px 0 14px;
+}
+
+p {
+  color: var(--muted);
+  margin: 0 0 16px;
+}
+
+.lead {
+  max-width: 42em;
+  font-size: 17px;
+}
+
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.card-body {
+  padding: 18px 20px 20px;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.grid-stills {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.story {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+  align-items: start;
+}
+
+.story video,
+.story img {
+  max-height: 560px;
+  object-fit: contain;
+  background: #070b14;
+}
+
+.story figcaption,
+.step p {
+  color: var(--muted);
+}
+
+.step {
+  border-top: 1px solid var(--line);
+  padding: 20px 0 8px;
+}
+
+.step:first-of-type {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.step h3 {
+  font-size: 17px;
+  margin: 0 0 8px;
+}
+
+.step .nodes {
+  font-size: 12px;
+  color: var(--accent);
+  margin: 0 0 10px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+.graph {
+  overflow-x: auto;
+  background: var(--bg-card);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 16px 18px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 12px;
+  line-height: 1.45;
+  color: var(--text);
+  white-space: pre;
+}
+
+video,
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: #070b14;
+}
+
+.pair video {
+  max-height: 640px;
+  object-fit: contain;
+}
+
+.label {
+  color: var(--muted);
+  font-size: 13px;
+  margin: 0 0 8px;
+}
+
+.skill-card {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 0;
+}
+
+.skill-card img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.meta {
+  font-size: 13px;
+  color: var(--muted);
+}
+
+nav {
+  margin-bottom: 28px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 18px;
+  margin-top: 12px;
+}
+
+.note {
+  border-top: 1px solid var(--line);
+  margin-top: 48px;
+  padding-top: 18px;
+  font-size: 13px;
+}
+
+@media (max-width: 760px) {
+  .grid-2,
+  .grid-stills,
+  .skill-card,
+  .story {
+    grid-template-columns: 1fr;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+}

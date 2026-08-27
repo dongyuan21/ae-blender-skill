@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 2,
+  "artifactType": "simulation-report",
+  "createdAt": "2026-08-27T14:11:31+00:00",
+  "status": "passed",
+  "writeAuthorized": true,
+  "sourceFactsSha256": "0A583DF567C08999FAE3015E2109E0A37B9B1B8F128390E43909A4CBDAAE05DC",
+  "capacityPlanSha256": "FEC43671DD648CDD90F681BF092B60E093F6EEB4037B45F2674339E5EF68B51D",
+  "assignmentSha256": "32664E4BED701AD9251D8909F39CA1AE761149253AD23DAF450E89F69762C658",
+  "inputs": {
+    "eventModel": "examples/hourglass-40-visible-57-physical/source-event-model.json",
+    "capacityPlan": "examples/hourglass-40-visible-57-physical/capacity-plan.json",
+    "assignment": "examples/hourglass-40-visible-57-physical/assignment.json"
+  },
+  "identityErrors": [],
+  "boundsErrors": [],
+  "matchErrors": [],
+  "blockedClicks": [],
+  "occlusionOrderViolations": [],
+  "overlapEdges": [
+    {
+      "firstSlotId": "r01-c03::d0",
+      "secondSlotId": "r01-c03::d1",
+      "overlapArea": 9900.0,
+      "overlapRatio": 1.0
+    },
+    {
+      "firstSlotId": "r01-c04::d0",
+      "secondSlotId": "r01-c04::d1",
+      "overlapArea": 9900.0,
+      "overlapRatio": 1.0
+    },
+    {
+      "firstSlotId": "r02-c03::d0",
+      "secondSlotId": "r02-c03::d1",
+      "overlapArea": 9900.0,
+      "overlapRatio": 1.0
+    },
+    {
+      "firstSlotId": "r03-c02::d0",
+      "secondSlotId": "r03-c02::d1",
+      "overlapArea": 9900.0,
+      "overlapRatio": 1.0
+    },
+    {
+      "firstSlotId": "r03-c03::d0",
+      "secondSlotId": "r03-c03::d1",
+      "overlapArea": 9900.0,
+      "overlapRatio": 1.0
+    },
+    {
+      "firstSlotId": "r04-c02::d0",
+      "secondSlotId": "r04-c02::d1",
+      "overlapArea": 9900.0,
+      "overlapRatio": 1.0
+    },
+    {
+      "firstSlotId": "r05-c01::d0",
+      "secondSlotId": "r05-c01::d1",
+      "overlapArea": 9900.0,
+      "overlapRatio": 1.0
+    },
+    {
+      "firstSlotId": "r05-c01::d0",
+      "secondSlotId": "r05-c01::d2",
+      "overlapArea": 9900.0,
+      "overlapRatio": 1.0
+    },
+    {
+      "firstSlotId": "r05-c01::d1",
+      "secondSlotId": "r05-c01::d2",
+      "overlapArea": 9900.0,
+      "overlapRatio": 1.0
+    },
+    {
+      "firstSlotId": "r05-c02::d0",
+      "secondSlotId": "r05-c02::d1",
+      "overlapArea": 9900.0,
+      "overlapRatio": 1.0
+    },
+    {
+      "firstSlotId": "r06-c01::d0",
+      "secondSlotId": "r06-c01::d1",
+      "overlapArea": 9900.0,
+      "overlapRatio": 1.0
+    },
+    {
+      "firstSlotId": "r06-c02::d0",
+      "secondSlotId": "r06-c02::d1",
+      "overlapArea": 9900.0,
+      "overlapRatio": 1.0
+    },
+    {
+      "firstSlotId": "r06-c02::d0",
+      "secondSlotId": "r06-c02::d2",
+      "overlapArea": 9900.0,
+      "overlapRatio": 1.0
+    },
+    {
+      "firstSlotId": "r06-c02::d1",
+      "secondSlotId": "r06-c02::d2",
+      "overlapArea": 9900.0,
+      "overlapRatio": 1.0
+    },
+    {
+      "firstSlotId": "r07-c02::d0",
+      "secondSlotId": "r07-c02::d1",
+      "overlapArea": 9900.0,
+      "overlapRatio": 1.0
+    },
+    {
+      "firstSlotId": "r08-c02::d0",
+      "secondSlotId": "r08-c02::d1",
+      "overlapArea": 9900.0,
+      "overlapRatio": 1.0
+    },
+    {
+      "firstSlotId": "r08-c03::d0",
+      "secondSlotId": "r08-c03::d1",
+      "overlapArea": 9900.0,
+      "overlapRatio": 1.0
+    },
+    {
+      "firstSlotId": "r10-c03::d0",
+      "secondSlotId": "r10-c03::d1",
+      "overlapArea": 9900.0,
+      "overlapRatio": 1.0
+    },
+    {
+      "firstSlotId": "r10-c04::d0",
+      "secondSlotId": "r10-c04::d1",
+      "overlapArea": 9900.0,
+      "overlapRatio": 1.0
+    }
+  ],
+  "identityErrorCount": 0,
+  "boundsErrorCount": 0,
+  "matchErrorCount": 0,
+  "blockedClickCount": 0,
+  "blockingOrderViolationCount": 0,
+  "occlusionOrderViolationCount": 0,
+  "overlapEdgeCount": 19,
+  "accessibleClickCount": 57,
+  "sourceFactAuthority": {
+    "renderOrder": "source-event-model.tiles[].renderOrder copied from AE layerIndex",
+    "activeIntervals": "source-event-model.tiles[].activeStart/activeEnd copied from AE inPoint/outPoint",
+    "clickSchedule": "source-event-model locked event facts",
+    "geometry": "capacity-plan slots",
+    "assignmentMayOverrideSourceFacts": false
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 2,
+  "artifactType": "source-route",
+  "createdAt": "2026-08-27T14:11:31+00:00",
+  "finalComp": {
+    "id": 201,
+    "name": "FINAL",
+    "width": 1080,
+    "height": 1920
+  },
+  "boardComp": {
+    "id": 101,
+    "name": "BOARD",
+    "width": 1080,
+    "height": 1920
+  },
+  "sameCompJustification": null,
+  "nestingPath": [
+    {
+      "compId": 201,
+      "compName": "FINAL"
+    },
+    {
+      "compId": 101,
+      "compName": "BOARD"
+    }
+  ],
+  "routeScope": {
+    "compIds": [
+      201,
+      101
+    ],
+    "routeCriticalFootageItemIds": []
+  },
+  "qaBaseline": {
+    "acceptedMissingKeys": [],
+    "acceptedExpressionErrorKeys": [],
+    "acceptedEnabledWatermarkKeys": []
+  },
+  "renderSettings": {
+    "renderCompId": 201,
+    "editCompId": 101
+  },
+  "review": {
+    "status": "approved",
+    "issues": [],
+    "rationale": "Edit BOARD and render FINAL."
+  },
+  "safety": {
+    "editBoardCompOnly": true,
+    "renderFinalComp": true,
+    "referenceSourceAepUsed": false,
+    "referenceSourceGeometryUsed": false
+  },
+  "draft": {
+    "path": "examples/hourglass-40-visible-57-physical/source-route-draft.json",
+    "sha256": "699050E832FC89FFB7AA0E930F323112ED9F16E6964C68C95D53E1A88E7675A3",
+    "bytes": 760
+  }
+}

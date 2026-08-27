@@ -1,0 +1,14 @@
+{
+  "boardRoi": {
+    "left": 80,
+    "top": 165,
+    "right": 1000,
+    "bottom": 1750
+  },
+  "excludedRegions": [],
+  "review": {
+    "status": "approved",
+    "issues": [],
+    "rationale": "Synthetic fixture ROI contains only the board and stack."
+  }
+}

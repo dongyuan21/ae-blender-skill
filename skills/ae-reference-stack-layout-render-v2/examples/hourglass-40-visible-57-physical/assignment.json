@@ -1,0 +1,560 @@
+{
+  "schemaVersion": 2,
+  "artifactType": "assignment",
+  "createdAt": "2026-08-27T14:11:31+00:00",
+  "status": "solved",
+  "sourceFactsSha256": "0A583DF567C08999FAE3015E2109E0A37B9B1B8F128390E43909A4CBDAAE05DC",
+  "capacityPlanSha256": "FEC43671DD648CDD90F681BF092B60E093F6EEB4037B45F2674339E5EF68B51D",
+  "constraintsSha256": "EE941E88BFF1BC6812629AF2DC42658F8BF1A965C5C19536D1A836F3E830810D",
+  "assignmentCount": 57,
+  "assignments": [
+    {
+      "tileId": "tile-001",
+      "slotId": "r01-c01::d0"
+    },
+    {
+      "tileId": "tile-002",
+      "slotId": "r01-c02::d0"
+    },
+    {
+      "tileId": "tile-003",
+      "slotId": "r01-c03::d0"
+    },
+    {
+      "tileId": "tile-004",
+      "slotId": "r01-c03::d1"
+    },
+    {
+      "tileId": "tile-005",
+      "slotId": "r01-c04::d0"
+    },
+    {
+      "tileId": "tile-006",
+      "slotId": "r01-c04::d1"
+    },
+    {
+      "tileId": "tile-007",
+      "slotId": "r01-c05::d0"
+    },
+    {
+      "tileId": "tile-008",
+      "slotId": "r01-c06::d0"
+    },
+    {
+      "tileId": "tile-009",
+      "slotId": "r02-c01::d0"
+    },
+    {
+      "tileId": "tile-010",
+      "slotId": "r02-c02::d0"
+    },
+    {
+      "tileId": "tile-011",
+      "slotId": "r02-c03::d0"
+    },
+    {
+      "tileId": "tile-012",
+      "slotId": "r02-c03::d1"
+    },
+    {
+      "tileId": "tile-013",
+      "slotId": "r02-c04::d0"
+    },
+    {
+      "tileId": "tile-014",
+      "slotId": "r02-c05::d0"
+    },
+    {
+      "tileId": "tile-015",
+      "slotId": "r03-c01::d0"
+    },
+    {
+      "tileId": "tile-016",
+      "slotId": "r03-c02::d0"
+    },
+    {
+      "tileId": "tile-017",
+      "slotId": "r03-c02::d1"
+    },
+    {
+      "tileId": "tile-018",
+      "slotId": "r03-c03::d0"
+    },
+    {
+      "tileId": "tile-019",
+      "slotId": "r03-c03::d1"
+    },
+    {
+      "tileId": "tile-020",
+      "slotId": "r03-c04::d0"
+    },
+    {
+      "tileId": "tile-021",
+      "slotId": "r04-c01::d0"
+    },
+    {
+      "tileId": "tile-022",
+      "slotId": "r04-c02::d0"
+    },
+    {
+      "tileId": "tile-023",
+      "slotId": "r04-c02::d1"
+    },
+    {
+      "tileId": "tile-024",
+      "slotId": "r04-c03::d0"
+    },
+    {
+      "tileId": "tile-025",
+      "slotId": "r05-c01::d0"
+    },
+    {
+      "tileId": "tile-026",
+      "slotId": "r05-c01::d1"
+    },
+    {
+      "tileId": "tile-027",
+      "slotId": "r05-c01::d2"
+    },
+    {
+      "tileId": "tile-028",
+      "slotId": "r05-c02::d0"
+    },
+    {
+      "tileId": "tile-029",
+      "slotId": "r05-c02::d1"
+    },
+    {
+      "tileId": "tile-030",
+      "slotId": "r06-c02::d0"
+    },
+    {
+      "tileId": "tile-031",
+      "slotId": "r06-c01::d0"
+    },
+    {
+      "tileId": "tile-032",
+      "slotId": "r06-c02::d1"
+    },
+    {
+      "tileId": "tile-033",
+      "slotId": "r06-c01::d1"
+    },
+    {
+      "tileId": "tile-034",
+      "slotId": "r06-c02::d2"
+    },
+    {
+      "tileId": "tile-035",
+      "slotId": "r07-c01::d0"
+    },
+    {
+      "tileId": "tile-036",
+      "slotId": "r08-c03::d0"
+    },
+    {
+      "tileId": "tile-037",
+      "slotId": "r07-c02::d0"
+    },
+    {
+      "tileId": "tile-038",
+      "slotId": "r07-c03::d0"
+    },
+    {
+      "tileId": "tile-039",
+      "slotId": "r08-c01::d0"
+    },
+    {
+      "tileId": "tile-040",
+      "slotId": "r08-c02::d0"
+    },
+    {
+      "tileId": "tile-041",
+      "slotId": "r08-c02::d1"
+    },
+    {
+      "tileId": "tile-042",
+      "slotId": "r08-c03::d1"
+    },
+    {
+      "tileId": "tile-043",
+      "slotId": "r07-c02::d1"
+    },
+    {
+      "tileId": "tile-044",
+      "slotId": "r08-c04::d0"
+    },
+    {
+      "tileId": "tile-045",
+      "slotId": "r09-c01::d0"
+    },
+    {
+      "tileId": "tile-046",
+      "slotId": "r10-c03::d0"
+    },
+    {
+      "tileId": "tile-047",
+      "slotId": "r09-c03::d0"
+    },
+    {
+      "tileId": "tile-048",
+      "slotId": "r09-c04::d0"
+    },
+    {
+      "tileId": "tile-049",
+      "slotId": "r09-c05::d0"
+    },
+    {
+      "tileId": "tile-050",
+      "slotId": "r10-c01::d0"
+    },
+    {
+      "tileId": "tile-051",
+      "slotId": "r10-c02::d0"
+    },
+    {
+      "tileId": "tile-052",
+      "slotId": "r10-c03::d1"
+    },
+    {
+      "tileId": "tile-053",
+      "slotId": "r09-c02::d0"
+    },
+    {
+      "tileId": "tile-054",
+      "slotId": "r10-c04::d0"
+    },
+    {
+      "tileId": "tile-055",
+      "slotId": "r10-c04::d1"
+    },
+    {
+      "tileId": "tile-056",
+      "slotId": "r10-c05::d0"
+    },
+    {
+      "tileId": "tile-057",
+      "slotId": "r10-c06::d0"
+    }
+  ],
+  "solver": {
+    "initialAlgorithm": "scipy-hungarian-plus-min-conflicts",
+    "slotDegrees": {
+      "r01-c01::d0": 0,
+      "r01-c02::d0": 0,
+      "r01-c03::d0": 1,
+      "r01-c03::d1": 1,
+      "r01-c04::d0": 1,
+      "r01-c04::d1": 1,
+      "r01-c05::d0": 0,
+      "r01-c06::d0": 0,
+      "r02-c01::d0": 0,
+      "r02-c02::d0": 0,
+      "r02-c03::d0": 1,
+      "r02-c03::d1": 1,
+      "r02-c04::d0": 0,
+      "r02-c05::d0": 0,
+      "r03-c01::d0": 0,
+      "r03-c02::d0": 1,
+      "r03-c02::d1": 1,
+      "r03-c03::d0": 1,
+      "r03-c03::d1": 1,
+      "r03-c04::d0": 0,
+      "r04-c01::d0": 0,
+      "r04-c02::d0": 1,
+      "r04-c02::d1": 1,
+      "r04-c03::d0": 0,
+      "r05-c01::d0": 2,
+      "r05-c01::d1": 2,
+      "r05-c01::d2": 2,
+      "r05-c02::d0": 1,
+      "r05-c02::d1": 1,
+      "r06-c01::d0": 1,
+      "r06-c01::d1": 1,
+      "r06-c02::d0": 2,
+      "r06-c02::d1": 2,
+      "r06-c02::d2": 2,
+      "r07-c01::d0": 0,
+      "r07-c02::d0": 1,
+      "r07-c02::d1": 1,
+      "r07-c03::d0": 0,
+      "r08-c01::d0": 0,
+      "r08-c02::d0": 1,
+      "r08-c02::d1": 1,
+      "r08-c03::d0": 1,
+      "r08-c03::d1": 1,
+      "r08-c04::d0": 0,
+      "r09-c01::d0": 0,
+      "r09-c02::d0": 0,
+      "r09-c03::d0": 0,
+      "r09-c04::d0": 0,
+      "r09-c05::d0": 0,
+      "r10-c01::d0": 0,
+      "r10-c02::d0": 0,
+      "r10-c03::d0": 1,
+      "r10-c03::d1": 1,
+      "r10-c04::d0": 1,
+      "r10-c04::d1": 1,
+      "r10-c05::d0": 0,
+      "r10-c06::d0": 0
+    },
+    "tileRisks": {
+      "tile-001": 11.4,
+      "tile-002": 11.200000000000001,
+      "tile-003": 11.0,
+      "tile-004": 10.8,
+      "tile-005": 10.600000000000001,
+      "tile-006": 10.4,
+      "tile-007": 10.200000000000001,
+      "tile-008": 10.0,
+      "tile-009": 9.8,
+      "tile-010": 9.600000000000001,
+      "tile-011": 9.4,
+      "tile-012": 9.200000000000001,
+      "tile-013": 9.0,
+      "tile-014": 8.8,
+      "tile-015": 8.6,
+      "tile-016": 8.4,
+      "tile-017": 8.200000000000001,
+      "tile-018": 8.0,
+      "tile-019": 7.800000000000001,
+      "tile-020": 7.6000000000000005,
+      "tile-021": 7.4,
+      "tile-022": 7.2,
+      "tile-023": 7.0,
+      "tile-024": 6.800000000000001,
+      "tile-025": 6.6000000000000005,
+      "tile-026": 6.4,
+      "tile-027": 6.2,
+      "tile-028": 6.0,
+      "tile-029": 5.800000000000001,
+      "tile-030": 5.6000000000000005,
+      "tile-031": 5.4,
+      "tile-032": 5.2,
+      "tile-033": 5.0,
+      "tile-034": 4.800000000000001,
+      "tile-035": 4.6000000000000005,
+      "tile-036": 4.4,
+      "tile-037": 4.2,
+      "tile-038": 4.0,
+      "tile-039": 3.8000000000000003,
+      "tile-040": 3.6,
+      "tile-041": 3.4000000000000004,
+      "tile-042": 3.2,
+      "tile-043": 3.0,
+      "tile-044": 2.8000000000000003,
+      "tile-045": 2.6,
+      "tile-046": 2.4000000000000004,
+      "tile-047": 2.2,
+      "tile-048": 2.0,
+      "tile-049": 1.8,
+      "tile-050": 1.6,
+      "tile-051": 1.4000000000000001,
+      "tile-052": 1.2000000000000002,
+      "tile-053": 1.0,
+      "tile-054": 0.8,
+      "tile-055": 0.6000000000000001,
+      "tile-056": 0.4,
+      "tile-057": 0.2
+    },
+    "weights": {
+      "movement": 20.0,
+      "depth": 40.0,
+      "risk": 0.0,
+      "synthesized": 0.0
+    },
+    "cardDiagonal": 142.12670403551894,
+    "allowedSlots": {},
+    "forbiddenAssignmentCount": 0,
+    "fixedAssignmentCount": 0,
+    "iterations": 4,
+    "history": [
+      {
+        "iteration": 0,
+        "blockedClickCount": 0,
+        "occlusionOrderViolationCount": 6,
+        "blockingOrderViolationCount": 0,
+        "movementCost": 0.0
+      },
+      {
+        "iteration": 1,
+        "swap": [
+          "tile-030",
+          "tile-033"
+        ],
+        "blockedClickCount": 0,
+        "occlusionOrderViolationCount": 4,
+        "blockingOrderViolationCount": 0,
+        "movementCost": 260.0
+      },
+      {
+        "iteration": 2,
+        "swap": [
+          "tile-036",
+          "tile-043"
+        ],
+        "blockedClickCount": 0,
+        "occlusionOrderViolationCount": 2,
+        "blockingOrderViolationCount": 0,
+        "movementCost": 559.6665
+      },
+      {
+        "iteration": 3,
+        "swap": [
+          "tile-046",
+          "tile-053"
+        ],
+        "blockedClickCount": 0,
+        "occlusionOrderViolationCount": 1,
+        "blockingOrderViolationCount": 0,
+        "movementCost": 859.333
+      },
+      {
+        "iteration": 4,
+        "swap": [
+          "tile-054",
+          "tile-055"
+        ],
+        "blockedClickCount": 0,
+        "occlusionOrderViolationCount": 0,
+        "blockingOrderViolationCount": 0,
+        "movementCost": 859.333
+      }
+    ],
+    "termination": "zero-hard-violation-solution",
+    "deterministicSeed": 0,
+    "sourceFactsWritable": false
+  },
+  "diagnostics": {
+    "identityErrors": [],
+    "boundsErrors": [],
+    "matchErrors": [],
+    "blockedClicks": [],
+    "occlusionOrderViolations": [],
+    "overlapEdges": [
+      {
+        "firstSlotId": "r01-c03::d0",
+        "secondSlotId": "r01-c03::d1",
+        "overlapArea": 9900.0,
+        "overlapRatio": 1.0
+      },
+      {
+        "firstSlotId": "r01-c04::d0",
+        "secondSlotId": "r01-c04::d1",
+        "overlapArea": 9900.0,
+        "overlapRatio": 1.0
+      },
+      {
+        "firstSlotId": "r02-c03::d0",
+        "secondSlotId": "r02-c03::d1",
+        "overlapArea": 9900.0,
+        "overlapRatio": 1.0
+      },
+      {
+        "firstSlotId": "r03-c02::d0",
+        "secondSlotId": "r03-c02::d1",
+        "overlapArea": 9900.0,
+        "overlapRatio": 1.0
+      },
+      {
+        "firstSlotId": "r03-c03::d0",
+        "secondSlotId": "r03-c03::d1",
+        "overlapArea": 9900.0,
+        "overlapRatio": 1.0
+      },
+      {
+        "firstSlotId": "r04-c02::d0",
+        "secondSlotId": "r04-c02::d1",
+        "overlapArea": 9900.0,
+        "overlapRatio": 1.0
+      },
+      {
+        "firstSlotId": "r05-c01::d0",
+        "secondSlotId": "r05-c01::d1",
+        "overlapArea": 9900.0,
+        "overlapRatio": 1.0
+      },
+      {
+        "firstSlotId": "r05-c01::d0",
+        "secondSlotId": "r05-c01::d2",
+        "overlapArea": 9900.0,
+        "overlapRatio": 1.0
+      },
+      {
+        "firstSlotId": "r05-c01::d1",
+        "secondSlotId": "r05-c01::d2",
+        "overlapArea": 9900.0,
+        "overlapRatio": 1.0
+      },
+      {
+        "firstSlotId": "r05-c02::d0",
+        "secondSlotId": "r05-c02::d1",
+        "overlapArea": 9900.0,
+        "overlapRatio": 1.0
+      },
+      {
+        "firstSlotId": "r06-c01::d0",
+        "secondSlotId": "r06-c01::d1",
+        "overlapArea": 9900.0,
+        "overlapRatio": 1.0
+      },
+      {
+        "firstSlotId": "r06-c02::d0",
+        "secondSlotId": "r06-c02::d1",
+        "overlapArea": 9900.0,
+        "overlapRatio": 1.0
+      },
+      {
+        "firstSlotId": "r06-c02::d0",
+        "secondSlotId": "r06-c02::d2",
+        "overlapArea": 9900.0,
+        "overlapRatio": 1.0
+      },
+      {
+        "firstSlotId": "r06-c02::d1",
+        "secondSlotId": "r06-c02::d2",
+        "overlapArea": 9900.0,
+        "overlapRatio": 1.0
+      },
+      {
+        "firstSlotId": "r07-c02::d0",
+        "secondSlotId": "r07-c02::d1",
+        "overlapArea": 9900.0,
+        "overlapRatio": 1.0
+      },
+      {
+        "firstSlotId": "r08-c02::d0",
+        "secondSlotId": "r08-c02::d1",
+        "overlapArea": 9900.0,
+        "overlapRatio": 1.0
+      },
+      {
+        "firstSlotId": "r08-c03::d0",
+        "secondSlotId": "r08-c03::d1",
+        "overlapArea": 9900.0,
+        "overlapRatio": 1.0
+      },
+      {
+        "firstSlotId": "r10-c03::d0",
+        "secondSlotId": "r10-c03::d1",
+        "overlapArea": 9900.0,
+        "overlapRatio": 1.0
+      },
+      {
+        "firstSlotId": "r10-c04::d0",
+        "secondSlotId": "r10-c04::d1",
+        "overlapArea": 9900.0,
+        "overlapRatio": 1.0
+      }
+    ],
+    "identityErrorCount": 0,
+    "boundsErrorCount": 0,
+    "matchErrorCount": 0,
+    "blockedClickCount": 0,
+    "blockingOrderViolationCount": 0,
+    "occlusionOrderViolationCount": 0,
+    "overlapEdgeCount": 19,
+    "accessibleClickCount": 57
+  },
+  "nextAction": null
+}

@@ -1,0 +1,427 @@
+{
+  "title": "Independently reviewed visible top-surface layout",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "artifactType",
+    "createdAt",
+    "referenceRoi",
+    "referenceImage",
+    "referenceCoordinateSystem",
+    "coordinateSystem",
+    "referenceToBoardTransform",
+    "safeRegion",
+    "cardBody",
+    "grammar",
+    "anchors",
+    "topSurfaceAnchorCount",
+    "silhouette",
+    "holes",
+    "proposerReview",
+    "reviewerReview",
+    "safety"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 2
+    },
+    "artifactType": {
+      "const": "visible-layout"
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "referenceRoi": {
+      "type": "object",
+      "required": [
+        "path",
+        "sha256",
+        "bytes"
+      ],
+      "properties": {
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[0-9A-Fa-f]{64}$"
+        },
+        "bytes": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": true
+    },
+    "referenceImage": {
+      "allOf": [
+        {
+          "type": "object",
+          "required": [
+            "path",
+            "sha256",
+            "bytes"
+          ],
+          "properties": {
+            "path": {
+              "type": "string",
+              "minLength": 1
+            },
+            "sha256": {
+              "type": "string",
+              "pattern": "^[0-9A-Fa-f]{64}$"
+            },
+            "bytes": {
+              "type": "integer",
+              "minimum": 0
+            }
+          },
+          "additionalProperties": true
+        },
+        {
+          "type": "object",
+          "required": [
+            "width",
+            "height"
+          ],
+          "properties": {
+            "width": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "height": {
+              "type": "integer",
+              "minimum": 1
+            }
+          },
+          "additionalProperties": true
+        }
+      ]
+    },
+    "referenceCoordinateSystem": {
+      "type": "object",
+      "required": [
+        "space",
+        "width",
+        "height"
+      ],
+      "properties": {
+        "space": {
+          "const": "reference-image"
+        },
+        "width": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "height": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        }
+      },
+      "additionalProperties": false
+    },
+    "coordinateSystem": {
+      "type": "object",
+      "required": [
+        "space",
+        "width",
+        "height"
+      ],
+      "properties": {
+        "space": {
+          "const": "board-comp"
+        },
+        "width": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "height": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        }
+      },
+      "additionalProperties": false
+    },
+    "referenceToBoardTransform": {
+      "type": "object",
+      "required": [
+        "scaleX",
+        "scaleY",
+        "offsetX",
+        "offsetY"
+      ],
+      "properties": {
+        "scaleX": {
+          "type": "number"
+        },
+        "scaleY": {
+          "type": "number"
+        },
+        "offsetX": {
+          "type": "number"
+        },
+        "offsetY": {
+          "type": "number"
+        }
+      },
+      "additionalProperties": false
+    },
+    "safeRegion": {
+      "type": "object",
+      "required": [
+        "left",
+        "top",
+        "right",
+        "bottom"
+      ],
+      "properties": {
+        "left": {
+          "type": "number"
+        },
+        "top": {
+          "type": "number"
+        },
+        "right": {
+          "type": "number"
+        },
+        "bottom": {
+          "type": "number"
+        }
+      },
+      "additionalProperties": false
+    },
+    "cardBody": {
+      "type": "object",
+      "required": [
+        "width",
+        "height"
+      ],
+      "properties": {
+        "width": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "height": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        }
+      },
+      "additionalProperties": false
+    },
+    "grammar": {
+      "type": "object",
+      "required": [
+        "family",
+        "rowCounts"
+      ],
+      "properties": {
+        "family": {
+          "type": "string"
+        },
+        "rowCounts": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "integer",
+            "minimum": 1
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "anchors": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "anchorId",
+          "row",
+          "column",
+          "referenceCenter",
+          "referenceSize",
+          "evidence",
+          "confidence",
+          "center",
+          "size"
+        ],
+        "properties": {
+          "anchorId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "row": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "column": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "referenceCenter": {
+            "type": "array",
+            "minItems": 2,
+            "maxItems": 2,
+            "items": {
+              "type": "number"
+            }
+          },
+          "referenceSize": {
+            "type": "array",
+            "minItems": 2,
+            "maxItems": 2,
+            "items": {
+              "type": "number"
+            }
+          },
+          "evidence": {
+            "enum": [
+              "observed",
+              "inferred"
+            ]
+          },
+          "confidence": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "center": {
+            "type": "array",
+            "minItems": 2,
+            "maxItems": 2,
+            "items": {
+              "type": "number"
+            }
+          },
+          "size": {
+            "type": "array",
+            "minItems": 2,
+            "maxItems": 2,
+            "items": {
+              "type": "number"
+            }
+          },
+          "depthBandId": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "topSurfaceAnchorCount": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "silhouette": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "holes": {
+      "type": "array"
+    },
+    "proposerReview": {
+      "type": "object",
+      "required": [
+        "status",
+        "issues",
+        "rationale"
+      ],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "approved",
+            "revise",
+            "blocked",
+            "pending"
+          ]
+        },
+        "issues": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        },
+        "rationale": {
+          "type": "string"
+        },
+        "independentContext": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": true
+    },
+    "reviewerReview": {
+      "allOf": [
+        {
+          "type": "object",
+          "required": [
+            "status",
+            "issues",
+            "rationale"
+          ],
+          "properties": {
+            "status": {
+              "type": "string",
+              "enum": [
+                "approved",
+                "revise",
+                "blocked",
+                "pending"
+              ]
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "object"
+              }
+            },
+            "rationale": {
+              "type": "string"
+            },
+            "independentContext": {
+              "type": "boolean"
+            }
+          },
+          "additionalProperties": true
+        },
+        {
+          "type": "object",
+          "required": [
+            "independentContext"
+          ],
+          "properties": {
+            "independentContext": {
+              "const": true
+            }
+          }
+        }
+      ]
+    },
+    "safety": {
+      "type": "object",
+      "required": [
+        "referenceSourceAepUsed",
+        "referenceSourceGeometryUsed",
+        "hiddenCapacityAuthored"
+      ],
+      "properties": {
+        "referenceSourceAepUsed": {
+          "const": false
+        },
+        "referenceSourceGeometryUsed": {
+          "const": false
+        },
+        "hiddenCapacityAuthored": {
+          "const": false
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openai.local/ae-stack-v2/visible-layout.schema.json"
+}

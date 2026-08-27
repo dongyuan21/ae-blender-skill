@@ -1,0 +1,128 @@
+{
+  "title": "Pre-write simulation report",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "artifactType",
+    "createdAt",
+    "status",
+    "writeAuthorized",
+    "sourceFactsSha256",
+    "capacityPlanSha256",
+    "assignmentSha256",
+    "inputs",
+    "identityErrors",
+    "boundsErrors",
+    "matchErrors",
+    "blockedClicks",
+    "occlusionOrderViolations",
+    "overlapEdges",
+    "identityErrorCount",
+    "boundsErrorCount",
+    "matchErrorCount",
+    "blockedClickCount",
+    "blockingOrderViolationCount",
+    "occlusionOrderViolationCount",
+    "overlapEdgeCount",
+    "accessibleClickCount",
+    "sourceFactAuthority"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 2
+    },
+    "artifactType": {
+      "const": "simulation-report"
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "status": {
+      "const": "passed"
+    },
+    "writeAuthorized": {
+      "const": true
+    },
+    "sourceFactsSha256": {
+      "type": "string",
+      "pattern": "^[0-9A-Fa-f]{64}$"
+    },
+    "capacityPlanSha256": {
+      "type": "string",
+      "pattern": "^[0-9A-Fa-f]{64}$"
+    },
+    "assignmentSha256": {
+      "type": "string",
+      "pattern": "^[0-9A-Fa-f]{64}$"
+    },
+    "inputs": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "identityErrors": {
+      "type": "array",
+      "maxItems": 0
+    },
+    "boundsErrors": {
+      "type": "array",
+      "maxItems": 0
+    },
+    "matchErrors": {
+      "type": "array",
+      "maxItems": 0
+    },
+    "blockedClicks": {
+      "type": "array",
+      "maxItems": 0
+    },
+    "occlusionOrderViolations": {
+      "type": "array",
+      "maxItems": 0
+    },
+    "overlapEdges": {
+      "type": "array"
+    },
+    "identityErrorCount": {
+      "const": 0
+    },
+    "boundsErrorCount": {
+      "const": 0
+    },
+    "matchErrorCount": {
+      "const": 0
+    },
+    "blockedClickCount": {
+      "const": 0
+    },
+    "blockingOrderViolationCount": {
+      "const": 0
+    },
+    "occlusionOrderViolationCount": {
+      "const": 0
+    },
+    "overlapEdgeCount": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "accessibleClickCount": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "sourceFactAuthority": {
+      "type": "object",
+      "required": [
+        "assignmentMayOverrideSourceFacts"
+      ],
+      "properties": {
+        "assignmentMayOverrideSourceFacts": {
+          "const": false
+        }
+      },
+      "additionalProperties": true
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openai.local/ae-stack-v2/simulation-report.schema.json"
+}

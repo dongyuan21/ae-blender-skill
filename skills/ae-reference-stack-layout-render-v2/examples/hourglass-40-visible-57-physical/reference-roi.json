@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 2,
+  "artifactType": "reference-roi",
+  "createdAt": "2026-08-27T14:11:28+00:00",
+  "referenceImage": {
+    "path": "examples/hourglass-40-visible-57-physical/synthetic-reference.png",
+    "sha256": "AE62D1A691A14101A265C613DE6F64ADF7DED1D52F6EE85CCF2E4D549C25202C",
+    "bytes": 19207,
+    "format": "PNG",
+    "mode": "RGB",
+    "width": 1080,
+    "height": 1920,
+    "alphaExtrema": null
+  },
+  "boardRoi": {
+    "left": 80,
+    "top": 165,
+    "right": 1000,
+    "bottom": 1750
+  },
+  "excludedRegions": [],
+  "review": {
+    "status": "approved",
+    "issues": [],
+    "rationale": "Synthetic fixture ROI contains only the board and stack."
+  },
+  "analysis": null
+}

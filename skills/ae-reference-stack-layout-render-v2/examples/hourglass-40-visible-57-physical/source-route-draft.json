@@ -1,0 +1,45 @@
+{
+  "finalComp": {
+    "id": 201,
+    "name": "FINAL",
+    "width": 1080,
+    "height": 1920
+  },
+  "boardComp": {
+    "id": 101,
+    "name": "BOARD",
+    "width": 1080,
+    "height": 1920
+  },
+  "nestingPath": [
+    {
+      "compId": 201,
+      "compName": "FINAL"
+    },
+    {
+      "compId": 101,
+      "compName": "BOARD"
+    }
+  ],
+  "routeScope": {
+    "compIds": [
+      201,
+      101
+    ],
+    "routeCriticalFootageItemIds": []
+  },
+  "qaBaseline": {
+    "acceptedMissingKeys": [],
+    "acceptedExpressionErrorKeys": [],
+    "acceptedEnabledWatermarkKeys": []
+  },
+  "renderSettings": {
+    "renderCompId": 201,
+    "editCompId": 101
+  },
+  "review": {
+    "status": "approved",
+    "issues": [],
+    "rationale": "Edit BOARD and render FINAL."
+  }
+}

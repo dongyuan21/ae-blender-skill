@@ -1,0 +1,423 @@
+{
+  "title": "Visible-anchor to physical-slot capacity reconciliation",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "artifactType",
+    "createdAt",
+    "mode",
+    "coordinateSystem",
+    "safeRegion",
+    "overlapThreshold",
+    "sourceTileCount",
+    "visibleAnchorCount",
+    "physicalSlotCount",
+    "hiddenSlotCount",
+    "sourceFactsSha256",
+    "visibleLayoutSha256",
+    "depthEvidenceSha256",
+    "eventModel",
+    "visibleLayout",
+    "depthEvidence",
+    "perAnchorCapacity",
+    "provenanceCounts",
+    "hiddenOffsetPerDepth",
+    "slots",
+    "frontBackEdges",
+    "review",
+    "safety"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 2
+    },
+    "artifactType": {
+      "const": "capacity-plan"
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "mode": {
+      "enum": [
+        "balanced",
+        "explicit-total-depth"
+      ]
+    },
+    "coordinateSystem": {
+      "type": "object",
+      "required": [
+        "space",
+        "width",
+        "height"
+      ],
+      "properties": {
+        "space": {
+          "const": "board-comp"
+        },
+        "width": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "height": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        }
+      },
+      "additionalProperties": false
+    },
+    "safeRegion": {
+      "type": "object",
+      "required": [
+        "left",
+        "top",
+        "right",
+        "bottom"
+      ],
+      "properties": {
+        "left": {
+          "type": "number"
+        },
+        "top": {
+          "type": "number"
+        },
+        "right": {
+          "type": "number"
+        },
+        "bottom": {
+          "type": "number"
+        }
+      },
+      "additionalProperties": false
+    },
+    "overlapThreshold": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "sourceTileCount": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "visibleAnchorCount": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "physicalSlotCount": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "hiddenSlotCount": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "sourceFactsSha256": {
+      "type": "string",
+      "pattern": "^[0-9A-Fa-f]{64}$"
+    },
+    "visibleLayoutSha256": {
+      "type": "string",
+      "pattern": "^[0-9A-Fa-f]{64}$"
+    },
+    "depthEvidenceSha256": {
+      "type": "string",
+      "pattern": "^[0-9A-Fa-f]{64}$"
+    },
+    "eventModel": {
+      "type": "object",
+      "required": [
+        "path",
+        "sha256",
+        "bytes"
+      ],
+      "properties": {
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[0-9A-Fa-f]{64}$"
+        },
+        "bytes": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": true
+    },
+    "visibleLayout": {
+      "type": "object",
+      "required": [
+        "path",
+        "sha256",
+        "bytes"
+      ],
+      "properties": {
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[0-9A-Fa-f]{64}$"
+        },
+        "bytes": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": true
+    },
+    "depthEvidence": {
+      "type": "object",
+      "required": [
+        "path",
+        "sha256",
+        "bytes"
+      ],
+      "properties": {
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[0-9A-Fa-f]{64}$"
+        },
+        "bytes": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": true
+    },
+    "perAnchorCapacity": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "anchorId",
+          "totalDepth",
+          "evidenceMinDepth",
+          "evidenceMaxDepth",
+          "surplusDepth"
+        ],
+        "properties": {
+          "anchorId": {
+            "type": "string"
+          },
+          "totalDepth": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "evidenceMinDepth": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "evidenceMaxDepth": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "surplusDepth": {
+            "type": "integer",
+            "minimum": 0
+          }
+        }
+      }
+    },
+    "provenanceCounts": {
+      "type": "object",
+      "propertyNames": {
+        "enum": [
+          "observed-top-surface",
+          "observed-depth",
+          "inferred-depth",
+          "synthesized-for-surplus"
+        ]
+      },
+      "additionalProperties": {
+        "type": "integer",
+        "minimum": 0
+      }
+    },
+    "hiddenOffsetPerDepth": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "items": {
+        "type": "number"
+      }
+    },
+    "slots": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "slotId",
+          "surfaceAnchorId",
+          "depthIndex",
+          "center",
+          "size",
+          "row",
+          "column",
+          "depthBandId",
+          "visibility",
+          "provenance",
+          "source"
+        ],
+        "properties": {
+          "slotId": {
+            "type": "string"
+          },
+          "surfaceAnchorId": {
+            "type": "string"
+          },
+          "depthIndex": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "center": {
+            "type": "array",
+            "minItems": 2,
+            "maxItems": 2,
+            "items": {
+              "type": "number"
+            }
+          },
+          "size": {
+            "type": "array",
+            "minItems": 2,
+            "maxItems": 2,
+            "items": {
+              "type": "number"
+            }
+          },
+          "row": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "column": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "depthBandId": {
+            "type": "string"
+          },
+          "visibility": {
+            "enum": [
+              "visible",
+              "fully-hidden",
+              "near-shared"
+            ]
+          },
+          "provenance": {
+            "enum": [
+              "observed-top-surface",
+              "observed-depth",
+              "inferred-depth",
+              "synthesized-for-surplus"
+            ]
+          },
+          "source": {
+            "type": "object",
+            "additionalProperties": true
+          }
+        }
+      }
+    },
+    "frontBackEdges": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "frontSlotId",
+          "backSlotId",
+          "kind",
+          "evidenceClass"
+        ],
+        "properties": {
+          "frontSlotId": {
+            "type": "string"
+          },
+          "backSlotId": {
+            "type": "string"
+          },
+          "kind": {
+            "enum": [
+              "same-anchor-depth-chain",
+              "reference-occlusion"
+            ]
+          },
+          "evidenceClass": {
+            "enum": [
+              "observed",
+              "inferred",
+              "unknown"
+            ]
+          }
+        }
+      }
+    },
+    "review": {
+      "type": "object",
+      "required": [
+        "status",
+        "issues",
+        "rationale"
+      ],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "approved",
+            "revise",
+            "blocked",
+            "pending"
+          ]
+        },
+        "issues": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        },
+        "rationale": {
+          "type": "string"
+        },
+        "independentContext": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": true
+    },
+    "safety": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "visibleAnchorGeometryChanged",
+        "hiddenCapacityMayExpandSilhouette",
+        "sourceFactsWritable"
+      ],
+      "properties": {
+        "visibleAnchorGeometryChanged": {
+          "const": false
+        },
+        "hiddenCapacityMayExpandSilhouette": {
+          "type": "boolean"
+        },
+        "sourceFactsWritable": {
+          "const": false
+        }
+      }
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openai.local/ae-stack-v2/capacity-plan.schema.json"
+}

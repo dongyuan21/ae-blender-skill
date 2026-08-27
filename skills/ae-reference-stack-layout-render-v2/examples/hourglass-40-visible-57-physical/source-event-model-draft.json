@@ -1,0 +1,354 @@
+{
+  "pairTimeTolerance": 0.1,
+  "removalTimeTolerance": 0.05,
+  "requireContiguousOrdinals": true,
+  "events": [
+    {
+      "tileId": "tile-001",
+      "clickOrdinal": 1,
+      "clickTime": 1.0,
+      "declaredRemovalTime": 1.25
+    },
+    {
+      "tileId": "tile-002",
+      "clickOrdinal": 2,
+      "clickTime": 2.0,
+      "declaredRemovalTime": 2.25
+    },
+    {
+      "tileId": "tile-003",
+      "clickOrdinal": 3,
+      "clickTime": 3.0,
+      "declaredRemovalTime": 3.25
+    },
+    {
+      "tileId": "tile-004",
+      "clickOrdinal": 4,
+      "clickTime": 4.0,
+      "declaredRemovalTime": 4.25
+    },
+    {
+      "tileId": "tile-005",
+      "clickOrdinal": 5,
+      "clickTime": 5.0,
+      "declaredRemovalTime": 5.25
+    },
+    {
+      "tileId": "tile-006",
+      "clickOrdinal": 6,
+      "clickTime": 6.0,
+      "declaredRemovalTime": 6.25
+    },
+    {
+      "tileId": "tile-007",
+      "clickOrdinal": 7,
+      "clickTime": 7.0,
+      "declaredRemovalTime": 7.25
+    },
+    {
+      "tileId": "tile-008",
+      "clickOrdinal": 8,
+      "clickTime": 8.0,
+      "declaredRemovalTime": 8.25
+    },
+    {
+      "tileId": "tile-009",
+      "clickOrdinal": 9,
+      "clickTime": 9.0,
+      "declaredRemovalTime": 9.25
+    },
+    {
+      "tileId": "tile-010",
+      "clickOrdinal": 10,
+      "clickTime": 10.0,
+      "declaredRemovalTime": 10.25
+    },
+    {
+      "tileId": "tile-011",
+      "clickOrdinal": 11,
+      "clickTime": 11.0,
+      "declaredRemovalTime": 11.25
+    },
+    {
+      "tileId": "tile-012",
+      "clickOrdinal": 12,
+      "clickTime": 12.0,
+      "declaredRemovalTime": 12.25
+    },
+    {
+      "tileId": "tile-013",
+      "clickOrdinal": 13,
+      "clickTime": 13.0,
+      "declaredRemovalTime": 13.25
+    },
+    {
+      "tileId": "tile-014",
+      "clickOrdinal": 14,
+      "clickTime": 14.0,
+      "declaredRemovalTime": 14.25
+    },
+    {
+      "tileId": "tile-015",
+      "clickOrdinal": 15,
+      "clickTime": 15.0,
+      "declaredRemovalTime": 15.25
+    },
+    {
+      "tileId": "tile-016",
+      "clickOrdinal": 16,
+      "clickTime": 16.0,
+      "declaredRemovalTime": 16.25
+    },
+    {
+      "tileId": "tile-017",
+      "clickOrdinal": 17,
+      "clickTime": 17.0,
+      "declaredRemovalTime": 17.25
+    },
+    {
+      "tileId": "tile-018",
+      "clickOrdinal": 18,
+      "clickTime": 18.0,
+      "declaredRemovalTime": 18.25
+    },
+    {
+      "tileId": "tile-019",
+      "clickOrdinal": 19,
+      "clickTime": 19.0,
+      "declaredRemovalTime": 19.25
+    },
+    {
+      "tileId": "tile-020",
+      "clickOrdinal": 20,
+      "clickTime": 20.0,
+      "declaredRemovalTime": 20.25
+    },
+    {
+      "tileId": "tile-021",
+      "clickOrdinal": 21,
+      "clickTime": 21.0,
+      "declaredRemovalTime": 21.25
+    },
+    {
+      "tileId": "tile-022",
+      "clickOrdinal": 22,
+      "clickTime": 22.0,
+      "declaredRemovalTime": 22.25
+    },
+    {
+      "tileId": "tile-023",
+      "clickOrdinal": 23,
+      "clickTime": 23.0,
+      "declaredRemovalTime": 23.25
+    },
+    {
+      "tileId": "tile-024",
+      "clickOrdinal": 24,
+      "clickTime": 24.0,
+      "declaredRemovalTime": 24.25
+    },
+    {
+      "tileId": "tile-025",
+      "clickOrdinal": 25,
+      "clickTime": 25.0,
+      "declaredRemovalTime": 25.25
+    },
+    {
+      "tileId": "tile-026",
+      "clickOrdinal": 26,
+      "clickTime": 26.0,
+      "declaredRemovalTime": 26.25
+    },
+    {
+      "tileId": "tile-027",
+      "clickOrdinal": 27,
+      "clickTime": 27.0,
+      "declaredRemovalTime": 27.25
+    },
+    {
+      "tileId": "tile-028",
+      "clickOrdinal": 28,
+      "clickTime": 28.0,
+      "declaredRemovalTime": 28.25
+    },
+    {
+      "tileId": "tile-029",
+      "clickOrdinal": 29,
+      "clickTime": 29.0,
+      "declaredRemovalTime": 29.25
+    },
+    {
+      "tileId": "tile-030",
+      "clickOrdinal": 30,
+      "clickTime": 30.0,
+      "declaredRemovalTime": 30.25
+    },
+    {
+      "tileId": "tile-031",
+      "clickOrdinal": 31,
+      "clickTime": 31.0,
+      "declaredRemovalTime": 31.25
+    },
+    {
+      "tileId": "tile-032",
+      "clickOrdinal": 32,
+      "clickTime": 32.0,
+      "declaredRemovalTime": 32.25
+    },
+    {
+      "tileId": "tile-033",
+      "clickOrdinal": 33,
+      "clickTime": 33.0,
+      "declaredRemovalTime": 33.25
+    },
+    {
+      "tileId": "tile-034",
+      "clickOrdinal": 34,
+      "clickTime": 34.0,
+      "declaredRemovalTime": 34.25
+    },
+    {
+      "tileId": "tile-035",
+      "clickOrdinal": 35,
+      "clickTime": 35.0,
+      "declaredRemovalTime": 35.25
+    },
+    {
+      "tileId": "tile-036",
+      "clickOrdinal": 36,
+      "clickTime": 36.0,
+      "declaredRemovalTime": 36.25
+    },
+    {
+      "tileId": "tile-037",
+      "clickOrdinal": 37,
+      "clickTime": 37.0,
+      "declaredRemovalTime": 37.25
+    },
+    {
+      "tileId": "tile-038",
+      "clickOrdinal": 38,
+      "clickTime": 38.0,
+      "declaredRemovalTime": 38.25
+    },
+    {
+      "tileId": "tile-039",
+      "clickOrdinal": 39,
+      "clickTime": 39.0,
+      "declaredRemovalTime": 39.25
+    },
+    {
+      "tileId": "tile-040",
+      "clickOrdinal": 40,
+      "clickTime": 40.0,
+      "declaredRemovalTime": 40.25
+    },
+    {
+      "tileId": "tile-041",
+      "clickOrdinal": 41,
+      "clickTime": 41.0,
+      "declaredRemovalTime": 41.25
+    },
+    {
+      "tileId": "tile-042",
+      "clickOrdinal": 42,
+      "clickTime": 42.0,
+      "declaredRemovalTime": 42.25
+    },
+    {
+      "tileId": "tile-043",
+      "clickOrdinal": 43,
+      "clickTime": 43.0,
+      "declaredRemovalTime": 43.25
+    },
+    {
+      "tileId": "tile-044",
+      "clickOrdinal": 44,
+      "clickTime": 44.0,
+      "declaredRemovalTime": 44.25
+    },
+    {
+      "tileId": "tile-045",
+      "clickOrdinal": 45,
+      "clickTime": 45.0,
+      "declaredRemovalTime": 45.25
+    },
+    {
+      "tileId": "tile-046",
+      "clickOrdinal": 46,
+      "clickTime": 46.0,
+      "declaredRemovalTime": 46.25
+    },
+    {
+      "tileId": "tile-047",
+      "clickOrdinal": 47,
+      "clickTime": 47.0,
+      "declaredRemovalTime": 47.25
+    },
+    {
+      "tileId": "tile-048",
+      "clickOrdinal": 48,
+      "clickTime": 48.0,
+      "declaredRemovalTime": 48.25
+    },
+    {
+      "tileId": "tile-049",
+      "clickOrdinal": 49,
+      "clickTime": 49.0,
+      "declaredRemovalTime": 49.25
+    },
+    {
+      "tileId": "tile-050",
+      "clickOrdinal": 50,
+      "clickTime": 50.0,
+      "declaredRemovalTime": 50.25
+    },
+    {
+      "tileId": "tile-051",
+      "clickOrdinal": 51,
+      "clickTime": 51.0,
+      "declaredRemovalTime": 51.25
+    },
+    {
+      "tileId": "tile-052",
+      "clickOrdinal": 52,
+      "clickTime": 52.0,
+      "declaredRemovalTime": 52.25
+    },
+    {
+      "tileId": "tile-053",
+      "clickOrdinal": 53,
+      "clickTime": 53.0,
+      "declaredRemovalTime": 53.25
+    },
+    {
+      "tileId": "tile-054",
+      "clickOrdinal": 54,
+      "clickTime": 54.0,
+      "declaredRemovalTime": 54.25
+    },
+    {
+      "tileId": "tile-055",
+      "clickOrdinal": 55,
+      "clickTime": 55.0,
+      "declaredRemovalTime": 55.25
+    },
+    {
+      "tileId": "tile-056",
+      "clickOrdinal": 56,
+      "clickTime": 56.0,
+      "declaredRemovalTime": 56.25
+    },
+    {
+      "tileId": "tile-057",
+      "clickOrdinal": 57,
+      "clickTime": 57.0,
+      "declaredRemovalTime": 57.25
+    }
+  ],
+  "review": {
+    "status": "approved",
+    "issues": [],
+    "rationale": "Synthetic click schedule is locked to AE in/out and layer identities."
+  }
+}

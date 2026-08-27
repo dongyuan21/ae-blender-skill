@@ -1,0 +1,50 @@
+# Failure Routing
+
+QA emits typed issue codes. `route-qa` maps every issue to the earliest authority node that can legitimately repair it.
+
+| Issue code | Retry from |
+|---|---|
+| `CAPABILITY_MISSING` | `CAPABILITY_PREFLIGHT_PASSED` |
+| `WRONG_FINAL_OR_BOARD_COMP` | `SOURCE_ROUTE_LOCKED` |
+| `ROUTE_DEPENDENCY_MISSING` | `SOURCE_ROUTE_LOCKED` |
+| `BOARD_TILE_MISSING_OR_MISCLASSIFIED` | `BOARD_INVENTORY_LOCKED` |
+| `EVENT_PAIRING_AMBIGUOUS` | `EVENT_MODEL_LOCKED` |
+| `MOVER_CONTINUITY_ERROR` | `EVENT_MODEL_LOCKED` |
+| `HAND_ALIGNMENT_ERROR` | `EVENT_MODEL_LOCKED` |
+| `REFERENCE_ROI_INCLUDES_UI_OR_HAND` | `REFERENCE_ROI_LOCKED` |
+| `REFERENCE_SILHOUETTE_MISMATCH` | `VISIBLE_LAYOUT_LOCKED` |
+| `REFERENCE_HOLE_MISMATCH` | `VISIBLE_LAYOUT_LOCKED` |
+| `ROW_OR_BRANCH_GRAMMAR_MISMATCH` | `VISIBLE_LAYOUT_LOCKED` |
+| `DEPTH_OCCLUSION_MISMATCH` | `DEPTH_EVIDENCE_LOCKED` |
+| `UNSUPPORTED_VISIBLE_DEPTH_CLAIM` | `DEPTH_EVIDENCE_LOCKED` |
+| `HIDDEN_CAPACITY_CONCENTRATION` | `CAPACITY_RECONCILED` |
+| `PHYSICAL_SLOT_COUNT_MISMATCH` | `CAPACITY_RECONCILED` |
+| `CLICK_BLOCKED` | `ASSIGNMENT_SOLVED` |
+| `ASSIGNMENT_IDENTITY_MISMATCH` | `ASSIGNMENT_SOLVED` |
+| `PROPERTY_PLAN_STALE` | `PROPERTY_PLAN_FROZEN` |
+| `PROPERTY_OLD_VALUE_MISMATCH` | `PROPERTY_PLAN_FROZEN` |
+| `PROPERTY_READBACK_MISMATCH` | `PROPERTY_PLAN_FROZEN` |
+| `NEW_ROUTE_MISSING_FOOTAGE` | `SOURCE_ROUTE_LOCKED` |
+| `NEW_ROUTE_EXPRESSION_ERROR` | `PROPERTY_PLAN_FROZEN` |
+| `WATERMARK_ENABLED` | `PROPERTY_PLAN_FROZEN` |
+| `PREVIEW_Z_POP_OR_JUMP` | `EVENT_MODEL_LOCKED` |
+| `PREVIEW_VISUAL_MISMATCH` | `VISIBLE_LAYOUT_LOCKED` |
+| `VIDEO_TECHNICAL_FAILURE` | `APPLY_READBACK_PASSED` |
+| `FULL_VIDEO_BEHAVIOR_FAILURE` | `EVENT_MODEL_LOCKED` |
+
+When several issues exist, retry from the earliest node in the DAG. This may invalidate more work, but it prevents a downstream patch from masking a broken upstream fact.
+
+Example:
+
+```json
+{
+  "issues": [
+    {"code": "CLICK_BLOCKED", "tileId": "tile-017"},
+    {"code": "REFERENCE_SILHOUETTE_MISMATCH", "region": "row-04"}
+  ]
+}
+```
+
+The correct retry node is `VISIBLE_LAYOUT_LOCKED`, because it precedes Assignment and can change the geometry that caused both symptoms.
+
+Unmapped issue codes are not silently guessed. Extend the mapping and tests before using a new code in production.

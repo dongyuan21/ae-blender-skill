@@ -1,0 +1,1045 @@
+{
+  "schemaVersion": 2,
+  "artifactType": "property-plan",
+  "createdAt": "2026-08-27T14:11:31+00:00",
+  "safety": {
+    "originalAepEdited": false,
+    "referenceSourceAepUsed": false,
+    "referenceSourceGeometryUsed": false
+  },
+  "propertyUpdateCount": 57,
+  "propertyUpdates": [
+    {
+      "compId": 101,
+      "layerIndex": 1,
+      "layerName": "tile001",
+      "sourceId": 1001,
+      "propertyMatchName": "ADBE Position",
+      "expectedNumKeys": 0,
+      "expectedValue": [
+        215.0,
+        330.0
+      ],
+      "newValue": [
+        215.0,
+        330.0
+      ],
+      "tolerance": 0.5
+    },
+    {
+      "compId": 101,
+      "layerIndex": 2,
+      "layerName": "tile002",
+      "sourceId": 1002,
+      "propertyMatchName": "ADBE Position",
+      "expectedNumKeys": 0,
+      "expectedValue": [
+        345.0,
+        330.0
+      ],
+      "newValue": [
+        345.0,
+        330.0
+      ],
+      "tolerance": 0.5
+    },
+    {
+      "compId": 101,
+      "layerIndex": 3,
+      "layerName": "tile003",
+      "sourceId": 1003,
+      "propertyMatchName": "ADBE Position",
+      "expectedNumKeys": 0,
+      "expectedValue": [
+        475.0,
+        330.0
+      ],
+      "newValue": [
+        475.0,
+        330.0
+      ],
+      "tolerance": 0.5
+    },
+    {
+      "compId": 101,
+      "layerIndex": 4,
+      "layerName": "tile004",
+      "sourceId": 1004,
+      "propertyMatchName": "ADBE Position",
+      "expectedNumKeys": 0,
+      "expectedValue": [
+        475.0,
+        330.0
+      ],
+      "newValue": [
+        475.0,
+        330.0
+      ],
+      "tolerance": 0.5
+    },
+    {
+      "compId": 101,
+      "layerIndex": 5,
+      "layerName": "tile005",
+      "sourceId": 1005,
+      "propertyMatchName": "ADBE Position",
+      "expectedNumKeys": 0,
+      "expectedValue": [
+        605.0,
+        330.0
+      ],
+      "newValue": [
+        605.0,
+        330.0
+      ],
+      "tolerance": 0.5
+    },
+    {
+      "compId": 101,
+      "layerIndex": 6,
+      "layerName": "tile006",
+      "sourceId": 1006,
+      "propertyMatchName": "ADBE Position",
+      "expectedNumKeys": 0,
+      "expectedValue": [
+        605.0,
+        330.0
+      ],
+      "newValue": [
+        605.0,
+        330.0
+      ],
+      "tolerance": 0.5
+    },
+    {
+      "compId": 101,
+      "layerIndex": 7,
+      "layerName": "tile007",
+      "sourceId": 1007,
+      "propertyMatchName": "ADBE Position",
+      "expectedNumKeys": 0,
+      "expectedValue": [
+        735.0,
+        330.0
+      ],
+      "newValue": [
+        735.0,
+        330.0
+      ],
+      "tolerance": 0.5
+    },
+    {
+      "compId": 101,
+      "layerIndex": 8,
+      "layerName": "tile008",
+      "sourceId": 1008,
+      "propertyMatchName": "ADBE Position",
+      "expectedNumKeys": 0,
+      "expectedValue": [
+        865.0,
+        330.0
+      ],
+      "newValue": [
+        865.0,
+        330.0
+      ],
+      "tolerance": 0.5
+    },
+    {
+      "compId": 101,
+      "layerIndex": 9,
+      "layerName": "tile009",
+      "sourceId": 1009,
+      "propertyMatchName": "ADBE Position",
+      "expectedNumKeys": 0,
+      "expectedValue": [
+        280.0,
+        465.0
+      ],
+      "newValue": [
+        280.0,
+        465.0
+      ],
+      "tolerance": 0.5
+    },
+    {
+      "compId": 101,
+      "layerIndex": 10,
+      "layerName": "tile010",
+      "sourceId": 1010,
+      "propertyMatchName": "ADBE Position",
+      "expectedNumKeys": 0,
+      "expectedValue": [
+        410.0,
+        465.0
+      ],
+      "newValue": [
+        410.0,
+        465.0
+      ],
+      "tolerance": 0.5
+    },
+    {
+      "compId": 101,
+      "layerIndex": 11,
+      "layerName": "tile011",
+      "sourceId": 1011,
+      "propertyMatchName": "ADBE Position",
+      "expectedNumKeys": 0,
+      "expectedValue": [
+        540.0,
+        465.0
+      ],
+      "newValue": [
+        540.0,
+        465.0
+      ],
+      "tolerance": 0.5
+    },
+    {
+      "compId": 101,
+      "layerIndex": 12,
+      "layerName": "tile012",
+      "sourceId": 1012,
+      "propertyMatchName": "ADBE Position",
+      "expectedNumKeys": 0,
+      "expectedValue": [
+        540.0,
+        465.0
+      ],
+      "newValue": [
+        540.0,
+        465.0
+      ],
+      "tolerance": 0.5
+    },
+    {
+      "compId": 101,
+      "layerIndex": 13,
+      "layerName": "tile013",
+      "sourceId": 1013,
+      "propertyMatchName": "ADBE Position",
+      "expectedNumKeys": 0,
+      "expectedValue": [
+        670.0,
+        465.0
+      ],
+      "newValue": [
+        670.0,
+        465.0
+      ],
+      "tolerance": 0.5
+    },
+    {
+      "compId": 101,
+      "layerIndex": 14,
+      "layerName": "tile014",
+      "sourceId": 1014,
+      "propertyMatchName": "ADBE Position",
+      "expectedNumKeys": 0,
+      "expectedValue": [
+        800.0,
+        465.0
+      ],
+      "newValue": [
+        800.0,
+        465.0
+      ],
+      "tolerance": 0.5
+    },
+    {
+      "compId": 101,
+      "layerIndex": 15,
+      "layerName": "tile015",
+      "sourceId": 1015,
+      "propertyMatchName": "ADBE Position",
+      "expectedNumKeys": 0,
+      "expectedValue": [
+        345.0,
+        600.0
+      ],
+      "newValue": [
+        345.0,
+        600.0
+      ],
+      "tolerance": 0.5
+    },
+    {
+      "compId": 101,
+      "layerIndex": 16,
+      "layerName": "tile016",
+      "sourceId": 1016,
+      "propertyMatchName": "ADBE Position",
+      "expectedNumKeys": 0,
+      "expectedValue": [
+        475.0,
+        600.0
+      ],
+      "newValue": [
+        475.0,
+        600.0
+      ],
+      "tolerance": 0.5
+    },
+    {
+      "compId": 101,
+      "layerIndex": 17,
+      "layerName": "tile017",
+      "sourceId": 1017,
+      "propertyMatchName": "ADBE Position",
+      "expectedNumKeys": 0,
+      "expectedValue": [
+        475.0,
+        600.0
+      ],
+      "newValue": [
+        475.0,
+        600.0
+      ],
+      "tolerance": 0.5
+    },
+    {
+      "compId": 101,
+      "layerIndex": 18,
+      "layerName": "tile018",
+      "sourceId": 1018,
+      "propertyMatchName": "ADBE Position",
+      "expectedNumKeys": 0,
+      "expectedValue": [
+        605.0,
+        600.0
+      ],
+      "newValue": [
+        605.0,
+        600.0
+      ],
+      "tolerance": 0.5
+    },
+    {
+      "compId": 101,
+      "layerIndex": 19,
+      "layerName": "tile019",
+      "sourceId": 1019,
+      "propertyMatchName": "ADBE Position",
+      "expectedNumKeys": 0,
+      "expectedValue": [
+        605.0,
+        600.0
+      ],
+      "newValue": [
+        605.0,
+        600.0
+      ],
+      "tolerance": 0.5
+    },
+    {
+      "compId": 101,
+      "layerIndex": 20,
+      "layerName": "tile020",
+      "sourceId": 1020,
+      "propertyMatchName": "ADBE Position",
+      "expectedNumKeys": 0,
+      "expectedValue": [
+        735.0,
+        600.0
+      ],
+      "newValue": [
+        735.0,
+        600.0
+      ],
+      "tolerance": 0.5
+    },
+    {
+      "compId": 101,
+      "layerIndex": 21,
+      "layerName": "tile021",
+      "sourceId": 1021,
+      "propertyMatchName": "ADBE Position",
+      "expectedNumKeys": 0,
+      "expectedValue": [
+        410.0,
+        735.0
+      ],
+      "newValue": [
+        410.0,
+        735.0
+      ],
+      "tolerance": 0.5
+    },
+    {
+      "compId": 101,
+      "layerIndex": 22,
+      "layerName": "tile022",
+      "sourceId": 1022,
+      "propertyMatchName": "ADBE Position",
+      "expectedNumKeys": 0,
+      "expectedValue": [
+        540.0,
+        735.0
+      ],
+      "newValue": [
+        540.0,
+        735.0
+      ],
+      "tolerance": 0.5
+    },
+    {
+      "compId": 101,
+      "layerIndex": 23,
+      "layerName": "tile023",
+      "sourceId": 1023,
+      "propertyMatchName": "ADBE Position",
+      "expectedNumKeys": 0,
+      "expectedValue": [
+        540.0,
+        735.0
+      ],
+      "newValue": [
+        540.0,
+        735.0
+      ],
+      "tolerance": 0.5
+    },
+    {
+      "compId": 101,
+      "layerIndex": 24,
+      "layerName": "tile024",
+      "sourceId": 1024,
+      "propertyMatchName": "ADBE Position",
+      "expectedNumKeys": 0,
+      "expectedValue": [
+        670.0,
+        735.0
+      ],
+      "newValue": [
+        670.0,
+        735.0
+      ],
+      "tolerance": 0.5
+    },
+    {
+      "compId": 101,
+      "layerIndex": 25,
+      "layerName": "tile025",
+      "sourceId": 1025,
+      "propertyMatchName": "ADBE Position",
+      "expectedNumKeys": 0,
+      "expectedValue": [
+        475.0,
+        870.0
+      ],
+      "newValue": [
+        475.0,
+        870.0
+      ],
+      "tolerance": 0.5
+    },
+    {
+      "compId": 101,
+      "layerIndex": 26,
+      "layerName": "tile026",
+      "sourceId": 1026,
+      "propertyMatchName": "ADBE Position",
+      "expectedNumKeys": 0,
+      "expectedValue": [
+        475.0,
+        870.0
+      ],
+      "newValue": [
+        475.0,
+        870.0
+      ],
+      "tolerance": 0.5
+    },
+    {
+      "compId": 101,
+      "layerIndex": 27,
+      "layerName": "tile027",
+      "sourceId": 1027,
+      "propertyMatchName": "ADBE Position",
+      "expectedNumKeys": 0,
+      "expectedValue": [
+        475.0,
+        870.0
+      ],
+      "newValue": [
+        475.0,
+        870.0
+      ],
+      "tolerance": 0.5
+    },
+    {
+      "compId": 101,
+      "layerIndex": 28,
+      "layerName": "tile028",
+      "sourceId": 1028,
+      "propertyMatchName": "ADBE Position",
+      "expectedNumKeys": 0,
+      "expectedValue": [
+        605.0,
+        870.0
+      ],
+      "newValue": [
+        605.0,
+        870.0
+      ],
+      "tolerance": 0.5
+    },
+    {
+      "compId": 101,
+      "layerIndex": 29,
+      "layerName": "tile029",
+      "sourceId": 1029,
+      "propertyMatchName": "ADBE Position",
+      "expectedNumKeys": 0,
+      "expectedValue": [
+        605.0,
+        870.0
+      ],
+      "newValue": [
+        605.0,
+        870.0
+      ],
+      "tolerance": 0.5
+    },
+    {
+      "compId": 101,
+      "layerIndex": 30,
+      "layerName": "tile030",
+      "sourceId": 1030,
+      "propertyMatchName": "ADBE Position",
+      "expectedNumKeys": 0,
+      "expectedValue": [
+        475.0,
+        1005.0
+      ],
+      "newValue": [
+        605.0,
+        1005.0
+      ],
+      "tolerance": 0.5
+    },
+    {
+      "compId": 101,
+      "layerIndex": 31,
+      "layerName": "tile031",
+      "sourceId": 1031,
+      "propertyMatchName": "ADBE Position",
+      "expectedNumKeys": 0,
+      "expectedValue": [
+        475.0,
+        1005.0
+      ],
+      "newValue": [
+        475.0,
+        1005.0
+      ],
+      "tolerance": 0.5
+    },
+    {
+      "compId": 101,
+      "layerIndex": 32,
+      "layerName": "tile032",
+      "sourceId": 1032,
+      "propertyMatchName": "ADBE Position",
+      "expectedNumKeys": 0,
+      "expectedValue": [
+        605.0,
+        1005.0
+      ],
+      "newValue": [
+        605.0,
+        1005.0
+      ],
+      "tolerance": 0.5
+    },
+    {
+      "compId": 101,
+      "layerIndex": 33,
+      "layerName": "tile033",
+      "sourceId": 1033,
+      "propertyMatchName": "ADBE Position",
+      "expectedNumKeys": 0,
+      "expectedValue": [
+        605.0,
+        1005.0
+      ],
+      "newValue": [
+        475.0,
+        1005.0
+      ],
+      "tolerance": 0.5
+    },
+    {
+      "compId": 101,
+      "layerIndex": 34,
+      "layerName": "tile034",
+      "sourceId": 1034,
+      "propertyMatchName": "ADBE Position",
+      "expectedNumKeys": 0,
+      "expectedValue": [
+        605.0,
+        1005.0
+      ],
+      "newValue": [
+        605.0,
+        1005.0
+      ],
+      "tolerance": 0.5
+    },
+    {
+      "compId": 101,
+      "layerIndex": 35,
+      "layerName": "tile035",
+      "sourceId": 1035,
+      "propertyMatchName": "ADBE Position",
+      "expectedNumKeys": 0,
+      "expectedValue": [
+        410.0,
+        1140.0
+      ],
+      "newValue": [
+        410.0,
+        1140.0
+      ],
+      "tolerance": 0.5
+    },
+    {
+      "compId": 101,
+      "layerIndex": 36,
+      "layerName": "tile036",
+      "sourceId": 1036,
+      "propertyMatchName": "ADBE Position",
+      "expectedNumKeys": 0,
+      "expectedValue": [
+        540.0,
+        1140.0
+      ],
+      "newValue": [
+        605.0,
+        1275.0
+      ],
+      "tolerance": 0.5
+    },
+    {
+      "compId": 101,
+      "layerIndex": 37,
+      "layerName": "tile037",
+      "sourceId": 1037,
+      "propertyMatchName": "ADBE Position",
+      "expectedNumKeys": 0,
+      "expectedValue": [
+        540.0,
+        1140.0
+      ],
+      "newValue": [
+        540.0,
+        1140.0
+      ],
+      "tolerance": 0.5
+    },
+    {
+      "compId": 101,
+      "layerIndex": 38,
+      "layerName": "tile038",
+      "sourceId": 1038,
+      "propertyMatchName": "ADBE Position",
+      "expectedNumKeys": 0,
+      "expectedValue": [
+        670.0,
+        1140.0
+      ],
+      "newValue": [
+        670.0,
+        1140.0
+      ],
+      "tolerance": 0.5
+    },
+    {
+      "compId": 101,
+      "layerIndex": 39,
+      "layerName": "tile039",
+      "sourceId": 1039,
+      "propertyMatchName": "ADBE Position",
+      "expectedNumKeys": 0,
+      "expectedValue": [
+        345.0,
+        1275.0
+      ],
+      "newValue": [
+        345.0,
+        1275.0
+      ],
+      "tolerance": 0.5
+    },
+    {
+      "compId": 101,
+      "layerIndex": 40,
+      "layerName": "tile040",
+      "sourceId": 1040,
+      "propertyMatchName": "ADBE Position",
+      "expectedNumKeys": 0,
+      "expectedValue": [
+        475.0,
+        1275.0
+      ],
+      "newValue": [
+        475.0,
+        1275.0
+      ],
+      "tolerance": 0.5
+    },
+    {
+      "compId": 101,
+      "layerIndex": 41,
+      "layerName": "tile041",
+      "sourceId": 1041,
+      "propertyMatchName": "ADBE Position",
+      "expectedNumKeys": 0,
+      "expectedValue": [
+        475.0,
+        1275.0
+      ],
+      "newValue": [
+        475.0,
+        1275.0
+      ],
+      "tolerance": 0.5
+    },
+    {
+      "compId": 101,
+      "layerIndex": 42,
+      "layerName": "tile042",
+      "sourceId": 1042,
+      "propertyMatchName": "ADBE Position",
+      "expectedNumKeys": 0,
+      "expectedValue": [
+        605.0,
+        1275.0
+      ],
+      "newValue": [
+        605.0,
+        1275.0
+      ],
+      "tolerance": 0.5
+    },
+    {
+      "compId": 101,
+      "layerIndex": 43,
+      "layerName": "tile043",
+      "sourceId": 1043,
+      "propertyMatchName": "ADBE Position",
+      "expectedNumKeys": 0,
+      "expectedValue": [
+        605.0,
+        1275.0
+      ],
+      "newValue": [
+        540.0,
+        1140.0
+      ],
+      "tolerance": 0.5
+    },
+    {
+      "compId": 101,
+      "layerIndex": 44,
+      "layerName": "tile044",
+      "sourceId": 1044,
+      "propertyMatchName": "ADBE Position",
+      "expectedNumKeys": 0,
+      "expectedValue": [
+        735.0,
+        1275.0
+      ],
+      "newValue": [
+        735.0,
+        1275.0
+      ],
+      "tolerance": 0.5
+    },
+    {
+      "compId": 101,
+      "layerIndex": 45,
+      "layerName": "tile045",
+      "sourceId": 1045,
+      "propertyMatchName": "ADBE Position",
+      "expectedNumKeys": 0,
+      "expectedValue": [
+        280.0,
+        1410.0
+      ],
+      "newValue": [
+        280.0,
+        1410.0
+      ],
+      "tolerance": 0.5
+    },
+    {
+      "compId": 101,
+      "layerIndex": 46,
+      "layerName": "tile046",
+      "sourceId": 1046,
+      "propertyMatchName": "ADBE Position",
+      "expectedNumKeys": 0,
+      "expectedValue": [
+        410.0,
+        1410.0
+      ],
+      "newValue": [
+        475.0,
+        1545.0
+      ],
+      "tolerance": 0.5
+    },
+    {
+      "compId": 101,
+      "layerIndex": 47,
+      "layerName": "tile047",
+      "sourceId": 1047,
+      "propertyMatchName": "ADBE Position",
+      "expectedNumKeys": 0,
+      "expectedValue": [
+        540.0,
+        1410.0
+      ],
+      "newValue": [
+        540.0,
+        1410.0
+      ],
+      "tolerance": 0.5
+    },
+    {
+      "compId": 101,
+      "layerIndex": 48,
+      "layerName": "tile048",
+      "sourceId": 1048,
+      "propertyMatchName": "ADBE Position",
+      "expectedNumKeys": 0,
+      "expectedValue": [
+        670.0,
+        1410.0
+      ],
+      "newValue": [
+        670.0,
+        1410.0
+      ],
+      "tolerance": 0.5
+    },
+    {
+      "compId": 101,
+      "layerIndex": 49,
+      "layerName": "tile049",
+      "sourceId": 1049,
+      "propertyMatchName": "ADBE Position",
+      "expectedNumKeys": 0,
+      "expectedValue": [
+        800.0,
+        1410.0
+      ],
+      "newValue": [
+        800.0,
+        1410.0
+      ],
+      "tolerance": 0.5
+    },
+    {
+      "compId": 101,
+      "layerIndex": 50,
+      "layerName": "tile050",
+      "sourceId": 1050,
+      "propertyMatchName": "ADBE Position",
+      "expectedNumKeys": 0,
+      "expectedValue": [
+        215.0,
+        1545.0
+      ],
+      "newValue": [
+        215.0,
+        1545.0
+      ],
+      "tolerance": 0.5
+    },
+    {
+      "compId": 101,
+      "layerIndex": 51,
+      "layerName": "tile051",
+      "sourceId": 1051,
+      "propertyMatchName": "ADBE Position",
+      "expectedNumKeys": 0,
+      "expectedValue": [
+        345.0,
+        1545.0
+      ],
+      "newValue": [
+        345.0,
+        1545.0
+      ],
+      "tolerance": 0.5
+    },
+    {
+      "compId": 101,
+      "layerIndex": 52,
+      "layerName": "tile052",
+      "sourceId": 1052,
+      "propertyMatchName": "ADBE Position",
+      "expectedNumKeys": 0,
+      "expectedValue": [
+        475.0,
+        1545.0
+      ],
+      "newValue": [
+        475.0,
+        1545.0
+      ],
+      "tolerance": 0.5
+    },
+    {
+      "compId": 101,
+      "layerIndex": 53,
+      "layerName": "tile053",
+      "sourceId": 1053,
+      "propertyMatchName": "ADBE Position",
+      "expectedNumKeys": 0,
+      "expectedValue": [
+        475.0,
+        1545.0
+      ],
+      "newValue": [
+        410.0,
+        1410.0
+      ],
+      "tolerance": 0.5
+    },
+    {
+      "compId": 101,
+      "layerIndex": 54,
+      "layerName": "tile054",
+      "sourceId": 1054,
+      "propertyMatchName": "ADBE Position",
+      "expectedNumKeys": 0,
+      "expectedValue": [
+        605.0,
+        1545.0
+      ],
+      "newValue": [
+        605.0,
+        1545.0
+      ],
+      "tolerance": 0.5
+    },
+    {
+      "compId": 101,
+      "layerIndex": 55,
+      "layerName": "tile055",
+      "sourceId": 1055,
+      "propertyMatchName": "ADBE Position",
+      "expectedNumKeys": 0,
+      "expectedValue": [
+        605.0,
+        1545.0
+      ],
+      "newValue": [
+        605.0,
+        1545.0
+      ],
+      "tolerance": 0.5
+    },
+    {
+      "compId": 101,
+      "layerIndex": 56,
+      "layerName": "tile056",
+      "sourceId": 1056,
+      "propertyMatchName": "ADBE Position",
+      "expectedNumKeys": 0,
+      "expectedValue": [
+        735.0,
+        1545.0
+      ],
+      "newValue": [
+        735.0,
+        1545.0
+      ],
+      "tolerance": 0.5
+    },
+    {
+      "compId": 101,
+      "layerIndex": 57,
+      "layerName": "tile057",
+      "sourceId": 1057,
+      "propertyMatchName": "ADBE Position",
+      "expectedNumKeys": 0,
+      "expectedValue": [
+        865.0,
+        1545.0
+      ],
+      "newValue": [
+        865.0,
+        1545.0
+      ],
+      "tolerance": 0.5
+    }
+  ],
+  "dependencyLocks": [],
+  "requiredDisabledLayers": [],
+  "qaBaseline": {
+    "acceptedMissingKeys": [],
+    "acceptedExpressionErrorKeys": [],
+    "acceptedEnabledWatermarkKeys": []
+  },
+  "routeScope": {
+    "compIds": [
+      201,
+      101
+    ],
+    "routeCriticalFootageItemIds": []
+  },
+  "editPolicy": {
+    "uniformScaleApplied": false,
+    "uniformScalePercent": null
+  },
+  "provenance": {
+    "sourceFactsSha256": "0A583DF567C08999FAE3015E2109E0A37B9B1B8F128390E43909A4CBDAAE05DC",
+    "capacityPlanSha256": "FEC43671DD648CDD90F681BF092B60E093F6EEB4037B45F2674339E5EF68B51D",
+    "assignmentSha256": "32664E4BED701AD9251D8909F39CA1AE761149253AD23DAF450E89F69762C658",
+    "simulationSha256": "4E754D955782CB6A9D309FEAE528786E9CE4AA1E5F16A9FEF0EB3CE7DE4000B5",
+    "inspectionSha256": "E00D7C173B41937BCD3CBDD96CC6C657F7CFFD7D633A86858B4F4232160C68EE",
+    "sourceRouteSha256": "30042D40EE0190323546BD34D9E4973E95C3F16D82F79353628858A727983307"
+  },
+  "inputs": {
+    "inspection": {
+      "path": "examples/hourglass-40-visible-57-physical/synthetic-inspection.json",
+      "sha256": "E00D7C173B41937BCD3CBDD96CC6C657F7CFFD7D633A86858B4F4232160C68EE",
+      "bytes": 120483
+    },
+    "eventModel": {
+      "path": "examples/hourglass-40-visible-57-physical/source-event-model.json",
+      "sha256": "C09807C4F617FC9E9C4DE8232EF963957558CBFD26D173E95E9CAD050A4FDBA0",
+      "bytes": 56610
+    },
+    "capacityPlan": {
+      "path": "examples/hourglass-40-visible-57-physical/capacity-plan.json",
+      "sha256": "FEC43671DD648CDD90F681BF092B60E093F6EEB4037B45F2674339E5EF68B51D",
+      "bytes": 36744
+    },
+    "assignment": {
+      "path": "examples/hourglass-40-visible-57-physical/assignment.json",
+      "sha256": "32664E4BED701AD9251D8909F39CA1AE761149253AD23DAF450E89F69762C658",
+      "bytes": 12609
+    },
+    "simulation": {
+      "path": "examples/hourglass-40-visible-57-physical/simulation-report.json",
+      "sha256": "4E754D955782CB6A9D309FEAE528786E9CE4AA1E5F16A9FEF0EB3CE7DE4000B5",
+      "bytes": 4128
+    }
+  },
+  "sourceRoute": {
+    "path": "examples/hourglass-40-visible-57-physical/source-route.json",
+    "sha256": "30042D40EE0190323546BD34D9E4973E95C3F16D82F79353628858A727983307",
+    "bytes": 1248
+  },
+  "options": {
+    "path": "examples/hourglass-40-visible-57-physical/property-plan-options.json",
+    "sha256": "44136FA355B3678A1146AD16F7E8649E94FB4FC21FE77E8310C060F61CAAFF8A",
+    "bytes": 2
+  }
+}

@@ -1,0 +1,667 @@
+{
+  "coordinateSystem": {
+    "space": "board-comp",
+    "width": 1080,
+    "height": 1920
+  },
+  "referenceToBoardTransform": {
+    "scaleX": 1.0,
+    "scaleY": 1.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0
+  },
+  "safeRegion": {
+    "left": 80,
+    "top": 165,
+    "right": 1000,
+    "bottom": 1750
+  },
+  "cardBody": {
+    "width": 110,
+    "height": 90
+  },
+  "grammar": {
+    "family": "hourglass-rows",
+    "rowCounts": [
+      6,
+      5,
+      4,
+      3,
+      2,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  "anchors": [
+    {
+      "anchorId": "r01-c01",
+      "row": 1,
+      "column": 1,
+      "referenceCenter": [
+        215,
+        330
+      ],
+      "referenceSize": [
+        110,
+        90
+      ],
+      "evidence": "observed",
+      "confidence": 1.0
+    },
+    {
+      "anchorId": "r01-c02",
+      "row": 1,
+      "column": 2,
+      "referenceCenter": [
+        345,
+        330
+      ],
+      "referenceSize": [
+        110,
+        90
+      ],
+      "evidence": "observed",
+      "confidence": 1.0
+    },
+    {
+      "anchorId": "r01-c03",
+      "row": 1,
+      "column": 3,
+      "referenceCenter": [
+        475,
+        330
+      ],
+      "referenceSize": [
+        110,
+        90
+      ],
+      "evidence": "observed",
+      "confidence": 1.0
+    },
+    {
+      "anchorId": "r01-c04",
+      "row": 1,
+      "column": 4,
+      "referenceCenter": [
+        605,
+        330
+      ],
+      "referenceSize": [
+        110,
+        90
+      ],
+      "evidence": "observed",
+      "confidence": 1.0
+    },
+    {
+      "anchorId": "r01-c05",
+      "row": 1,
+      "column": 5,
+      "referenceCenter": [
+        735,
+        330
+      ],
+      "referenceSize": [
+        110,
+        90
+      ],
+      "evidence": "observed",
+      "confidence": 1.0
+    },
+    {
+      "anchorId": "r01-c06",
+      "row": 1,
+      "column": 6,
+      "referenceCenter": [
+        865,
+        330
+      ],
+      "referenceSize": [
+        110,
+        90
+      ],
+      "evidence": "observed",
+      "confidence": 1.0
+    },
+    {
+      "anchorId": "r02-c01",
+      "row": 2,
+      "column": 1,
+      "referenceCenter": [
+        280,
+        465
+      ],
+      "referenceSize": [
+        110,
+        90
+      ],
+      "evidence": "observed",
+      "confidence": 1.0
+    },
+    {
+      "anchorId": "r02-c02",
+      "row": 2,
+      "column": 2,
+      "referenceCenter": [
+        410,
+        465
+      ],
+      "referenceSize": [
+        110,
+        90
+      ],
+      "evidence": "observed",
+      "confidence": 1.0
+    },
+    {
+      "anchorId": "r02-c03",
+      "row": 2,
+      "column": 3,
+      "referenceCenter": [
+        540,
+        465
+      ],
+      "referenceSize": [
+        110,
+        90
+      ],
+      "evidence": "observed",
+      "confidence": 1.0
+    },
+    {
+      "anchorId": "r02-c04",
+      "row": 2,
+      "column": 4,
+      "referenceCenter": [
+        670,
+        465
+      ],
+      "referenceSize": [
+        110,
+        90
+      ],
+      "evidence": "observed",
+      "confidence": 1.0
+    },
+    {
+      "anchorId": "r02-c05",
+      "row": 2,
+      "column": 5,
+      "referenceCenter": [
+        800,
+        465
+      ],
+      "referenceSize": [
+        110,
+        90
+      ],
+      "evidence": "observed",
+      "confidence": 1.0
+    },
+    {
+      "anchorId": "r03-c01",
+      "row": 3,
+      "column": 1,
+      "referenceCenter": [
+        345,
+        600
+      ],
+      "referenceSize": [
+        110,
+        90
+      ],
+      "evidence": "observed",
+      "confidence": 1.0
+    },
+    {
+      "anchorId": "r03-c02",
+      "row": 3,
+      "column": 2,
+      "referenceCenter": [
+        475,
+        600
+      ],
+      "referenceSize": [
+        110,
+        90
+      ],
+      "evidence": "observed",
+      "confidence": 1.0
+    },
+    {
+      "anchorId": "r03-c03",
+      "row": 3,
+      "column": 3,
+      "referenceCenter": [
+        605,
+        600
+      ],
+      "referenceSize": [
+        110,
+        90
+      ],
+      "evidence": "observed",
+      "confidence": 1.0
+    },
+    {
+      "anchorId": "r03-c04",
+      "row": 3,
+      "column": 4,
+      "referenceCenter": [
+        735,
+        600
+      ],
+      "referenceSize": [
+        110,
+        90
+      ],
+      "evidence": "observed",
+      "confidence": 1.0
+    },
+    {
+      "anchorId": "r04-c01",
+      "row": 4,
+      "column": 1,
+      "referenceCenter": [
+        410,
+        735
+      ],
+      "referenceSize": [
+        110,
+        90
+      ],
+      "evidence": "observed",
+      "confidence": 1.0
+    },
+    {
+      "anchorId": "r04-c02",
+      "row": 4,
+      "column": 2,
+      "referenceCenter": [
+        540,
+        735
+      ],
+      "referenceSize": [
+        110,
+        90
+      ],
+      "evidence": "observed",
+      "confidence": 1.0
+    },
+    {
+      "anchorId": "r04-c03",
+      "row": 4,
+      "column": 3,
+      "referenceCenter": [
+        670,
+        735
+      ],
+      "referenceSize": [
+        110,
+        90
+      ],
+      "evidence": "observed",
+      "confidence": 1.0
+    },
+    {
+      "anchorId": "r05-c01",
+      "row": 5,
+      "column": 1,
+      "referenceCenter": [
+        475,
+        870
+      ],
+      "referenceSize": [
+        110,
+        90
+      ],
+      "evidence": "observed",
+      "confidence": 1.0
+    },
+    {
+      "anchorId": "r05-c02",
+      "row": 5,
+      "column": 2,
+      "referenceCenter": [
+        605,
+        870
+      ],
+      "referenceSize": [
+        110,
+        90
+      ],
+      "evidence": "observed",
+      "confidence": 1.0
+    },
+    {
+      "anchorId": "r06-c01",
+      "row": 6,
+      "column": 1,
+      "referenceCenter": [
+        475,
+        1005
+      ],
+      "referenceSize": [
+        110,
+        90
+      ],
+      "evidence": "observed",
+      "confidence": 1.0
+    },
+    {
+      "anchorId": "r06-c02",
+      "row": 6,
+      "column": 2,
+      "referenceCenter": [
+        605,
+        1005
+      ],
+      "referenceSize": [
+        110,
+        90
+      ],
+      "evidence": "observed",
+      "confidence": 1.0
+    },
+    {
+      "anchorId": "r07-c01",
+      "row": 7,
+      "column": 1,
+      "referenceCenter": [
+        410,
+        1140
+      ],
+      "referenceSize": [
+        110,
+        90
+      ],
+      "evidence": "observed",
+      "confidence": 1.0
+    },
+    {
+      "anchorId": "r07-c02",
+      "row": 7,
+      "column": 2,
+      "referenceCenter": [
+        540,
+        1140
+      ],
+      "referenceSize": [
+        110,
+        90
+      ],
+      "evidence": "observed",
+      "confidence": 1.0
+    },
+    {
+      "anchorId": "r07-c03",
+      "row": 7,
+      "column": 3,
+      "referenceCenter": [
+        670,
+        1140
+      ],
+      "referenceSize": [
+        110,
+        90
+      ],
+      "evidence": "observed",
+      "confidence": 1.0
+    },
+    {
+      "anchorId": "r08-c01",
+      "row": 8,
+      "column": 1,
+      "referenceCenter": [
+        345,
+        1275
+      ],
+      "referenceSize": [
+        110,
+        90
+      ],
+      "evidence": "observed",
+      "confidence": 1.0
+    },
+    {
+      "anchorId": "r08-c02",
+      "row": 8,
+      "column": 2,
+      "referenceCenter": [
+        475,
+        1275
+      ],
+      "referenceSize": [
+        110,
+        90
+      ],
+      "evidence": "observed",
+      "confidence": 1.0
+    },
+    {
+      "anchorId": "r08-c03",
+      "row": 8,
+      "column": 3,
+      "referenceCenter": [
+        605,
+        1275
+      ],
+      "referenceSize": [
+        110,
+        90
+      ],
+      "evidence": "observed",
+      "confidence": 1.0
+    },
+    {
+      "anchorId": "r08-c04",
+      "row": 8,
+      "column": 4,
+      "referenceCenter": [
+        735,
+        1275
+      ],
+      "referenceSize": [
+        110,
+        90
+      ],
+      "evidence": "observed",
+      "confidence": 1.0
+    },
+    {
+      "anchorId": "r09-c01",
+      "row": 9,
+      "column": 1,
+      "referenceCenter": [
+        280,
+        1410
+      ],
+      "referenceSize": [
+        110,
+        90
+      ],
+      "evidence": "observed",
+      "confidence": 1.0
+    },
+    {
+      "anchorId": "r09-c02",
+      "row": 9,
+      "column": 2,
+      "referenceCenter": [
+        410,
+        1410
+      ],
+      "referenceSize": [
+        110,
+        90
+      ],
+      "evidence": "observed",
+      "confidence": 1.0
+    },
+    {
+      "anchorId": "r09-c03",
+      "row": 9,
+      "column": 3,
+      "referenceCenter": [
+        540,
+        1410
+      ],
+      "referenceSize": [
+        110,
+        90
+      ],
+      "evidence": "observed",
+      "confidence": 1.0
+    },
+    {
+      "anchorId": "r09-c04",
+      "row": 9,
+      "column": 4,
+      "referenceCenter": [
+        670,
+        1410
+      ],
+      "referenceSize": [
+        110,
+        90
+      ],
+      "evidence": "observed",
+      "confidence": 1.0
+    },
+    {
+      "anchorId": "r09-c05",
+      "row": 9,
+      "column": 5,
+      "referenceCenter": [
+        800,
+        1410
+      ],
+      "referenceSize": [
+        110,
+        90
+      ],
+      "evidence": "observed",
+      "confidence": 1.0
+    },
+    {
+      "anchorId": "r10-c01",
+      "row": 10,
+      "column": 1,
+      "referenceCenter": [
+        215,
+        1545
+      ],
+      "referenceSize": [
+        110,
+        90
+      ],
+      "evidence": "observed",
+      "confidence": 1.0
+    },
+    {
+      "anchorId": "r10-c02",
+      "row": 10,
+      "column": 2,
+      "referenceCenter": [
+        345,
+        1545
+      ],
+      "referenceSize": [
+        110,
+        90
+      ],
+      "evidence": "observed",
+      "confidence": 1.0
+    },
+    {
+      "anchorId": "r10-c03",
+      "row": 10,
+      "column": 3,
+      "referenceCenter": [
+        475,
+        1545
+      ],
+      "referenceSize": [
+        110,
+        90
+      ],
+      "evidence": "observed",
+      "confidence": 1.0
+    },
+    {
+      "anchorId": "r10-c04",
+      "row": 10,
+      "column": 4,
+      "referenceCenter": [
+        605,
+        1545
+      ],
+      "referenceSize": [
+        110,
+        90
+      ],
+      "evidence": "observed",
+      "confidence": 1.0
+    },
+    {
+      "anchorId": "r10-c05",
+      "row": 10,
+      "column": 5,
+      "referenceCenter": [
+        735,
+        1545
+      ],
+      "referenceSize": [
+        110,
+        90
+      ],
+      "evidence": "observed",
+      "confidence": 1.0
+    },
+    {
+      "anchorId": "r10-c06",
+      "row": 10,
+      "column": 6,
+      "referenceCenter": [
+        865,
+        1545
+      ],
+      "referenceSize": [
+        110,
+        90
+      ],
+      "evidence": "observed",
+      "confidence": 1.0
+    }
+  ],
+  "silhouette": {
+    "kind": "hourglass",
+    "rowCounts": [
+      6,
+      5,
+      4,
+      3,
+      2,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  "holes": [],
+  "proposerReview": {
+    "status": "approved",
+    "issues": [],
+    "rationale": "The draft contains exactly 40 visible top-surface anchors."
+  },
+  "reviewerReview": {
+    "status": "approved",
+    "issues": [],
+    "independentContext": true,
+    "rationale": "Independent overlay review confirms row counts and silhouette."
+  }
+}

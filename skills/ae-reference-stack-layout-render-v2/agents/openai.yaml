@@ -1,0 +1,9 @@
+interface:
+  display_name: "AE 参考图堆叠迁移 v2"
+  short_description: "用状态节点、独立复核和确定性求解安全迁移 AE 游戏牌堆"
+  default_prompt: "使用 $ae-reference-stack-layout-render-v2。先读取 state-status，只执行当前 eligible node；严格分离 source-event-model、visible-layout、capacity-plan 与 assignment；任何 assignment 行只能包含 tileId 和 slotId；在零阻挡模拟、冻结 Property Plan、隔离写入、fresh reopen/readback 与独立预览复核前不得继续晋级。"
+model:
+  name: Codex 5.6 SOL
+  reasoning: extra-high
+policy:
+  allow_implicit_invocation: false

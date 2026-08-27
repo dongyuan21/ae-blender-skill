@@ -1,0 +1,119 @@
+{
+  "title": "Strict tile-to-slot assignment",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "artifactType",
+    "createdAt",
+    "status",
+    "sourceFactsSha256",
+    "capacityPlanSha256",
+    "constraintsSha256",
+    "assignmentCount",
+    "assignments",
+    "solver",
+    "diagnostics",
+    "nextAction"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 2
+    },
+    "artifactType": {
+      "const": "assignment"
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "status": {
+      "const": "solved"
+    },
+    "sourceFactsSha256": {
+      "type": "string",
+      "pattern": "^[0-9A-Fa-f]{64}$"
+    },
+    "capacityPlanSha256": {
+      "type": "string",
+      "pattern": "^[0-9A-Fa-f]{64}$"
+    },
+    "constraintsSha256": {
+      "type": "string",
+      "pattern": "^[0-9A-Fa-f]{64}$"
+    },
+    "assignmentCount": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "assignments": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "tileId",
+          "slotId"
+        ],
+        "properties": {
+          "tileId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "slotId": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "solver": {
+      "type": "object",
+      "required": [
+        "sourceFactsWritable"
+      ],
+      "properties": {
+        "sourceFactsWritable": {
+          "const": false
+        }
+      },
+      "additionalProperties": true
+    },
+    "diagnostics": {
+      "type": "object",
+      "required": [
+        "identityErrorCount",
+        "boundsErrorCount",
+        "blockedClickCount",
+        "occlusionOrderViolationCount"
+      ],
+      "properties": {
+        "identityErrorCount": {
+          "const": 0
+        },
+        "boundsErrorCount": {
+          "const": 0
+        },
+        "matchErrorCount": {
+          "const": 0
+        },
+        "blockedClickCount": {
+          "const": 0
+        },
+        "occlusionOrderViolationCount": {
+          "const": 0
+        }
+      },
+      "additionalProperties": true
+    },
+    "nextAction": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openai.local/ae-stack-v2/assignment.schema.json"
+}
