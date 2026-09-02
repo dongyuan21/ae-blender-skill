@@ -3,50 +3,253 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>AE &amp; C4D Skills</title>
+    <title>消除游戏广告素材操作</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <main class="wrap">
-      <p class="kicker">After Effects · Cinema 4D</p>
-      <h1>AE &amp; C4D Skills</h1>
+    <main class="wrap wrap-wide">
+      <p class="kicker">ae-blender-skill · After Effects · Blender</p>
+      <h1>消除游戏广告素材操作</h1>
       <p class="lead">
-        After Effects 与 Cinema 4D 的 Codex Skill 集合。现在只有一份 After Effects Skill。
+        对设计源文件做二次创作，而不是重绘成片。牌面、堆叠、特效、音效可以分开改；点击、匹配、消除和 UI 时间线留在源工程里。
         当前只在 Codex 5.6 SOL、推理深度 extra-high 下验证过。
       </p>
 
-      <article class="card skill-card">
-        <img
-          src="assets/ae-reference-stack-layout-render/poster-after.jpg"
-          alt="ae-reference-stack-layout-render-v2 改造后画面"
-        />
-        <div class="card-body">
-          <p class="meta">After Effects</p>
-          <h3>ae-reference-stack-layout-render-v2</h3>
-          <p>
-            按引导图改源工程里的牌堆外形，玩法仍走源工程。源工程与引导图分成两条支线，汇合后再写 AE。
-          </p>
-          <div class="actions">
-            <a href="skills/ae-reference-stack-layout-render.html">成片与八步流程</a>
+      <ul class="toc">
+        <li><a href="#tile">换牌面</a></li>
+        <li><a href="#stack">换堆叠</a></li>
+        <li><a href="#batch">批量生产</a></li>
+        <li><a href="#fx">换特效</a></li>
+        <li><a href="#sfx">换音效</a></li>
+        <li><a href="#blender">Blender</a></li>
+      </ul>
+
+      <div class="metrics">
+        <div class="metric"><strong>143</strong><span>条换牌视频</span></div>
+        <div class="metric"><strong>9 × 4</strong><span>主题 × 结构母版</span></div>
+        <div class="metric"><strong>36 / 36</strong><span>批量成片解码通过</span></div>
+        <div class="metric"><strong>2h 06m</strong><span>端到端叉乘实验</span></div>
+      </div>
+
+      <section class="cat" id="tile">
+        <p class="tag">After Effects · 01</p>
+        <h2>换牌面</h2>
+        <p>
+          在 AEP 副本里定位真实牌面或材质，换成新图案后再由 AE 渲染。牌体、阴影、堆叠、点击顺序、匹配、消除、UI 和音轨不动。
+        </p>
+        <div class="pair">
+          <figure class="panel">
+            <p class="label">目标水果牌面</p>
+            <img src="assets/capabilities/01-tile-fruit-target.jpg" alt="目标水果牌面" />
+          </figure>
+          <figure class="panel">
+            <p class="label">家具 → 水果，同帧对比</p>
+            <video
+              class="v-landscape"
+              controls
+              playsinline
+              preload="metadata"
+              poster="assets/capabilities/02-tile-furniture-to-fruit-poster.webp"
+            >
+              <source src="assets/capabilities/03-tile-furniture-to-fruit.mp4" type="video/mp4" />
+            </video>
+          </figure>
+        </div>
+        <figure class="full-fig">
+          <img
+            src="assets/capabilities/04-tile-three-cases.jpg"
+            alt="三组换牌：家居换动物、食物换家居、水果换航海"
+          />
+        </figure>
+        <p class="caption">补充验证：家居 → 动物、食物 → 家居、水果 → 航海。历史批次 11 个源 AEP × 12 组牌面。</p>
+        <div class="pair">
+          <figure class="panel">
+            <p class="label">麻将四版牌面</p>
+            <img src="assets/capabilities/05-tile-mahjong-four.jpg" alt="麻将原版、简洁版、经典版与 1.2 版" />
+          </figure>
+          <figure class="panel">
+            <p class="label">Mahjong 1.2 换牌版</p>
+            <video
+              class="v-portrait"
+              controls
+              playsinline
+              preload="metadata"
+              poster="assets/capabilities/06-tile-mahjong-poster.webp"
+            >
+              <source src="assets/capabilities/07-tile-mahjong.mp4" type="video/mp4" />
+            </video>
+          </figure>
+        </div>
+      </section>
+
+      <section class="cat" id="stack">
+        <p class="tag">After Effects · 02</p>
+        <h2>换堆叠</h2>
+        <p>
+          参考图只定外形。Agent 在 AEP 副本里重排真实牌层，继续复用源工程的点击、匹配、消除和 UI。
+          这一条已经收成 Skill 包：
+          <a href="skills/ae-reference-stack-layout-render.html">成片与八步</a>
+          ·
+          <a href="https://github.com/dongyuan21/ae-blender-skill/tree/main/skills/ae-reference-stack-layout-render-v2">ae-reference-stack-layout-render-v2</a>
+        </p>
+        <div class="stack-grid">
+          <figure class="stack-card">
+            <p class="label">X 型 · 引导图</p>
+            <img src="assets/capabilities/08-stack-x-ref.jpg" alt="X 型堆叠引导图" />
+            <p class="label">生成结果</p>
+            <video
+              class="v-portrait"
+              controls
+              playsinline
+              preload="metadata"
+              poster="assets/capabilities/09-stack-x-poster.webp"
+            >
+              <source src="assets/capabilities/10-stack-x.mp4" type="video/mp4" />
+            </video>
+          </figure>
+          <figure class="stack-card">
+            <p class="label">T 型 · 引导图</p>
+            <img src="assets/capabilities/11-stack-t-ref.jpg" alt="T 型堆叠引导图" />
+            <p class="label">生成结果</p>
+            <video
+              class="v-portrait"
+              controls
+              playsinline
+              preload="metadata"
+              poster="assets/capabilities/12-stack-t-poster.webp"
+            >
+              <source src="assets/capabilities/13-stack-t.mp4" type="video/mp4" />
+            </video>
+          </figure>
+          <figure class="stack-card">
+            <p class="label">沙漏 · 引导图</p>
+            <img src="assets/capabilities/14-stack-hourglass-ref.jpg" alt="沙漏堆叠引导图" />
+            <p class="label">生成结果</p>
+            <video
+              class="v-portrait"
+              controls
+              playsinline
+              preload="metadata"
+              poster="assets/capabilities/15-stack-hourglass-poster.webp"
+            >
+              <source src="assets/capabilities/16-stack-hourglass.mp4" type="video/mp4" />
+            </video>
+          </figure>
+        </div>
+      </section>
+
+      <section class="cat" id="batch">
+        <p class="tag">After Effects · 03</p>
+        <h2>批量生产</h2>
+        <p>
+          主题资产、玩法母版、堆叠结构分开准备，再自动适配、叉乘、渲染、回读验收。
+          9 套主题 × 4 个结构母版 = 36 条 1080×1920 成片；批量渲染约 19 分钟，36 / 36 完整解码通过。
+        </p>
+        <div class="two-grid">
+          <figure class="full-fig">
+            <img src="assets/capabilities/17-batch-9-themes.jpg" alt="一个结构母版下的 9 套主题" />
+            <p class="caption">同一结构母版 × 9 套主题</p>
+          </figure>
+          <figure class="full-fig">
+            <img src="assets/capabilities/18-batch-cat-4-structures.jpg" alt="童话猫咪主题在四个结构母版中" />
+            <p class="caption">同一「童话猫咪」主题 × 4 个结构母版</p>
+          </figure>
+        </div>
+      </section>
+
+      <section class="cat" id="fx">
+        <p class="tag">After Effects · 04</p>
+        <h2>换特效</h2>
+        <p>
+          两条路：抽换工程里已有的特效序列；或生成新的 RGBA 序列帧，绑到真实碰撞时点和位置。
+        </p>
+        <div class="pair">
+          <figure class="panel">
+            <p class="label">碰撞关键帧</p>
+            <img
+              src="assets/capabilities/19-fx-keyframes.jpg"
+              alt="原碎裂特效与奶油轻碎、暖金细环、柔光星屑对比"
+            />
+          </figure>
+          <figure class="panel">
+            <p class="label">暖金细环</p>
+            <video
+              class="v-portrait"
+              controls
+              playsinline
+              preload="metadata"
+              poster="assets/capabilities/20-fx-gold-poster.webp"
+            >
+              <source src="assets/capabilities/21-fx-gold.mp4" type="video/mp4" />
+            </video>
+          </figure>
+        </div>
+      </section>
+
+      <section class="cat" id="sfx">
+        <p class="tag">After Effects · 05</p>
+        <h2>换音效</h2>
+        <p>
+          画面材质变了，声音也要换材质。从音效库匹配，按动作时点对齐，再用状态机校正配对、碰撞和消除。
+          新声音可以用生成模型补；节奏和同步仍走状态机。
+        </p>
+        <figure class="panel panel-narrow">
+          <p class="label">古铜麻将：材质音效重匹配</p>
+          <video
+            class="v-portrait"
+            controls
+            playsinline
+            preload="metadata"
+            poster="assets/capabilities/22-sfx-mahjong-poster.webp"
+          >
+            <source src="assets/capabilities/23-sfx-mahjong.mp4" type="video/mp4" />
+          </video>
+        </figure>
+      </section>
+
+      <section class="cat" id="blender">
+        <p class="tag">Blender · 06</p>
+        <h2>Blender</h2>
+        <p>
+          部分素材带真实 3D 几何、灯光、材质和摄像机，所以能力要从 AE 延伸到 Blender。
+          无头运行和脚本接口适合 Agent 控制；下一步是把打开工程、改对象与材质、渲染、回收结果收成可重复工作流。
+        </p>
+        <figure class="panel">
+          <p class="label">源视频（左）与 Blender R03（右）</p>
+          <video
+            class="v-landscape"
+            controls
+            playsinline
+            preload="metadata"
+            poster="assets/capabilities/24-blender-poster.webp"
+          >
+            <source src="assets/capabilities/25-blender-compare.mp4" type="video/mp4" />
+          </video>
+        </figure>
+      </section>
+
+      <section class="cat" id="assets">
+        <p class="tag">资产</p>
+        <h2>设计源文件里的可沉淀资产</h2>
+        <p>
+          源文件不是成片附件，而是图片、序列帧、音频、合成、动画层、特效和依赖的容器。
+          现有 AE 资产库原型已支持分类、搜索、预览、去重和依赖保留。
+        </p>
+        <figure class="full-fig">
+          <img src="assets/capabilities/26-asset-library.jpg" alt="AE 媒体资产库检索页" />
+          <p class="caption">示例库：389 个媒体文件（344 图 / 9 视频 / 36 音频）</p>
+        </figure>
+        <div class="compare">
+          <div>
+            <h3>不走成品视频复刻</h3>
+            <p>局部一改，无关区域、手指、消除顺序和 UI 容易一起漂。</p>
+          </div>
+          <div>
+            <h3>走设计源文件</h3>
+            <p>改指定图层或对象，玩法时间线可复用，同一母版能和多主题叉乘。</p>
           </div>
         </div>
-      </article>
-
-      <h2>改造前 → 引导图 → 改造后</h2>
-      <div class="story">
-        <figure>
-          <p class="label">1. 改造前</p>
-          <img src="assets/ae-reference-stack-layout-render/before.gif" alt="改造前" />
-        </figure>
-        <figure>
-          <p class="label">2. 引导图</p>
-          <img src="assets/ae-reference-stack-layout-render/reference.jpg" alt="引导图" />
-        </figure>
-        <figure>
-          <p class="label">3. 改造后</p>
-          <img src="assets/ae-reference-stack-layout-render/after.gif" alt="改造后" />
-        </figure>
-      </div>
+      </section>
     </main>
   </body>
 </html>
